@@ -1,0 +1,28 @@
+{
+ "policy": "runs/s2_grim__TS__Boss_/policy/latest",
+ "games_per_arm": 20000,
+ "elapsed_s": 193,
+ "rows": [
+  {
+   "name": "s2_grim__TS__Boss_(after1653)",
+   "note": "",
+   "n": 20000,
+   "wr": 0.6323,
+   "ci": [
+    0.6256,
+    0.639
+   ],
+   "delta": 0.0,
+   "delta_se": 0.0048,
+   "z": 0.0,
+   "per_opp": {
+    "mirror_grimmsnarl_ppo": 0.5567,
+    "alakazam_ppo2": 0.5203,
+    "trmewtwo_ppo": 0.6071,
+    "glethal2@kangaskhan": 0.9492,
+    "glethal2@garchomp": 0.9759,
+    "glethal2@dragapult": 0.9929
+   }
+  }
+ ]
+}

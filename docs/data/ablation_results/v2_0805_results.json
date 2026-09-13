@@ -1,0 +1,282 @@
+{
+ "policy": "agents/trmewtwo_ppo2",
+ "games_per_arm": 6000,
+ "elapsed_s": 662,
+ "rows": [
+  {
+   "name": "trmewtwo_ppo2 現行(942.7)",
+   "note": "",
+   "n": 18025,
+   "wr": 0.6894,
+   "ci": [
+    0.6826,
+    0.6961
+   ],
+   "delta": 0.0,
+   "delta_se": 0.0049,
+   "z": 0.0,
+   "per_opp": {
+    "grimmsnarl_ppo2": 0.4064,
+    "kangaskhan_playbook2": 0.9471,
+    "glethal2@lopunny": 0.9635,
+    "alakazam_ppo2": 0.723,
+    "glethal2@ogerpon": 0.5753,
+    "dragapult_playbook": 0.9887,
+    "glethal2@garchomp": 0.9883,
+    "glethal2@thwackey": 0.9683,
+    "lucario_playbook": 0.9674,
+    "mirror_trmewtwo": 0.5455
+   }
+  },
+  {
+   "name": "mw_cage3",
+   "note": "Battle Cage x3 / 基本超-3。ベンチへのダメカンを封じ Shadow Bullet(180+ベンチ30) と Froslass を無効化",
+   "n": 6050,
+   "wr": 0.6886,
+   "ci": [
+    0.6768,
+    0.7001
+   ],
+   "delta": -0.0008,
+   "delta_se": 0.0069,
+   "z": -0.12,
+   "per_opp": {
+    "grimmsnarl_ppo2": 0.5104,
+    "kangaskhan_playbook2": 0.9214,
+    "glethal2@lopunny": 0.9407,
+    "glethal2@ogerpon": 0.5075,
+    "alakazam_ppo2": 0.4182,
+    "dragapult_playbook": 0.9707,
+    "glethal2@garchomp": 0.9829,
+    "glethal2@thwackey": 0.956,
+    "lucario_playbook": 0.9467,
+    "mirror_trmewtwo": 0.45
+   }
+  },
+  {
+   "name": "mw_cage2_factory0",
+   "note": "Battle Cage x2 / TR Factory-2。スタジアム枠の入れ替え（上位2名がこの方向）",
+   "n": 6050,
+   "wr": 0.6979,
+   "ci": [
+    0.6862,
+    0.7093
+   ],
+   "delta": 0.0084,
+   "delta_se": 0.0068,
+   "z": 1.23,
+   "per_opp": {
+    "grimmsnarl_ppo2": 0.445,
+    "kangaskhan_playbook2": 0.9297,
+    "glethal2@lopunny": 0.9556,
+    "glethal2@ogerpon": 0.525,
+    "alakazam_ppo2": 0.7436,
+    "dragapult_playbook": 0.968,
+    "glethal2@garchomp": 0.9857,
+    "glethal2@thwackey": 0.948,
+    "lucario_playbook": 0.9778,
+    "mirror_trmewtwo": 0.51
+   }
+  },
+  {
+   "name": "mw_engine",
+   "note": "Mimikyu+2 Poffin+1 / Murkrow-2 Wobbuffet-1。TR4体条件を早く満たす",
+   "n": 6050,
+   "wr": 0.6858,
+   "ci": [
+    0.674,
+    0.6974
+   ],
+   "delta": -0.0036,
+   "delta_se": 0.0069,
+   "z": -0.53,
+   "per_opp": {
+    "grimmsnarl_ppo2": 0.3933,
+    "kangaskhan_playbook2": 0.9572,
+    "glethal2@lopunny": 0.9393,
+    "glethal2@ogerpon": 0.635,
+    "alakazam_ppo2": 0.7291,
+    "dragapult_playbook": 0.9733,
+    "glethal2@garchomp": 0.9857,
+    "glethal2@thwackey": 0.976,
+    "lucario_playbook": 0.9422,
+    "mirror_trmewtwo": 0.56
+   }
+  },
+  {
+   "name": "mw_ultraball2",
+   "note": "Ultra Ball+2 / 基本超-2。サーチのみ分離",
+   "n": 6050,
+   "wr": 0.6671,
+   "ci": [
+    0.6551,
+    0.6789
+   ],
+   "delta": -0.0223,
+   "delta_se": 0.007,
+   "z": -3.2,
+   "per_opp": {
+    "grimmsnarl_ppo2": 0.4246,
+    "kangaskhan_playbook2": 0.9448,
+    "glethal2@lopunny": 0.957,
+    "glethal2@ogerpon": 0.545,
+    "alakazam_ppo2": 0.4582,
+    "dragapult_playbook": 0.9707,
+    "glethal2@garchomp": 0.9771,
+    "glethal2@thwackey": 0.988,
+    "lucario_playbook": 0.9511,
+    "mirror_trmewtwo": 0.49
+   }
+  },
+  {
+   "name": "mw_lillie2",
+   "note": "Lillie's Determination+2 / Energy Search-2。ドローのみ分離",
+   "n": 6050,
+   "wr": 0.7119,
+   "ci": [
+    0.7004,
+    0.7232
+   ],
+   "delta": 0.0225,
+   "delta_se": 0.0068,
+   "z": 3.32,
+   "per_opp": {
+    "grimmsnarl_ppo2": 0.4379,
+    "kangaskhan_playbook2": 0.9738,
+    "glethal2@lopunny": 0.9807,
+    "glethal2@ogerpon": 0.605,
+    "alakazam_ppo2": 0.7418,
+    "dragapult_playbook": 0.992,
+    "glethal2@garchomp": 0.9886,
+    "glethal2@thwackey": 0.98,
+    "lucario_playbook": 0.9511,
+    "mirror_trmewtwo": 0.61
+   }
+  },
+  {
+   "name": "mw_mewtwo2",
+   "note": "Mewtwo ex 3→2。**上位3名全員が2枚**。我々の7/31アブレーションは3枚を+1.06ppと結論しており矛盾する",
+   "n": 6050,
+   "wr": 0.6769,
+   "ci": [
+    0.665,
+    0.6885
+   ],
+   "delta": -0.0126,
+   "delta_se": 0.0069,
+   "z": -1.81,
+   "per_opp": {
+    "grimmsnarl_ppo2": 0.3904,
+    "kangaskhan_playbook2": 0.9462,
+    "glethal2@lopunny": 0.957,
+    "glethal2@ogerpon": 0.5075,
+    "alakazam_ppo2": 0.7782,
+    "dragapult_playbook": 0.976,
+    "glethal2@garchomp": 0.98,
+    "glethal2@thwackey": 0.94,
+    "lucario_playbook": 0.9289,
+    "mirror_trmewtwo": 0.42
+   }
+  },
+  {
+   "name": "mw_consensus",
+   "note": "上位3名の全員一致の変更をすべて適用（枚数差 -2 は Battle Cage で埋める）",
+   "n": 6050,
+   "wr": 0.6975,
+   "ci": [
+    0.6858,
+    0.709
+   ],
+   "delta": 0.0081,
+   "delta_se": 0.0068,
+   "z": 1.18,
+   "per_opp": {
+    "grimmsnarl_ppo2": 0.5146,
+    "kangaskhan_playbook2": 0.9462,
+    "glethal2@lopunny": 0.9333,
+    "glethal2@ogerpon": 0.5875,
+    "alakazam_ppo2": 0.4218,
+    "dragapult_playbook": 0.976,
+    "glethal2@garchomp": 0.9886,
+    "glethal2@thwackey": 0.984,
+    "lucario_playbook": 0.8889,
+    "mirror_trmewtwo": 0.44
+   }
+  },
+  {
+   "name": "mw_consensus_cage",
+   "note": "合意パッケージ + Battle Cage x4 / TR Factory-2（上位2名の構成に最も近い）",
+   "n": 6050,
+   "wr": 0.7084,
+   "ci": [
+    0.6968,
+    0.7197
+   ],
+   "delta": 0.019,
+   "delta_se": 0.0068,
+   "z": 2.8,
+   "per_opp": {
+    "grimmsnarl_ppo2": 0.5817,
+    "kangaskhan_playbook2": 0.931,
+    "glethal2@lopunny": 0.8933,
+    "glethal2@ogerpon": 0.5025,
+    "alakazam_ppo2": 0.4182,
+    "dragapult_playbook": 0.9627,
+    "glethal2@garchomp": 0.9714,
+    "glethal2@thwackey": 0.984,
+    "lucario_playbook": 0.8844,
+    "mirror_trmewtwo": 0.35
+   }
+  },
+  {
+   "name": "mw_third_full",
+   "note": "上位パイロット third の最頻リストをそのまま（差分適用）",
+   "n": 6050,
+   "wr": 0.721,
+   "ci": [
+    0.7096,
+    0.7322
+   ],
+   "delta": 0.0316,
+   "delta_se": 0.0067,
+   "z": 4.7,
+   "per_opp": {
+    "grimmsnarl_ppo2": 0.5733,
+    "kangaskhan_playbook2": 0.9462,
+    "glethal2@lopunny": 0.9037,
+    "glethal2@ogerpon": 0.5875,
+    "alakazam_ppo2": 0.4673,
+    "dragapult_playbook": 0.9813,
+    "glethal2@garchomp": 0.9714,
+    "glethal2@thwackey": 0.948,
+    "lucario_playbook": 0.9156,
+    "mirror_trmewtwo": 0.47
+   }
+  },
+  {
+   "name": "mw_flg_full",
+   "note": "上位パイロット flg の最頻リストをそのまま（差分適用）",
+   "n": 6050,
+   "wr": 0.6575,
+   "ci": [
+    0.6455,
+    0.6694
+   ],
+   "delta": -0.0319,
+   "delta_se": 0.007,
+   "z": -4.55,
+   "per_opp": {
+    "grimmsnarl_ppo2": 0.4379,
+    "kangaskhan_playbook2": 0.9269,
+    "glethal2@lopunny": 0.9215,
+    "glethal2@ogerpon": 0.5425,
+    "alakazam_ppo2": 0.4273,
+    "dragapult_playbook": 0.968,
+    "glethal2@garchomp": 0.98,
+    "glethal2@thwackey": 0.96,
+    "lucario_playbook": 0.8756,
+    "mirror_trmewtwo": 0.38
+   }
+  }
+ ]
+}

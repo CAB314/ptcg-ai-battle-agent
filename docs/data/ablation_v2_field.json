@@ -1,0 +1,72 @@
+[
+ {
+  "id": "grimmsnarl_ppo2",
+  "kind": "np",
+  "arg": "agents/grimmsnarl_ppo2",
+  "deck": "agents/grimmsnarl_ppo2/deck.csv",
+  "w": 0.169
+ },
+ {
+  "id": "v1@alakazam",
+  "kind": "np",
+  "arg": "runs/opp_frozen_v1/alakazam",
+  "deck": "runs/opp_frozen_v1/alakazam/deck.csv",
+  "w": 0.138
+ },
+ {
+  "id": "v2@lopunny",
+  "kind": "np",
+  "arg": "runs/opp_frozen_v2/lopunny",
+  "deck": "runs/opp_frozen_v2/lopunny/deck.csv",
+  "w": 0.142
+ },
+ {
+  "id": "v2@kangaskhan",
+  "kind": "np",
+  "arg": "runs/opp_frozen_v2/kangaskhan",
+  "deck": "runs/opp_frozen_v2/kangaskhan/deck.csv",
+  "w": 0.115
+ },
+ {
+  "id": "v2@dragapult",
+  "kind": "np",
+  "arg": "runs/opp_frozen_v2/dragapult",
+  "deck": "runs/opp_frozen_v2/dragapult/deck.csv",
+  "w": 0.218
+ },
+ {
+  "id": "v2@ogerpon",
+  "kind": "np",
+  "arg": "runs/opp_frozen_v2/ogerpon",
+  "deck": "runs/opp_frozen_v2/ogerpon/deck.csv",
+  "w": 0.019
+ },
+ {
+  "id": "bank@lucario",
+  "kind": "np",
+  "arg": "runs/opp_frozen_new_v0/lucario",
+  "deck": "runs/opp_frozen_new_v0/lucario/deck.csv",
+  "w": 0.032
+ },
+ {
+  "id": "glethal2@thwackey",
+  "kind": "agent",
+  "arg": "greedy_lethal2",
+  "deck": "decks/meta_thwackey.csv",
+  "w": 0.022
+ },
+ {
+  "id": "v2@garchomp",
+  "kind": "np",
+  "arg": "runs/opp_frozen_v2/garchomp",
+  "deck": "runs/opp_frozen_v2/garchomp/deck.csv",
+  "w": 0.008
+ },
+ {
+  "id": "bank@hydrapple",
+  "kind": "np",
+  "arg": "runs/opp_frozen_new_v0/hydrapple",
+  "deck": "runs/opp_frozen_new_v0/hydrapple/deck.csv",
+  "w": 0.11
+ }
+]

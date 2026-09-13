@@ -1,0 +1,16 @@
+{
+ "comment": "lopunny 相手用エージェントの教師。2026-08-05 選定。**LB>=950 かつ3000決定以上に限定してから勝率降順**（低レート帯の高勝率は提出直後の上り坂で強さの証拠にならない＝8/4実測）。tw_shin 62.2%(47k) / Brahim 62.2%(32k) を軸。sadwat 68.7% は 6k と少量なので重み低",
+ "teams": {
+  "tw_shin": 1.0,
+  "Brahim": 1.0,
+  "Majkel1337": 0.9,
+  "LiamK": 0.7,
+  "MissingNo.": 0.6,
+  "sadwat": 0.5
+ },
+ "ace_ids": [
+  849
+ ],
+ "loser_weight": 0.7,
+ "recency_tau_days": 10.0
+}

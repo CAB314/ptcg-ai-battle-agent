@@ -1,0 +1,14 @@
+{
+  "comment": "TR Mewtwo（ace=431）教師。2026-08-02 に直近14日（83万決定）で再選定。アーキタイプ平均54.8%に対する優位: THIRD PTCG Club 58.1%(+3.3, 263k) / flg 56.4%(+1.6, 49k) / Matheus,Dieter,Eduardo 56.1%(+1.3, 34k) / kashiwashira 55.4%(+0.6, 188k)。旧版の Oshbocker は直近14日で圏外。なお当アーキタイプは上位帯で衰退中（採用14→7チーム）で教師の絶対量が Grimmsnarl の1/7しかない",
+  "teams": {
+    "THIRD PTCG Club": 1.0,
+    "flg": 0.7,
+    "Matheus, Dieter, Eduardo": 0.6,
+    "kashiwashira": 0.5
+  },
+  "ace_ids": [
+    431
+  ],
+  "loser_weight": 0.7,
+  "recency_tau_days": 7.0
+}

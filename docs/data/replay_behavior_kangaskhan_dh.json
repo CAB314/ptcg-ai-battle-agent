@@ -1,0 +1,364 @@
+{
+ "agent": "kangaskhan_dh",
+ "games": 1000,
+ "wins": 566,
+ "wr": 56.6,
+ "errors": 0,
+ "mean_our_turns": 11.2,
+ "key_cards": {
+  "Crustle": {
+   "games_landed": 927,
+   "share": 92.7,
+   "wr_landed": 57.0,
+   "wr_not_landed": 52.1,
+   "median_turn": 2
+  }
+ },
+ "wall_active_turns_mean": {
+  "Crustle": 5.19,
+  "Cornerstone": 1.54
+ },
+ "games_with_wall_active": {
+  "Crustle": 795,
+  "Cornerstone": 308
+ },
+ "leak_by_attack": {
+  "Crustle / mega-ex": [
+   [
+    "Spiky Hopper (160)",
+    300
+   ],
+   [
+    "Nebula Beam (210)",
+    7
+   ],
+   [
+    "Jetting Blow (10)",
+    1
+   ]
+  ],
+  "Cornerstone / non-ex": [
+   [
+    "Wood Hammer (440)",
+    25
+   ],
+   [
+    "Superb Scissors (240)",
+    16
+   ],
+   [
+    "Itchy Pollen (20)",
+    8
+   ],
+   [
+    "Corkscrew Punch (60)",
+    5
+   ],
+   [
+    "Teleportation Attack (10)",
+    4
+   ],
+   [
+    "Corkscrew Punch (70)",
+    4
+   ]
+  ],
+  "Cornerstone / ex": [
+   [
+    "Shadow Bullet (10)",
+    155
+   ],
+   [
+    "Phantom Dive (200)",
+    35
+   ],
+   [
+    "Shadow Bullet (20)",
+    4
+   ],
+   [
+    "Shadow Bullet (80)",
+    3
+   ],
+   [
+    "Shadow Bullet (100)",
+    2
+   ],
+   [
+    "Shadow Bullet (70)",
+    2
+   ]
+  ],
+  "Crustle / ex": [
+   [
+    "Shadow Bullet (10)",
+    278
+   ],
+   [
+    "Phantom Dive (60)",
+    26
+   ],
+   [
+    "Shred (70)",
+    19
+   ],
+   [
+    "Destructive Drill (150)",
+    11
+   ],
+   [
+    "Demolish (140)",
+    5
+   ],
+   [
+    "Shadow Bullet (20)",
+    3
+   ]
+  ],
+  "Crustle / non-ex": [
+   [
+    "Superb Scissors (120)",
+    298
+   ],
+   [
+    "Dragon Headbutt (70)",
+    157
+   ],
+   [
+    "Mind Bend (60)",
+    75
+   ],
+   [
+    "Wood Hammer (220)",
+    66
+   ],
+   [
+    "Itchy Pollen (10)",
+    56
+   ],
+   [
+    "Solar Beam (140)",
+    44
+   ]
+  ],
+  "Cornerstone / mega-ex": [
+   [
+    "Spiky Hopper (160)",
+    8
+   ],
+   [
+    "Gale Thrust (230)",
+    8
+   ],
+   [
+    "Aura Jab (130)",
+    5
+   ],
+   [
+    "Aura Jab (160)",
+    1
+   ],
+   [
+    "Mega Brave (270)",
+    1
+   ],
+   [
+    "Aura Jab (220)",
+    1
+   ]
+  ]
+ },
+ "bench_damage_per_game": 134.1,
+ "incoming_by_attacker": [
+  {
+   "our_active": "Crustle",
+   "attacker_ex": "ex",
+   "attacker_ability": "ability",
+   "attacks": 1631,
+   "zero_damage_share": 81.2,
+   "mean_damage": 3.0
+  },
+  {
+   "our_active": "Crustle",
+   "attacker_ex": "ex",
+   "attacker_ability": "no-ability",
+   "attacks": 1028,
+   "zero_damage_share": 96.1,
+   "mean_damage": 3.2
+  },
+  {
+   "our_active": "Cornerstone",
+   "attacker_ex": "ex",
+   "attacker_ability": "ability",
+   "attacks": 850,
+   "zero_damage_share": 79.4,
+   "mean_damage": 3.3
+  },
+  {
+   "our_active": "Crustle",
+   "attacker_ex": "non-ex",
+   "attacker_ability": "ability",
+   "attacks": 674,
+   "zero_damage_share": 4.9,
+   "mean_damage": 99.4
+  },
+  {
+   "our_active": "Crustle",
+   "attacker_ex": "mega-ex",
+   "attacker_ability": "no-ability",
+   "attacks": 545,
+   "zero_damage_share": 43.5,
+   "mean_damage": 90.8
+  },
+  {
+   "our_active": "other",
+   "attacker_ex": "ex",
+   "attacker_ability": "ability",
+   "attacks": 359,
+   "zero_damage_share": 46.5,
+   "mean_damage": 103.3
+  },
+  {
+   "our_active": "other",
+   "attacker_ex": "mega-ex",
+   "attacker_ability": "no-ability",
+   "attacks": 289,
+   "zero_damage_share": 23.5,
+   "mean_damage": 155.1
+  },
+  {
+   "our_active": "other",
+   "attacker_ex": "non-ex",
+   "attacker_ability": "ability",
+   "attacks": 285,
+   "zero_damage_share": 35.1,
+   "mean_damage": 65.7
+  },
+  {
+   "our_active": "Crustle",
+   "attacker_ex": "non-ex",
+   "attacker_ability": "no-ability",
+   "attacks": 267,
+   "zero_damage_share": 4.9,
+   "mean_damage": 112.8
+  },
+  {
+   "our_active": "other",
+   "attacker_ex": "non-ex",
+   "attacker_ability": "no-ability",
+   "attacks": 246,
+   "zero_damage_share": 34.6,
+   "mean_damage": 33.5
+  },
+  {
+   "our_active": "Cornerstone",
+   "attacker_ex": "non-ex",
+   "attacker_ability": "ability",
+   "attacks": 94,
+   "zero_damage_share": 83.0,
+   "mean_damage": 40.9
+  },
+  {
+   "our_active": "Cornerstone",
+   "attacker_ex": "non-ex",
+   "attacker_ability": "no-ability",
+   "attacks": 80,
+   "zero_damage_share": 8.8,
+   "mean_damage": 189.6
+  },
+  {
+   "our_active": "other",
+   "attacker_ex": "ex",
+   "attacker_ability": "no-ability",
+   "attacks": 75,
+   "zero_damage_share": 18.7,
+   "mean_damage": 148.8
+  },
+  {
+   "our_active": "Crustle",
+   "attacker_ex": "mega-ex",
+   "attacker_ability": "ability",
+   "attacks": 64,
+   "zero_damage_share": 100.0,
+   "mean_damage": 0.0
+  },
+  {
+   "our_active": "Cornerstone",
+   "attacker_ex": "ex",
+   "attacker_ability": "no-ability",
+   "attacks": 44,
+   "zero_damage_share": 6.8,
+   "mean_damage": 178.0
+  },
+  {
+   "our_active": "Cornerstone",
+   "attacker_ex": "mega-ex",
+   "attacker_ability": "ability",
+   "attacks": 26,
+   "zero_damage_share": 100.0,
+   "mean_damage": 0.0
+  },
+  {
+   "our_active": "Cornerstone",
+   "attacker_ex": "mega-ex",
+   "attacker_ability": "no-ability",
+   "attacks": 25,
+   "zero_damage_share": 0.0,
+   "mean_damage": 184.0
+  },
+  {
+   "our_active": "other",
+   "attacker_ex": "mega-ex",
+   "attacker_ability": "ability",
+   "attacks": 7,
+   "zero_damage_share": 0.0,
+   "mean_damage": 221.4
+  }
+ ],
+ "our_attacks": [
+  {
+   "attack": "Superb Scissors",
+   "uses": 3235,
+   "uses_per_game": 3.23,
+   "total_damage": 299590,
+   "mean_damage": 92.6
+  },
+  {
+   "attack": "Demolish",
+   "uses": 710,
+   "uses_per_game": 0.71,
+   "total_damage": 73880,
+   "mean_damage": 104.1
+  },
+  {
+   "attack": "Ascension",
+   "uses": 702,
+   "uses_per_game": 0.7,
+   "total_damage": 230,
+   "mean_damage": 0.3
+  },
+  {
+   "attack": "Rapid-Fire Combo",
+   "uses": 476,
+   "uses_per_game": 0.48,
+   "total_damage": 85280,
+   "mean_damage": 179.2
+  }
+ ],
+ "plays_per_game": {
+  "Jumbo Ice Cream": 1.11,
+  "Battle Cage": 0.39,
+  "Boss's Orders": 1.22,
+  "Lillie's Determination": 1.42
+ },
+ "attaches_per_game": {
+  "Hero's Cape": 0.79,
+  "Basic G Energy": 0.5,
+  "Grow Grass Energy": 2.16,
+  "Mist Energy": 1.57,
+  "Spiky Energy": 1.76,
+  "Rock Fighting Energy": 0.6
+ },
+ "heal_per_game": 76.0,
+ "spiky_return_per_game": 46.6
+}

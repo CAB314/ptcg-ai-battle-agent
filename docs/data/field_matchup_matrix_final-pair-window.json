@@ -1,0 +1,3613 @@
+{
+ "window": {
+  "from": "2026-08-21",
+  "to": "2026-08-30",
+  "days": 10
+ },
+ "sources": {
+  "local": "./data/bc_shards/v1",
+  "archive": "~/nas/ptcg-ai-battle/bc_shards/v1"
+ },
+ "total_sides": 93006,
+ "per_day_sides": {
+  "2026-08-21": 9398,
+  "2026-08-22": 9264,
+  "2026-08-23": 9310,
+  "2026-08-24": 9234,
+  "2026-08-25": 9372,
+  "2026-08-26": 9350,
+  "2026-08-27": 9340,
+  "2026-08-28": 9292,
+  "2026-08-29": 9146,
+  "2026-08-30": 9300
+ },
+ "archetype_share": {
+  "Dragapult ex": {
+   "sides": 31029,
+   "share": 0.3336
+  },
+  "Mega Kangaskhan ex": {
+   "sides": 21872,
+   "share": 0.2352
+  },
+  "Hydrapple ex": {
+   "sides": 16773,
+   "share": 0.1803
+  },
+  "Alakazam": {
+   "sides": 8542,
+   "share": 0.0918
+  },
+  "Mega Lopunny ex": {
+   "sides": 4866,
+   "share": 0.0523
+  },
+  "Thwackey": {
+   "sides": 1412,
+   "share": 0.0152
+  },
+  "Seaking": {
+   "sides": 1296,
+   "share": 0.0139
+  },
+  "Mega Lucario ex": {
+   "sides": 1288,
+   "share": 0.0138
+  },
+  "Arboliva ex": {
+   "sides": 938,
+   "share": 0.0101
+  },
+  "Sylveon": {
+   "sides": 934,
+   "share": 0.01
+  },
+  "Latias ex": {
+   "sides": 898,
+   "share": 0.0097
+  },
+  "Cynthia's Garchomp ex": {
+   "sides": 774,
+   "share": 0.0083
+  },
+  "Crustle": {
+   "sides": 744,
+   "share": 0.008
+  },
+  "Mega Heracross ex": {
+   "sides": 720,
+   "share": 0.0077
+  },
+  "Marnie's Grimmsnarl ex": {
+   "sides": 588,
+   "share": 0.0063
+  },
+  "Okidogi": {
+   "sides": 105,
+   "share": 0.0011
+  },
+  "N’s Zoroark ex": {
+   "sides": 85,
+   "share": 0.0009
+  },
+  "Teal Mask Ogerpon ex": {
+   "sides": 69,
+   "share": 0.0007
+  },
+  "Mega Starmie ex": {
+   "sides": 44,
+   "share": 0.0005
+  },
+  "Mega Gardevoir ex": {
+   "sides": 18,
+   "share": 0.0002
+  },
+  "Team Rocket's Mewtwo ex": {
+   "sides": 5,
+   "share": 0.0001
+  },
+  "Ethan's Typhlosion": {
+   "sides": 3,
+   "share": 0.0
+  },
+  "Archaludon ex": {
+   "sides": 2,
+   "share": 0.0
+  },
+  "Brambleghast": {
+   "sides": 1,
+   "share": 0.0
+  }
+ },
+ "cells": [
+  {
+   "my": "Dragapult ex",
+   "opp": "Dragapult ex",
+   "n": 9974,
+   "wins": 4987,
+   "wr": 50.0,
+   "ci95": [
+    49.0,
+    51.0
+   ]
+  },
+  {
+   "my": "Dragapult ex",
+   "opp": "Mega Kangaskhan ex",
+   "n": 7833,
+   "wins": 3636,
+   "wr": 46.4,
+   "ci95": [
+    45.3,
+    47.5
+   ]
+  },
+  {
+   "my": "Mega Kangaskhan ex",
+   "opp": "Dragapult ex",
+   "n": 7833,
+   "wins": 4176,
+   "wr": 53.3,
+   "ci95": [
+    52.2,
+    54.4
+   ]
+  },
+  {
+   "my": "Dragapult ex",
+   "opp": "Hydrapple ex",
+   "n": 5634,
+   "wins": 2833,
+   "wr": 50.3,
+   "ci95": [
+    49.0,
+    51.6
+   ]
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "Dragapult ex",
+   "n": 5634,
+   "wins": 2801,
+   "wr": 49.7,
+   "ci95": [
+    48.4,
+    51.0
+   ]
+  },
+  {
+   "my": "Mega Kangaskhan ex",
+   "opp": "Mega Kangaskhan ex",
+   "n": 4916,
+   "wins": 2449,
+   "wr": 49.8,
+   "ci95": [
+    48.4,
+    51.2
+   ]
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "Mega Kangaskhan ex",
+   "n": 3862,
+   "wins": 1900,
+   "wr": 49.2,
+   "ci95": [
+    47.6,
+    50.8
+   ]
+  },
+  {
+   "my": "Mega Kangaskhan ex",
+   "opp": "Hydrapple ex",
+   "n": 3862,
+   "wins": 1922,
+   "wr": 49.8,
+   "ci95": [
+    48.2,
+    51.3
+   ]
+  },
+  {
+   "my": "Alakazam",
+   "opp": "Dragapult ex",
+   "n": 2813,
+   "wins": 1001,
+   "wr": 35.6,
+   "ci95": [
+    33.8,
+    37.4
+   ]
+  },
+  {
+   "my": "Dragapult ex",
+   "opp": "Alakazam",
+   "n": 2813,
+   "wins": 1812,
+   "wr": 64.4,
+   "ci95": [
+    62.6,
+    66.2
+   ]
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "Hydrapple ex",
+   "n": 2784,
+   "wins": 1392,
+   "wr": 50.0,
+   "ci95": [
+    48.1,
+    51.9
+   ]
+  },
+  {
+   "my": "Alakazam",
+   "opp": "Mega Kangaskhan ex",
+   "n": 1881,
+   "wins": 1040,
+   "wr": 55.3,
+   "ci95": [
+    53.0,
+    57.5
+   ]
+  },
+  {
+   "my": "Mega Kangaskhan ex",
+   "opp": "Alakazam",
+   "n": 1881,
+   "wins": 841,
+   "wr": 44.7,
+   "ci95": [
+    42.5,
+    47.0
+   ]
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "Alakazam",
+   "n": 1622,
+   "wins": 544,
+   "wr": 33.5,
+   "ci95": [
+    31.3,
+    35.9
+   ]
+  },
+  {
+   "my": "Alakazam",
+   "opp": "Hydrapple ex",
+   "n": 1622,
+   "wins": 1078,
+   "wr": 66.5,
+   "ci95": [
+    64.1,
+    68.7
+   ]
+  },
+  {
+   "my": "Mega Lopunny ex",
+   "opp": "Dragapult ex",
+   "n": 1527,
+   "wins": 750,
+   "wr": 49.1,
+   "ci95": [
+    46.6,
+    51.6
+   ]
+  },
+  {
+   "my": "Dragapult ex",
+   "opp": "Mega Lopunny ex",
+   "n": 1527,
+   "wins": 777,
+   "wr": 50.9,
+   "ci95": [
+    48.4,
+    53.4
+   ]
+  },
+  {
+   "my": "Mega Lopunny ex",
+   "opp": "Mega Kangaskhan ex",
+   "n": 1037,
+   "wins": 446,
+   "wr": 43.0,
+   "ci95": [
+    40.0,
+    46.0
+   ]
+  },
+  {
+   "my": "Mega Kangaskhan ex",
+   "opp": "Mega Lopunny ex",
+   "n": 1037,
+   "wins": 580,
+   "wr": 55.9,
+   "ci95": [
+    52.9,
+    58.9
+   ]
+  },
+  {
+   "my": "Mega Lopunny ex",
+   "opp": "Hydrapple ex",
+   "n": 962,
+   "wins": 241,
+   "wr": 25.1,
+   "ci95": [
+    22.4,
+    27.9
+   ]
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "Mega Lopunny ex",
+   "n": 962,
+   "wins": 721,
+   "wr": 74.9,
+   "ci95": [
+    72.1,
+    77.6
+   ]
+  },
+  {
+   "my": "Alakazam",
+   "opp": "Alakazam",
+   "n": 740,
+   "wins": 370,
+   "wr": 50.0,
+   "ci95": [
+    46.4,
+    53.6
+   ]
+  },
+  {
+   "my": "Alakazam",
+   "opp": "Mega Lopunny ex",
+   "n": 551,
+   "wins": 246,
+   "wr": 44.6,
+   "ci95": [
+    40.5,
+    48.8
+   ]
+  },
+  {
+   "my": "Mega Lopunny ex",
+   "opp": "Alakazam",
+   "n": 551,
+   "wins": 305,
+   "wr": 55.4,
+   "ci95": [
+    51.2,
+    59.5
+   ]
+  },
+  {
+   "my": "Dragapult ex",
+   "opp": "Mega Lucario ex",
+   "n": 456,
+   "wins": 235,
+   "wr": 51.5,
+   "ci95": [
+    47.0,
+    56.1
+   ]
+  },
+  {
+   "my": "Mega Lucario ex",
+   "opp": "Dragapult ex",
+   "n": 456,
+   "wins": 221,
+   "wr": 48.5,
+   "ci95": [
+    43.9,
+    53.0
+   ]
+  },
+  {
+   "my": "Dragapult ex",
+   "opp": "Thwackey",
+   "n": 431,
+   "wins": 282,
+   "wr": 65.4,
+   "ci95": [
+    60.8,
+    69.8
+   ]
+  },
+  {
+   "my": "Thwackey",
+   "opp": "Dragapult ex",
+   "n": 431,
+   "wins": 149,
+   "wr": 34.6,
+   "ci95": [
+    30.2,
+    39.2
+   ]
+  },
+  {
+   "my": "Seaking",
+   "opp": "Dragapult ex",
+   "n": 390,
+   "wins": 146,
+   "wr": 37.4,
+   "ci95": [
+    32.8,
+    42.3
+   ]
+  },
+  {
+   "my": "Dragapult ex",
+   "opp": "Seaking",
+   "n": 390,
+   "wins": 244,
+   "wr": 62.6,
+   "ci95": [
+    57.7,
+    67.2
+   ]
+  },
+  {
+   "my": "Mega Kangaskhan ex",
+   "opp": "Mega Lucario ex",
+   "n": 355,
+   "wins": 230,
+   "wr": 64.8,
+   "ci95": [
+    59.7,
+    69.6
+   ]
+  },
+  {
+   "my": "Mega Lucario ex",
+   "opp": "Mega Kangaskhan ex",
+   "n": 355,
+   "wins": 125,
+   "wr": 35.2,
+   "ci95": [
+    30.4,
+    40.3
+   ]
+  },
+  {
+   "my": "Latias ex",
+   "opp": "Dragapult ex",
+   "n": 334,
+   "wins": 212,
+   "wr": 63.5,
+   "ci95": [
+    58.2,
+    68.5
+   ]
+  },
+  {
+   "my": "Dragapult ex",
+   "opp": "Latias ex",
+   "n": 334,
+   "wins": 122,
+   "wr": 36.5,
+   "ci95": [
+    31.5,
+    41.8
+   ]
+  },
+  {
+   "my": "Sylveon",
+   "opp": "Dragapult ex",
+   "n": 332,
+   "wins": 231,
+   "wr": 69.6,
+   "ci95": [
+    64.4,
+    74.3
+   ]
+  },
+  {
+   "my": "Dragapult ex",
+   "opp": "Sylveon",
+   "n": 332,
+   "wins": 100,
+   "wr": 30.1,
+   "ci95": [
+    25.4,
+    35.3
+   ]
+  },
+  {
+   "my": "Arboliva ex",
+   "opp": "Dragapult ex",
+   "n": 331,
+   "wins": 166,
+   "wr": 50.2,
+   "ci95": [
+    44.8,
+    55.5
+   ]
+  },
+  {
+   "my": "Dragapult ex",
+   "opp": "Arboliva ex",
+   "n": 331,
+   "wins": 165,
+   "wr": 49.8,
+   "ci95": [
+    44.5,
+    55.2
+   ]
+  },
+  {
+   "my": "Mega Kangaskhan ex",
+   "opp": "Thwackey",
+   "n": 309,
+   "wins": 147,
+   "wr": 47.6,
+   "ci95": [
+    42.1,
+    53.1
+   ]
+  },
+  {
+   "my": "Thwackey",
+   "opp": "Mega Kangaskhan ex",
+   "n": 309,
+   "wins": 161,
+   "wr": 52.1,
+   "ci95": [
+    46.5,
+    57.6
+   ]
+  },
+  {
+   "my": "Thwackey",
+   "opp": "Hydrapple ex",
+   "n": 293,
+   "wins": 162,
+   "wr": 55.3,
+   "ci95": [
+    49.6,
+    60.9
+   ]
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "Thwackey",
+   "n": 293,
+   "wins": 131,
+   "wr": 44.7,
+   "ci95": [
+    39.1,
+    50.4
+   ]
+  },
+  {
+   "my": "Seaking",
+   "opp": "Hydrapple ex",
+   "n": 278,
+   "wins": 186,
+   "wr": 66.9,
+   "ci95": [
+    61.2,
+    72.2
+   ]
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "Seaking",
+   "n": 278,
+   "wins": 92,
+   "wr": 33.1,
+   "ci95": [
+    27.8,
+    38.8
+   ]
+  },
+  {
+   "my": "Mega Lopunny ex",
+   "opp": "Mega Lopunny ex",
+   "n": 270,
+   "wins": 135,
+   "wr": 50.0,
+   "ci95": [
+    44.1,
+    55.9
+   ]
+  },
+  {
+   "my": "Mega Kangaskhan ex",
+   "opp": "Seaking",
+   "n": 267,
+   "wins": 193,
+   "wr": 72.3,
+   "ci95": [
+    66.6,
+    77.3
+   ]
+  },
+  {
+   "my": "Seaking",
+   "opp": "Mega Kangaskhan ex",
+   "n": 267,
+   "wins": 74,
+   "wr": 27.7,
+   "ci95": [
+    22.7,
+    33.4
+   ]
+  },
+  {
+   "my": "Mega Kangaskhan ex",
+   "opp": "Arboliva ex",
+   "n": 264,
+   "wins": 112,
+   "wr": 42.4,
+   "ci95": [
+    36.6,
+    48.5
+   ]
+  },
+  {
+   "my": "Arboliva ex",
+   "opp": "Mega Kangaskhan ex",
+   "n": 264,
+   "wins": 152,
+   "wr": 57.6,
+   "ci95": [
+    51.5,
+    63.4
+   ]
+  },
+  {
+   "my": "Mega Kangaskhan ex",
+   "opp": "Sylveon",
+   "n": 263,
+   "wins": 146,
+   "wr": 55.5,
+   "ci95": [
+    49.5,
+    61.4
+   ]
+  },
+  {
+   "my": "Sylveon",
+   "opp": "Mega Kangaskhan ex",
+   "n": 263,
+   "wins": 117,
+   "wr": 44.5,
+   "ci95": [
+    38.6,
+    50.5
+   ]
+  },
+  {
+   "my": "Cynthia's Garchomp ex",
+   "opp": "Dragapult ex",
+   "n": 237,
+   "wins": 110,
+   "wr": 46.4,
+   "ci95": [
+    40.2,
+    52.8
+   ]
+  },
+  {
+   "my": "Dragapult ex",
+   "opp": "Cynthia's Garchomp ex",
+   "n": 237,
+   "wins": 127,
+   "wr": 53.6,
+   "ci95": [
+    47.2,
+    59.8
+   ]
+  },
+  {
+   "my": "Latias ex",
+   "opp": "Mega Kangaskhan ex",
+   "n": 236,
+   "wins": 118,
+   "wr": 50.0,
+   "ci95": [
+    43.7,
+    56.3
+   ]
+  },
+  {
+   "my": "Mega Kangaskhan ex",
+   "opp": "Latias ex",
+   "n": 236,
+   "wins": 118,
+   "wr": 50.0,
+   "ci95": [
+    43.7,
+    56.3
+   ]
+  },
+  {
+   "my": "Mega Heracross ex",
+   "opp": "Dragapult ex",
+   "n": 216,
+   "wins": 129,
+   "wr": 59.7,
+   "ci95": [
+    53.1,
+    66.0
+   ]
+  },
+  {
+   "my": "Dragapult ex",
+   "opp": "Mega Heracross ex",
+   "n": 216,
+   "wins": 87,
+   "wr": 40.3,
+   "ci95": [
+    34.0,
+    46.9
+   ]
+  },
+  {
+   "my": "Dragapult ex",
+   "opp": "Crustle",
+   "n": 209,
+   "wins": 130,
+   "wr": 62.2,
+   "ci95": [
+    55.5,
+    68.5
+   ]
+  },
+  {
+   "my": "Crustle",
+   "opp": "Dragapult ex",
+   "n": 209,
+   "wins": 79,
+   "wr": 37.8,
+   "ci95": [
+    31.5,
+    44.5
+   ]
+  },
+  {
+   "my": "Mega Lucario ex",
+   "opp": "Hydrapple ex",
+   "n": 206,
+   "wins": 109,
+   "wr": 52.9,
+   "ci95": [
+    46.1,
+    59.6
+   ]
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "Mega Lucario ex",
+   "n": 206,
+   "wins": 96,
+   "wr": 46.6,
+   "ci95": [
+    39.9,
+    53.4
+   ]
+  },
+  {
+   "my": "Dragapult ex",
+   "opp": "Marnie's Grimmsnarl ex",
+   "n": 200,
+   "wins": 140,
+   "wr": 70.0,
+   "ci95": [
+    63.3,
+    75.9
+   ]
+  },
+  {
+   "my": "Marnie's Grimmsnarl ex",
+   "opp": "Dragapult ex",
+   "n": 200,
+   "wins": 60,
+   "wr": 30.0,
+   "ci95": [
+    24.1,
+    36.7
+   ]
+  },
+  {
+   "my": "Crustle",
+   "opp": "Hydrapple ex",
+   "n": 165,
+   "wins": 80,
+   "wr": 48.5,
+   "ci95": [
+    41.0,
+    56.1
+   ]
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "Crustle",
+   "n": 165,
+   "wins": 85,
+   "wr": 51.5,
+   "ci95": [
+    43.9,
+    59.0
+   ]
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "Arboliva ex",
+   "n": 163,
+   "wins": 92,
+   "wr": 56.4,
+   "ci95": [
+    48.8,
+    63.8
+   ]
+  },
+  {
+   "my": "Arboliva ex",
+   "opp": "Hydrapple ex",
+   "n": 163,
+   "wins": 71,
+   "wr": 43.6,
+   "ci95": [
+    36.2,
+    51.2
+   ]
+  },
+  {
+   "my": "Crustle",
+   "opp": "Mega Kangaskhan ex",
+   "n": 159,
+   "wins": 82,
+   "wr": 51.6,
+   "ci95": [
+    43.9,
+    59.2
+   ]
+  },
+  {
+   "my": "Mega Kangaskhan ex",
+   "opp": "Crustle",
+   "n": 159,
+   "wins": 77,
+   "wr": 48.4,
+   "ci95": [
+    40.8,
+    56.1
+   ]
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "Cynthia's Garchomp ex",
+   "n": 158,
+   "wins": 98,
+   "wr": 62.0,
+   "ci95": [
+    54.3,
+    69.2
+   ]
+  },
+  {
+   "my": "Cynthia's Garchomp ex",
+   "opp": "Hydrapple ex",
+   "n": 158,
+   "wins": 60,
+   "wr": 38.0,
+   "ci95": [
+    30.8,
+    45.7
+   ]
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "Sylveon",
+   "n": 158,
+   "wins": 73,
+   "wr": 46.2,
+   "ci95": [
+    38.6,
+    54.0
+   ]
+  },
+  {
+   "my": "Sylveon",
+   "opp": "Hydrapple ex",
+   "n": 158,
+   "wins": 85,
+   "wr": 53.8,
+   "ci95": [
+    46.0,
+    61.4
+   ]
+  },
+  {
+   "my": "Mega Kangaskhan ex",
+   "opp": "Mega Heracross ex",
+   "n": 156,
+   "wins": 100,
+   "wr": 64.1,
+   "ci95": [
+    56.3,
+    71.2
+   ]
+  },
+  {
+   "my": "Mega Heracross ex",
+   "opp": "Mega Kangaskhan ex",
+   "n": 156,
+   "wins": 54,
+   "wr": 34.6,
+   "ci95": [
+    27.6,
+    42.4
+   ]
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "Mega Heracross ex",
+   "n": 145,
+   "wins": 85,
+   "wr": 58.6,
+   "ci95": [
+    50.5,
+    66.3
+   ]
+  },
+  {
+   "my": "Mega Heracross ex",
+   "opp": "Hydrapple ex",
+   "n": 145,
+   "wins": 60,
+   "wr": 41.4,
+   "ci95": [
+    33.7,
+    49.5
+   ]
+  },
+  {
+   "my": "Alakazam",
+   "opp": "Thwackey",
+   "n": 140,
+   "wins": 62,
+   "wr": 44.3,
+   "ci95": [
+    36.3,
+    52.6
+   ]
+  },
+  {
+   "my": "Thwackey",
+   "opp": "Alakazam",
+   "n": 140,
+   "wins": 78,
+   "wr": 55.7,
+   "ci95": [
+    47.4,
+    63.7
+   ]
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "Latias ex",
+   "n": 137,
+   "wins": 90,
+   "wr": 65.7,
+   "ci95": [
+    57.4,
+    73.1
+   ]
+  },
+  {
+   "my": "Latias ex",
+   "opp": "Hydrapple ex",
+   "n": 137,
+   "wins": 47,
+   "wr": 34.3,
+   "ci95": [
+    26.9,
+    42.6
+   ]
+  },
+  {
+   "my": "Seaking",
+   "opp": "Alakazam",
+   "n": 135,
+   "wins": 90,
+   "wr": 66.7,
+   "ci95": [
+    58.4,
+    74.1
+   ]
+  },
+  {
+   "my": "Alakazam",
+   "opp": "Seaking",
+   "n": 135,
+   "wins": 45,
+   "wr": 33.3,
+   "ci95": [
+    25.9,
+    41.6
+   ]
+  },
+  {
+   "my": "Cynthia's Garchomp ex",
+   "opp": "Mega Kangaskhan ex",
+   "n": 133,
+   "wins": 58,
+   "wr": 43.6,
+   "ci95": [
+    35.5,
+    52.1
+   ]
+  },
+  {
+   "my": "Mega Kangaskhan ex",
+   "opp": "Cynthia's Garchomp ex",
+   "n": 133,
+   "wins": 74,
+   "wr": 55.6,
+   "ci95": [
+    47.2,
+    63.8
+   ]
+  },
+  {
+   "my": "Mega Kangaskhan ex",
+   "opp": "Marnie's Grimmsnarl ex",
+   "n": 129,
+   "wins": 96,
+   "wr": 74.4,
+   "ci95": [
+    66.3,
+    81.2
+   ]
+  },
+  {
+   "my": "Marnie's Grimmsnarl ex",
+   "opp": "Mega Kangaskhan ex",
+   "n": 129,
+   "wins": 30,
+   "wr": 23.3,
+   "ci95": [
+    16.8,
+    31.3
+   ]
+  },
+  {
+   "my": "Marnie's Grimmsnarl ex",
+   "opp": "Hydrapple ex",
+   "n": 128,
+   "wins": 30,
+   "wr": 23.4,
+   "ci95": [
+    16.9,
+    31.5
+   ]
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "Marnie's Grimmsnarl ex",
+   "n": 128,
+   "wins": 98,
+   "wr": 76.6,
+   "ci95": [
+    68.5,
+    83.1
+   ]
+  },
+  {
+   "my": "Mega Lucario ex",
+   "opp": "Alakazam",
+   "n": 99,
+   "wins": 72,
+   "wr": 72.7,
+   "ci95": [
+    63.2,
+    80.5
+   ]
+  },
+  {
+   "my": "Alakazam",
+   "opp": "Mega Lucario ex",
+   "n": 99,
+   "wins": 27,
+   "wr": 27.3,
+   "ci95": [
+    19.5,
+    36.8
+   ]
+  },
+  {
+   "my": "Thwackey",
+   "opp": "Mega Lopunny ex",
+   "n": 95,
+   "wins": 64,
+   "wr": 67.4,
+   "ci95": [
+    57.4,
+    76.0
+   ]
+  },
+  {
+   "my": "Mega Lopunny ex",
+   "opp": "Thwackey",
+   "n": 95,
+   "wins": 31,
+   "wr": 32.6,
+   "ci95": [
+    24.0,
+    42.6
+   ]
+  },
+  {
+   "my": "Cynthia's Garchomp ex",
+   "opp": "Alakazam",
+   "n": 90,
+   "wins": 38,
+   "wr": 42.2,
+   "ci95": [
+    32.5,
+    52.5
+   ]
+  },
+  {
+   "my": "Alakazam",
+   "opp": "Cynthia's Garchomp ex",
+   "n": 90,
+   "wins": 52,
+   "wr": 57.8,
+   "ci95": [
+    47.5,
+    67.5
+   ]
+  },
+  {
+   "my": "Alakazam",
+   "opp": "Mega Heracross ex",
+   "n": 86,
+   "wins": 25,
+   "wr": 29.1,
+   "ci95": [
+    20.5,
+    39.4
+   ]
+  },
+  {
+   "my": "Mega Heracross ex",
+   "opp": "Alakazam",
+   "n": 86,
+   "wins": 61,
+   "wr": 70.9,
+   "ci95": [
+    60.6,
+    79.5
+   ]
+  },
+  {
+   "my": "Seaking",
+   "opp": "Mega Lopunny ex",
+   "n": 86,
+   "wins": 48,
+   "wr": 55.8,
+   "ci95": [
+    45.3,
+    65.8
+   ]
+  },
+  {
+   "my": "Mega Lopunny ex",
+   "opp": "Seaking",
+   "n": 86,
+   "wins": 38,
+   "wr": 44.2,
+   "ci95": [
+    34.2,
+    54.7
+   ]
+  },
+  {
+   "my": "Alakazam",
+   "opp": "Crustle",
+   "n": 83,
+   "wins": 27,
+   "wr": 32.5,
+   "ci95": [
+    23.4,
+    43.2
+   ]
+  },
+  {
+   "my": "Crustle",
+   "opp": "Alakazam",
+   "n": 83,
+   "wins": 56,
+   "wr": 67.5,
+   "ci95": [
+    56.8,
+    76.6
+   ]
+  },
+  {
+   "my": "Latias ex",
+   "opp": "Alakazam",
+   "n": 80,
+   "wins": 66,
+   "wr": 82.5,
+   "ci95": [
+    72.7,
+    89.3
+   ]
+  },
+  {
+   "my": "Alakazam",
+   "opp": "Latias ex",
+   "n": 80,
+   "wins": 14,
+   "wr": 17.5,
+   "ci95": [
+    10.7,
+    27.3
+   ]
+  },
+  {
+   "my": "Arboliva ex",
+   "opp": "Alakazam",
+   "n": 79,
+   "wins": 41,
+   "wr": 51.9,
+   "ci95": [
+    41.1,
+    62.6
+   ]
+  },
+  {
+   "my": "Alakazam",
+   "opp": "Arboliva ex",
+   "n": 79,
+   "wins": 38,
+   "wr": 48.1,
+   "ci95": [
+    37.4,
+    58.9
+   ]
+  },
+  {
+   "my": "Cynthia's Garchomp ex",
+   "opp": "Mega Lopunny ex",
+   "n": 63,
+   "wins": 51,
+   "wr": 81.0,
+   "ci95": [
+    69.6,
+    88.8
+   ]
+  },
+  {
+   "my": "Mega Lopunny ex",
+   "opp": "Cynthia's Garchomp ex",
+   "n": 63,
+   "wins": 12,
+   "wr": 19.0,
+   "ci95": [
+    11.2,
+    30.4
+   ]
+  },
+  {
+   "my": "Marnie's Grimmsnarl ex",
+   "opp": "Alakazam",
+   "n": 57,
+   "wins": 30,
+   "wr": 52.6,
+   "ci95": [
+    39.9,
+    65.0
+   ]
+  },
+  {
+   "my": "Alakazam",
+   "opp": "Marnie's Grimmsnarl ex",
+   "n": 57,
+   "wins": 27,
+   "wr": 47.4,
+   "ci95": [
+    35.0,
+    60.1
+   ]
+  },
+  {
+   "my": "Alakazam",
+   "opp": "Sylveon",
+   "n": 56,
+   "wins": 15,
+   "wr": 26.8,
+   "ci95": [
+    17.0,
+    39.6
+   ]
+  },
+  {
+   "my": "Sylveon",
+   "opp": "Alakazam",
+   "n": 56,
+   "wins": 41,
+   "wr": 73.2,
+   "ci95": [
+    60.4,
+    83.0
+   ]
+  },
+  {
+   "my": "Mega Lopunny ex",
+   "opp": "Crustle",
+   "n": 54,
+   "wins": 20,
+   "wr": 37.0,
+   "ci95": [
+    25.4,
+    50.4
+   ]
+  },
+  {
+   "my": "Crustle",
+   "opp": "Mega Lopunny ex",
+   "n": 54,
+   "wins": 34,
+   "wr": 63.0,
+   "ci95": [
+    49.6,
+    74.6
+   ]
+  },
+  {
+   "my": "Mega Heracross ex",
+   "opp": "Mega Lopunny ex",
+   "n": 52,
+   "wins": 26,
+   "wr": 50.0,
+   "ci95": [
+    36.9,
+    63.1
+   ]
+  },
+  {
+   "my": "Mega Lopunny ex",
+   "opp": "Mega Heracross ex",
+   "n": 52,
+   "wins": 26,
+   "wr": 50.0,
+   "ci95": [
+    36.9,
+    63.1
+   ]
+  },
+  {
+   "my": "Mega Lucario ex",
+   "opp": "Mega Lopunny ex",
+   "n": 47,
+   "wins": 38,
+   "wr": 80.9,
+   "ci95": [
+    67.5,
+    89.6
+   ]
+  },
+  {
+   "my": "Mega Lopunny ex",
+   "opp": "Mega Lucario ex",
+   "n": 47,
+   "wins": 9,
+   "wr": 19.1,
+   "ci95": [
+    10.4,
+    32.5
+   ]
+  },
+  {
+   "my": "Okidogi",
+   "opp": "Dragapult ex",
+   "n": 35,
+   "wins": 8,
+   "wr": 22.9,
+   "ci95": [
+    12.1,
+    39.0
+   ]
+  },
+  {
+   "my": "Dragapult ex",
+   "opp": "Okidogi",
+   "n": 35,
+   "wins": 27,
+   "wr": 77.1,
+   "ci95": [
+    61.0,
+    87.9
+   ]
+  },
+  {
+   "my": "Sylveon",
+   "opp": "Mega Lopunny ex",
+   "n": 32,
+   "wins": 1,
+   "wr": 3.1,
+   "ci95": [
+    0.6,
+    15.7
+   ]
+  },
+  {
+   "my": "Mega Lopunny ex",
+   "opp": "Sylveon",
+   "n": 32,
+   "wins": 31,
+   "wr": 96.9,
+   "ci95": [
+    84.3,
+    99.4
+   ]
+  },
+  {
+   "my": "Thwackey",
+   "opp": "Seaking",
+   "n": 30,
+   "wins": 15,
+   "wr": 50.0,
+   "ci95": [
+    33.2,
+    66.8
+   ]
+  },
+  {
+   "my": "Seaking",
+   "opp": "Thwackey",
+   "n": 30,
+   "wins": 15,
+   "wr": 50.0,
+   "ci95": [
+    33.2,
+    66.8
+   ]
+  },
+  {
+   "my": "Arboliva ex",
+   "opp": "Mega Lopunny ex",
+   "n": 29,
+   "wins": 19,
+   "wr": 65.5,
+   "ci95": [
+    47.3,
+    80.1
+   ]
+  },
+  {
+   "my": "Mega Lopunny ex",
+   "opp": "Arboliva ex",
+   "n": 29,
+   "wins": 10,
+   "wr": 34.5,
+   "ci95": [
+    19.9,
+    52.7
+   ]
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "Okidogi",
+   "n": 28,
+   "wins": 15,
+   "wr": 53.6,
+   "ci95": [
+    35.8,
+    70.5
+   ]
+  },
+  {
+   "my": "Okidogi",
+   "opp": "Hydrapple ex",
+   "n": 28,
+   "wins": 13,
+   "wr": 46.4,
+   "ci95": [
+    29.5,
+    64.2
+   ]
+  },
+  {
+   "my": "Latias ex",
+   "opp": "Sylveon",
+   "n": 28,
+   "wins": 9,
+   "wr": 32.1,
+   "ci95": [
+    17.9,
+    50.7
+   ]
+  },
+  {
+   "my": "Sylveon",
+   "opp": "Latias ex",
+   "n": 28,
+   "wins": 19,
+   "wr": 67.9,
+   "ci95": [
+    49.3,
+    82.1
+   ]
+  },
+  {
+   "my": "Dragapult ex",
+   "opp": "Teal Mask Ogerpon ex",
+   "n": 26,
+   "wins": 21,
+   "wr": 80.8,
+   "ci95": [
+    62.1,
+    91.5
+   ]
+  },
+  {
+   "my": "Teal Mask Ogerpon ex",
+   "opp": "Dragapult ex",
+   "n": 26,
+   "wins": 5,
+   "wr": 19.2,
+   "ci95": [
+    8.5,
+    37.9
+   ]
+  },
+  {
+   "my": "Mega Lucario ex",
+   "opp": "Arboliva ex",
+   "n": 25,
+   "wins": 18,
+   "wr": 72.0,
+   "ci95": [
+    52.4,
+    85.7
+   ]
+  },
+  {
+   "my": "Arboliva ex",
+   "opp": "Mega Lucario ex",
+   "n": 25,
+   "wins": 7,
+   "wr": 28.0,
+   "ci95": [
+    14.3,
+    47.6
+   ]
+  },
+  {
+   "my": "Mega Lucario ex",
+   "opp": "Sylveon",
+   "n": 25,
+   "wins": 17,
+   "wr": 68.0,
+   "ci95": [
+    48.4,
+    82.8
+   ]
+  },
+  {
+   "my": "Sylveon",
+   "opp": "Mega Lucario ex",
+   "n": 25,
+   "wins": 8,
+   "wr": 32.0,
+   "ci95": [
+    17.2,
+    51.6
+   ]
+  },
+  {
+   "my": "Marnie's Grimmsnarl ex",
+   "opp": "Mega Lopunny ex",
+   "n": 25,
+   "wins": 10,
+   "wr": 40.0,
+   "ci95": [
+    23.4,
+    59.3
+   ]
+  },
+  {
+   "my": "Mega Lopunny ex",
+   "opp": "Marnie's Grimmsnarl ex",
+   "n": 25,
+   "wins": 15,
+   "wr": 60.0,
+   "ci95": [
+    40.7,
+    76.6
+   ]
+  },
+  {
+   "my": "Thwackey",
+   "opp": "Cynthia's Garchomp ex",
+   "n": 25,
+   "wins": 11,
+   "wr": 44.0,
+   "ci95": [
+    26.7,
+    62.9
+   ]
+  },
+  {
+   "my": "Cynthia's Garchomp ex",
+   "opp": "Thwackey",
+   "n": 25,
+   "wins": 14,
+   "wr": 56.0,
+   "ci95": [
+    37.1,
+    73.3
+   ]
+  },
+  {
+   "my": "Dragapult ex",
+   "opp": "N’s Zoroark ex",
+   "n": 25,
+   "wins": 17,
+   "wr": 68.0,
+   "ci95": [
+    48.4,
+    82.8
+   ]
+  },
+  {
+   "my": "N’s Zoroark ex",
+   "opp": "Dragapult ex",
+   "n": 25,
+   "wins": 8,
+   "wr": 32.0,
+   "ci95": [
+    17.2,
+    51.6
+   ]
+  },
+  {
+   "my": "N’s Zoroark ex",
+   "opp": "Mega Kangaskhan ex",
+   "n": 23,
+   "wins": 5,
+   "wr": 21.7,
+   "ci95": [
+    9.7,
+    41.9
+   ]
+  },
+  {
+   "my": "Mega Kangaskhan ex",
+   "opp": "N’s Zoroark ex",
+   "n": 23,
+   "wins": 18,
+   "wr": 78.3,
+   "ci95": [
+    58.1,
+    90.3
+   ]
+  },
+  {
+   "my": "Mega Lopunny ex",
+   "opp": "Latias ex",
+   "n": 22,
+   "wins": 2,
+   "wr": 9.1,
+   "ci95": [
+    2.5,
+    27.8
+   ]
+  },
+  {
+   "my": "Latias ex",
+   "opp": "Mega Lopunny ex",
+   "n": 22,
+   "wins": 20,
+   "wr": 90.9,
+   "ci95": [
+    72.2,
+    97.5
+   ]
+  },
+  {
+   "my": "Latias ex",
+   "opp": "Mega Lucario ex",
+   "n": 21,
+   "wins": 14,
+   "wr": 66.7,
+   "ci95": [
+    45.4,
+    82.8
+   ]
+  },
+  {
+   "my": "Mega Lucario ex",
+   "opp": "Latias ex",
+   "n": 21,
+   "wins": 7,
+   "wr": 33.3,
+   "ci95": [
+    17.2,
+    54.6
+   ]
+  },
+  {
+   "my": "Thwackey",
+   "opp": "Crustle",
+   "n": 20,
+   "wins": 1,
+   "wr": 5.0,
+   "ci95": [
+    0.9,
+    23.6
+   ]
+  },
+  {
+   "my": "Crustle",
+   "opp": "Thwackey",
+   "n": 20,
+   "wins": 19,
+   "wr": 95.0,
+   "ci95": [
+    76.4,
+    99.1
+   ]
+  },
+  {
+   "my": "Mega Kangaskhan ex",
+   "opp": "Okidogi",
+   "n": 20,
+   "wins": 10,
+   "wr": 50.0,
+   "ci95": [
+    29.9,
+    70.1
+   ]
+  },
+  {
+   "my": "Okidogi",
+   "opp": "Mega Kangaskhan ex",
+   "n": 20,
+   "wins": 10,
+   "wr": 50.0,
+   "ci95": [
+    29.9,
+    70.1
+   ]
+  },
+  {
+   "my": "Arboliva ex",
+   "opp": "Sylveon",
+   "n": 19,
+   "wins": 12,
+   "wr": 63.2,
+   "ci95": [
+    41.0,
+    80.9
+   ]
+  },
+  {
+   "my": "Sylveon",
+   "opp": "Arboliva ex",
+   "n": 19,
+   "wins": 7,
+   "wr": 36.8,
+   "ci95": [
+    19.1,
+    59.0
+   ]
+  },
+  {
+   "my": "Seaking",
+   "opp": "Mega Heracross ex",
+   "n": 19,
+   "wins": 6,
+   "wr": 31.6,
+   "ci95": [
+    15.4,
+    54.0
+   ]
+  },
+  {
+   "my": "Mega Heracross ex",
+   "opp": "Seaking",
+   "n": 19,
+   "wins": 13,
+   "wr": 68.4,
+   "ci95": [
+    46.0,
+    84.6
+   ]
+  },
+  {
+   "my": "Seaking",
+   "opp": "Crustle",
+   "n": 18,
+   "wins": 2,
+   "wr": 11.1,
+   "ci95": [
+    3.1,
+    32.8
+   ]
+  },
+  {
+   "my": "Crustle",
+   "opp": "Seaking",
+   "n": 18,
+   "wins": 16,
+   "wr": 88.9,
+   "ci95": [
+    67.2,
+    96.9
+   ]
+  },
+  {
+   "my": "Cynthia's Garchomp ex",
+   "opp": "Seaking",
+   "n": 18,
+   "wins": 12,
+   "wr": 66.7,
+   "ci95": [
+    43.7,
+    83.7
+   ]
+  },
+  {
+   "my": "Seaking",
+   "opp": "Cynthia's Garchomp ex",
+   "n": 18,
+   "wins": 6,
+   "wr": 33.3,
+   "ci95": [
+    16.3,
+    56.3
+   ]
+  },
+  {
+   "my": "Thwackey",
+   "opp": "Thwackey",
+   "n": 18,
+   "wins": 9,
+   "wr": 50.0,
+   "ci95": [
+    29.0,
+    71.0
+   ]
+  },
+  {
+   "my": "Seaking",
+   "opp": "Marnie's Grimmsnarl ex",
+   "n": 16,
+   "wins": 11,
+   "wr": 68.8,
+   "ci95": [
+    44.4,
+    85.8
+   ]
+  },
+  {
+   "my": "Marnie's Grimmsnarl ex",
+   "opp": "Seaking",
+   "n": 16,
+   "wins": 5,
+   "wr": 31.2,
+   "ci95": [
+    14.2,
+    55.6
+   ]
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "Teal Mask Ogerpon ex",
+   "n": 16,
+   "wins": 13,
+   "wr": 81.2,
+   "ci95": [
+    57.0,
+    93.4
+   ]
+  },
+  {
+   "my": "Teal Mask Ogerpon ex",
+   "opp": "Hydrapple ex",
+   "n": 16,
+   "wins": 3,
+   "wr": 18.8,
+   "ci95": [
+    6.6,
+    43.0
+   ]
+  },
+  {
+   "my": "N’s Zoroark ex",
+   "opp": "Hydrapple ex",
+   "n": 16,
+   "wins": 3,
+   "wr": 18.8,
+   "ci95": [
+    6.6,
+    43.0
+   ]
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "N’s Zoroark ex",
+   "n": 16,
+   "wins": 13,
+   "wr": 81.2,
+   "ci95": [
+    57.0,
+    93.4
+   ]
+  },
+  {
+   "my": "Mega Starmie ex",
+   "opp": "Dragapult ex",
+   "n": 15,
+   "wins": 2,
+   "wr": 13.3,
+   "ci95": [
+    3.7,
+    37.9
+   ]
+  },
+  {
+   "my": "Dragapult ex",
+   "opp": "Mega Starmie ex",
+   "n": 15,
+   "wins": 13,
+   "wr": 86.7,
+   "ci95": [
+    62.1,
+    96.3
+   ]
+  },
+  {
+   "my": "Teal Mask Ogerpon ex",
+   "opp": "Mega Kangaskhan ex",
+   "n": 14,
+   "wins": 5,
+   "wr": 35.7,
+   "ci95": [
+    16.3,
+    61.2
+   ]
+  },
+  {
+   "my": "Mega Kangaskhan ex",
+   "opp": "Teal Mask Ogerpon ex",
+   "n": 14,
+   "wins": 9,
+   "wr": 64.3,
+   "ci95": [
+    38.8,
+    83.7
+   ]
+  },
+  {
+   "my": "Thwackey",
+   "opp": "Mega Lucario ex",
+   "n": 13,
+   "wins": 7,
+   "wr": 53.8,
+   "ci95": [
+    29.1,
+    76.8
+   ]
+  },
+  {
+   "my": "Mega Lucario ex",
+   "opp": "Thwackey",
+   "n": 13,
+   "wins": 6,
+   "wr": 46.2,
+   "ci95": [
+    23.2,
+    70.9
+   ]
+  },
+  {
+   "my": "Cynthia's Garchomp ex",
+   "opp": "Mega Lucario ex",
+   "n": 12,
+   "wins": 6,
+   "wr": 50.0,
+   "ci95": [
+    25.4,
+    74.6
+   ]
+  },
+  {
+   "my": "Mega Lucario ex",
+   "opp": "Cynthia's Garchomp ex",
+   "n": 12,
+   "wins": 6,
+   "wr": 50.0,
+   "ci95": [
+    25.4,
+    74.6
+   ]
+  },
+  {
+   "my": "Thwackey",
+   "opp": "Mega Heracross ex",
+   "n": 11,
+   "wins": 8,
+   "wr": 72.7,
+   "ci95": [
+    43.4,
+    90.3
+   ]
+  },
+  {
+   "my": "Mega Heracross ex",
+   "opp": "Thwackey",
+   "n": 11,
+   "wins": 3,
+   "wr": 27.3,
+   "ci95": [
+    9.7,
+    56.6
+   ]
+  },
+  {
+   "my": "Mega Starmie ex",
+   "opp": "Mega Kangaskhan ex",
+   "n": 11,
+   "wins": 6,
+   "wr": 54.5,
+   "ci95": [
+    28.0,
+    78.7
+   ]
+  },
+  {
+   "my": "Mega Kangaskhan ex",
+   "opp": "Mega Starmie ex",
+   "n": 11,
+   "wins": 5,
+   "wr": 45.5,
+   "ci95": [
+    21.3,
+    72.0
+   ]
+  },
+  {
+   "my": "Mega Heracross ex",
+   "opp": "Cynthia's Garchomp ex",
+   "n": 11,
+   "wins": 5,
+   "wr": 45.5,
+   "ci95": [
+    21.3,
+    72.0
+   ]
+  },
+  {
+   "my": "Cynthia's Garchomp ex",
+   "opp": "Mega Heracross ex",
+   "n": 11,
+   "wins": 6,
+   "wr": 54.5,
+   "ci95": [
+    28.0,
+    78.7
+   ]
+  },
+  {
+   "my": "Latias ex",
+   "opp": "Arboliva ex",
+   "n": 11,
+   "wins": 2,
+   "wr": 18.2,
+   "ci95": [
+    5.1,
+    47.7
+   ]
+  },
+  {
+   "my": "Arboliva ex",
+   "opp": "Latias ex",
+   "n": 11,
+   "wins": 9,
+   "wr": 81.8,
+   "ci95": [
+    52.3,
+    94.9
+   ]
+  },
+  {
+   "my": "Seaking",
+   "opp": "Seaking",
+   "n": 10,
+   "wins": 5,
+   "wr": 50.0,
+   "ci95": [
+    23.7,
+    76.3
+   ]
+  },
+  {
+   "my": "Okidogi",
+   "opp": "Alakazam",
+   "n": 9,
+   "wins": 3,
+   "wr": 33.3,
+   "ci95": [
+    12.1,
+    64.6
+   ]
+  },
+  {
+   "my": "Alakazam",
+   "opp": "Okidogi",
+   "n": 9,
+   "wins": 6,
+   "wr": 66.7,
+   "ci95": [
+    35.4,
+    87.9
+   ]
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "Mega Starmie ex",
+   "n": 9,
+   "wins": 3,
+   "wr": 33.3,
+   "ci95": [
+    12.1,
+    64.6
+   ]
+  },
+  {
+   "my": "Mega Starmie ex",
+   "opp": "Hydrapple ex",
+   "n": 9,
+   "wins": 6,
+   "wr": 66.7,
+   "ci95": [
+    35.4,
+    87.9
+   ]
+  },
+  {
+   "my": "N’s Zoroark ex",
+   "opp": "Alakazam",
+   "n": 9,
+   "wins": 5,
+   "wr": 55.6,
+   "ci95": [
+    26.7,
+    81.1
+   ]
+  },
+  {
+   "my": "Alakazam",
+   "opp": "N’s Zoroark ex",
+   "n": 9,
+   "wins": 4,
+   "wr": 44.4,
+   "ci95": [
+    18.9,
+    73.3
+   ]
+  },
+  {
+   "my": "Mega Lucario ex",
+   "opp": "Crustle",
+   "n": 8,
+   "wins": 2,
+   "wr": 25.0,
+   "ci95": [
+    7.1,
+    59.1
+   ]
+  },
+  {
+   "my": "Crustle",
+   "opp": "Mega Lucario ex",
+   "n": 8,
+   "wins": 6,
+   "wr": 75.0,
+   "ci95": [
+    40.9,
+    92.9
+   ]
+  },
+  {
+   "my": "Mega Heracross ex",
+   "opp": "Crustle",
+   "n": 8,
+   "wins": 2,
+   "wr": 25.0,
+   "ci95": [
+    7.1,
+    59.1
+   ]
+  },
+  {
+   "my": "Crustle",
+   "opp": "Mega Heracross ex",
+   "n": 8,
+   "wins": 6,
+   "wr": 75.0,
+   "ci95": [
+    40.9,
+    92.9
+   ]
+  },
+  {
+   "my": "Mega Lucario ex",
+   "opp": "Seaking",
+   "n": 8,
+   "wins": 3,
+   "wr": 37.5,
+   "ci95": [
+    13.7,
+    69.4
+   ]
+  },
+  {
+   "my": "Seaking",
+   "opp": "Mega Lucario ex",
+   "n": 8,
+   "wins": 5,
+   "wr": 62.5,
+   "ci95": [
+    30.6,
+    86.3
+   ]
+  },
+  {
+   "my": "Cynthia's Garchomp ex",
+   "opp": "Cynthia's Garchomp ex",
+   "n": 8,
+   "wins": 4,
+   "wr": 50.0,
+   "ci95": [
+    21.5,
+    78.5
+   ]
+  },
+  {
+   "my": "Thwackey",
+   "opp": "Sylveon",
+   "n": 7,
+   "wins": 4,
+   "wr": 57.1,
+   "ci95": [
+    25.0,
+    84.2
+   ]
+  },
+  {
+   "my": "Sylveon",
+   "opp": "Thwackey",
+   "n": 7,
+   "wins": 3,
+   "wr": 42.9,
+   "ci95": [
+    15.8,
+    75.0
+   ]
+  },
+  {
+   "my": "Thwackey",
+   "opp": "Latias ex",
+   "n": 7,
+   "wins": 1,
+   "wr": 14.3,
+   "ci95": [
+    2.6,
+    51.3
+   ]
+  },
+  {
+   "my": "Latias ex",
+   "opp": "Thwackey",
+   "n": 7,
+   "wins": 6,
+   "wr": 85.7,
+   "ci95": [
+    48.7,
+    97.4
+   ]
+  },
+  {
+   "my": "Latias ex",
+   "opp": "Seaking",
+   "n": 7,
+   "wins": 6,
+   "wr": 85.7,
+   "ci95": [
+    48.7,
+    97.4
+   ]
+  },
+  {
+   "my": "Seaking",
+   "opp": "Latias ex",
+   "n": 7,
+   "wins": 1,
+   "wr": 14.3,
+   "ci95": [
+    2.6,
+    51.3
+   ]
+  },
+  {
+   "my": "Marnie's Grimmsnarl ex",
+   "opp": "Thwackey",
+   "n": 7,
+   "wins": 1,
+   "wr": 14.3,
+   "ci95": [
+    2.6,
+    51.3
+   ]
+  },
+  {
+   "my": "Thwackey",
+   "opp": "Marnie's Grimmsnarl ex",
+   "n": 7,
+   "wins": 6,
+   "wr": 85.7,
+   "ci95": [
+    48.7,
+    97.4
+   ]
+  },
+  {
+   "my": "Mega Heracross ex",
+   "opp": "Mega Lucario ex",
+   "n": 7,
+   "wins": 5,
+   "wr": 71.4,
+   "ci95": [
+    35.9,
+    91.8
+   ]
+  },
+  {
+   "my": "Mega Lucario ex",
+   "opp": "Mega Heracross ex",
+   "n": 7,
+   "wins": 2,
+   "wr": 28.6,
+   "ci95": [
+    8.2,
+    64.1
+   ]
+  },
+  {
+   "my": "Crustle",
+   "opp": "Latias ex",
+   "n": 6,
+   "wins": 2,
+   "wr": 33.3,
+   "ci95": [
+    9.7,
+    70.0
+   ]
+  },
+  {
+   "my": "Latias ex",
+   "opp": "Crustle",
+   "n": 6,
+   "wins": 4,
+   "wr": 66.7,
+   "ci95": [
+    30.0,
+    90.3
+   ]
+  },
+  {
+   "my": "Alakazam",
+   "opp": "Teal Mask Ogerpon ex",
+   "n": 6,
+   "wins": 5,
+   "wr": 83.3,
+   "ci95": [
+    43.6,
+    97.0
+   ]
+  },
+  {
+   "my": "Teal Mask Ogerpon ex",
+   "opp": "Alakazam",
+   "n": 6,
+   "wins": 1,
+   "wr": 16.7,
+   "ci95": [
+    3.0,
+    56.4
+   ]
+  },
+  {
+   "my": "Crustle",
+   "opp": "Arboliva ex",
+   "n": 6,
+   "wins": 5,
+   "wr": 83.3,
+   "ci95": [
+    43.6,
+    97.0
+   ]
+  },
+  {
+   "my": "Arboliva ex",
+   "opp": "Crustle",
+   "n": 6,
+   "wins": 1,
+   "wr": 16.7,
+   "ci95": [
+    3.0,
+    56.4
+   ]
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "Mega Gardevoir ex",
+   "n": 6,
+   "wins": 6,
+   "wr": 100.0,
+   "ci95": [
+    61.0,
+    100.0
+   ]
+  },
+  {
+   "my": "Mega Gardevoir ex",
+   "opp": "Hydrapple ex",
+   "n": 6,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    39.0
+   ]
+  },
+  {
+   "my": "Dragapult ex",
+   "opp": "Mega Gardevoir ex",
+   "n": 6,
+   "wins": 4,
+   "wr": 66.7,
+   "ci95": [
+    30.0,
+    90.3
+   ]
+  },
+  {
+   "my": "Mega Gardevoir ex",
+   "opp": "Dragapult ex",
+   "n": 6,
+   "wins": 2,
+   "wr": 33.3,
+   "ci95": [
+    9.7,
+    70.0
+   ]
+  },
+  {
+   "my": "N’s Zoroark ex",
+   "opp": "Seaking",
+   "n": 6,
+   "wins": 2,
+   "wr": 33.3,
+   "ci95": [
+    9.7,
+    70.0
+   ]
+  },
+  {
+   "my": "Seaking",
+   "opp": "N’s Zoroark ex",
+   "n": 6,
+   "wins": 4,
+   "wr": 66.7,
+   "ci95": [
+    30.0,
+    90.3
+   ]
+  },
+  {
+   "my": "Okidogi",
+   "opp": "Mega Lopunny ex",
+   "n": 5,
+   "wins": 1,
+   "wr": 20.0,
+   "ci95": [
+    3.6,
+    62.4
+   ]
+  },
+  {
+   "my": "Mega Lopunny ex",
+   "opp": "Okidogi",
+   "n": 5,
+   "wins": 4,
+   "wr": 80.0,
+   "ci95": [
+    37.6,
+    96.4
+   ]
+  },
+  {
+   "my": "Marnie's Grimmsnarl ex",
+   "opp": "Crustle",
+   "n": 5,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    43.4
+   ]
+  },
+  {
+   "my": "Crustle",
+   "opp": "Marnie's Grimmsnarl ex",
+   "n": 5,
+   "wins": 5,
+   "wr": 100.0,
+   "ci95": [
+    56.6,
+    100.0
+   ]
+  },
+  {
+   "my": "Marnie's Grimmsnarl ex",
+   "opp": "Marnie's Grimmsnarl ex",
+   "n": 4,
+   "wins": 2,
+   "wr": 50.0,
+   "ci95": [
+    15.0,
+    85.0
+   ]
+  },
+  {
+   "my": "Okidogi",
+   "opp": "Cynthia's Garchomp ex",
+   "n": 4,
+   "wins": 2,
+   "wr": 50.0,
+   "ci95": [
+    15.0,
+    85.0
+   ]
+  },
+  {
+   "my": "Cynthia's Garchomp ex",
+   "opp": "Okidogi",
+   "n": 4,
+   "wins": 2,
+   "wr": 50.0,
+   "ci95": [
+    15.0,
+    85.0
+   ]
+  },
+  {
+   "my": "Marnie's Grimmsnarl ex",
+   "opp": "Cynthia's Garchomp ex",
+   "n": 4,
+   "wins": 3,
+   "wr": 75.0,
+   "ci95": [
+    30.1,
+    95.4
+   ]
+  },
+  {
+   "my": "Cynthia's Garchomp ex",
+   "opp": "Marnie's Grimmsnarl ex",
+   "n": 4,
+   "wins": 1,
+   "wr": 25.0,
+   "ci95": [
+    4.6,
+    69.9
+   ]
+  },
+  {
+   "my": "Mega Lopunny ex",
+   "opp": "Mega Starmie ex",
+   "n": 4,
+   "wins": 2,
+   "wr": 50.0,
+   "ci95": [
+    15.0,
+    85.0
+   ]
+  },
+  {
+   "my": "Mega Starmie ex",
+   "opp": "Mega Lopunny ex",
+   "n": 4,
+   "wins": 2,
+   "wr": 50.0,
+   "ci95": [
+    15.0,
+    85.0
+   ]
+  },
+  {
+   "my": "Mega Lopunny ex",
+   "opp": "N’s Zoroark ex",
+   "n": 4,
+   "wins": 2,
+   "wr": 50.0,
+   "ci95": [
+    15.0,
+    85.0
+   ]
+  },
+  {
+   "my": "N’s Zoroark ex",
+   "opp": "Mega Lopunny ex",
+   "n": 4,
+   "wins": 2,
+   "wr": 50.0,
+   "ci95": [
+    15.0,
+    85.0
+   ]
+  },
+  {
+   "my": "Cynthia's Garchomp ex",
+   "opp": "Arboliva ex",
+   "n": 4,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    49.0
+   ]
+  },
+  {
+   "my": "Arboliva ex",
+   "opp": "Cynthia's Garchomp ex",
+   "n": 4,
+   "wins": 4,
+   "wr": 100.0,
+   "ci95": [
+    51.0,
+    100.0
+   ]
+  },
+  {
+   "my": "Marnie's Grimmsnarl ex",
+   "opp": "Latias ex",
+   "n": 3,
+   "wins": 1,
+   "wr": 33.3,
+   "ci95": [
+    6.1,
+    79.2
+   ]
+  },
+  {
+   "my": "Latias ex",
+   "opp": "Marnie's Grimmsnarl ex",
+   "n": 3,
+   "wins": 2,
+   "wr": 66.7,
+   "ci95": [
+    20.8,
+    93.9
+   ]
+  },
+  {
+   "my": "Cynthia's Garchomp ex",
+   "opp": "Sylveon",
+   "n": 3,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    56.2
+   ]
+  },
+  {
+   "my": "Sylveon",
+   "opp": "Cynthia's Garchomp ex",
+   "n": 3,
+   "wins": 3,
+   "wr": 100.0,
+   "ci95": [
+    43.8,
+    100.0
+   ]
+  },
+  {
+   "my": "Thwackey",
+   "opp": "Arboliva ex",
+   "n": 3,
+   "wins": 2,
+   "wr": 66.7,
+   "ci95": [
+    20.8,
+    93.9
+   ]
+  },
+  {
+   "my": "Arboliva ex",
+   "opp": "Thwackey",
+   "n": 3,
+   "wins": 1,
+   "wr": 33.3,
+   "ci95": [
+    6.1,
+    79.2
+   ]
+  },
+  {
+   "my": "Latias ex",
+   "opp": "Teal Mask Ogerpon ex",
+   "n": 3,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    56.2
+   ]
+  },
+  {
+   "my": "Teal Mask Ogerpon ex",
+   "opp": "Latias ex",
+   "n": 3,
+   "wins": 3,
+   "wr": 100.0,
+   "ci95": [
+    43.8,
+    100.0
+   ]
+  },
+  {
+   "my": "Team Rocket's Mewtwo ex",
+   "opp": "Hydrapple ex",
+   "n": 3,
+   "wins": 2,
+   "wr": 66.7,
+   "ci95": [
+    20.8,
+    93.9
+   ]
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "Team Rocket's Mewtwo ex",
+   "n": 3,
+   "wins": 1,
+   "wr": 33.3,
+   "ci95": [
+    6.1,
+    79.2
+   ]
+  },
+  {
+   "my": "Alakazam",
+   "opp": "Mega Starmie ex",
+   "n": 3,
+   "wins": 3,
+   "wr": 100.0,
+   "ci95": [
+    43.8,
+    100.0
+   ]
+  },
+  {
+   "my": "Mega Starmie ex",
+   "opp": "Alakazam",
+   "n": 3,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    56.2
+   ]
+  },
+  {
+   "my": "Sylveon",
+   "opp": "Mega Heracross ex",
+   "n": 3,
+   "wins": 2,
+   "wr": 66.7,
+   "ci95": [
+    20.8,
+    93.9
+   ]
+  },
+  {
+   "my": "Mega Heracross ex",
+   "opp": "Sylveon",
+   "n": 3,
+   "wins": 1,
+   "wr": 33.3,
+   "ci95": [
+    6.1,
+    79.2
+   ]
+  },
+  {
+   "my": "Sylveon",
+   "opp": "Marnie's Grimmsnarl ex",
+   "n": 3,
+   "wins": 2,
+   "wr": 66.7,
+   "ci95": [
+    20.8,
+    93.9
+   ]
+  },
+  {
+   "my": "Marnie's Grimmsnarl ex",
+   "opp": "Sylveon",
+   "n": 3,
+   "wins": 1,
+   "wr": 33.3,
+   "ci95": [
+    6.1,
+    79.2
+   ]
+  },
+  {
+   "my": "Seaking",
+   "opp": "Sylveon",
+   "n": 3,
+   "wins": 3,
+   "wr": 100.0,
+   "ci95": [
+    43.8,
+    100.0
+   ]
+  },
+  {
+   "my": "Sylveon",
+   "opp": "Seaking",
+   "n": 3,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    56.2
+   ]
+  },
+  {
+   "my": "Cynthia's Garchomp ex",
+   "opp": "Latias ex",
+   "n": 3,
+   "wins": 1,
+   "wr": 33.3,
+   "ci95": [
+    6.1,
+    79.2
+   ]
+  },
+  {
+   "my": "Latias ex",
+   "opp": "Cynthia's Garchomp ex",
+   "n": 3,
+   "wins": 2,
+   "wr": 66.7,
+   "ci95": [
+    20.8,
+    93.9
+   ]
+  },
+  {
+   "my": "Marnie's Grimmsnarl ex",
+   "opp": "Mega Lucario ex",
+   "n": 3,
+   "wins": 2,
+   "wr": 66.7,
+   "ci95": [
+    20.8,
+    93.9
+   ]
+  },
+  {
+   "my": "Mega Lucario ex",
+   "opp": "Marnie's Grimmsnarl ex",
+   "n": 3,
+   "wins": 1,
+   "wr": 33.3,
+   "ci95": [
+    6.1,
+    79.2
+   ]
+  },
+  {
+   "my": "Mega Heracross ex",
+   "opp": "Marnie's Grimmsnarl ex",
+   "n": 3,
+   "wins": 2,
+   "wr": 66.7,
+   "ci95": [
+    20.8,
+    93.9
+   ]
+  },
+  {
+   "my": "Marnie's Grimmsnarl ex",
+   "opp": "Mega Heracross ex",
+   "n": 3,
+   "wins": 1,
+   "wr": 33.3,
+   "ci95": [
+    6.1,
+    79.2
+   ]
+  },
+  {
+   "my": "Okidogi",
+   "opp": "Seaking",
+   "n": 2,
+   "wins": 2,
+   "wr": 100.0,
+   "ci95": [
+    34.2,
+    100.0
+   ]
+  },
+  {
+   "my": "Seaking",
+   "opp": "Okidogi",
+   "n": 2,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    65.8
+   ]
+  },
+  {
+   "my": "Mega Lucario ex",
+   "opp": "Mega Lucario ex",
+   "n": 2,
+   "wins": 1,
+   "wr": 50.0,
+   "ci95": [
+    9.5,
+    90.5
+   ]
+  },
+  {
+   "my": "Mega Heracross ex",
+   "opp": "Arboliva ex",
+   "n": 2,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    65.8
+   ]
+  },
+  {
+   "my": "Arboliva ex",
+   "opp": "Mega Heracross ex",
+   "n": 2,
+   "wins": 2,
+   "wr": 100.0,
+   "ci95": [
+    34.2,
+    100.0
+   ]
+  },
+  {
+   "my": "Seaking",
+   "opp": "Teal Mask Ogerpon ex",
+   "n": 2,
+   "wins": 2,
+   "wr": 100.0,
+   "ci95": [
+    34.2,
+    100.0
+   ]
+  },
+  {
+   "my": "Teal Mask Ogerpon ex",
+   "opp": "Seaking",
+   "n": 2,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    65.8
+   ]
+  },
+  {
+   "my": "Alakazam",
+   "opp": "Mega Gardevoir ex",
+   "n": 2,
+   "wins": 1,
+   "wr": 50.0,
+   "ci95": [
+    9.5,
+    90.5
+   ]
+  },
+  {
+   "my": "Mega Gardevoir ex",
+   "opp": "Alakazam",
+   "n": 2,
+   "wins": 1,
+   "wr": 50.0,
+   "ci95": [
+    9.5,
+    90.5
+   ]
+  },
+  {
+   "my": "Team Rocket's Mewtwo ex",
+   "opp": "Dragapult ex",
+   "n": 2,
+   "wins": 1,
+   "wr": 50.0,
+   "ci95": [
+    9.5,
+    90.5
+   ]
+  },
+  {
+   "my": "Dragapult ex",
+   "opp": "Team Rocket's Mewtwo ex",
+   "n": 2,
+   "wins": 1,
+   "wr": 50.0,
+   "ci95": [
+    9.5,
+    90.5
+   ]
+  },
+  {
+   "my": "Mega Gardevoir ex",
+   "opp": "Mega Kangaskhan ex",
+   "n": 2,
+   "wins": 1,
+   "wr": 50.0,
+   "ci95": [
+    9.5,
+    90.5
+   ]
+  },
+  {
+   "my": "Mega Kangaskhan ex",
+   "opp": "Mega Gardevoir ex",
+   "n": 2,
+   "wins": 1,
+   "wr": 50.0,
+   "ci95": [
+    9.5,
+    90.5
+   ]
+  },
+  {
+   "my": "Dragapult ex",
+   "opp": "Archaludon ex",
+   "n": 2,
+   "wins": 2,
+   "wr": 100.0,
+   "ci95": [
+    34.2,
+    100.0
+   ]
+  },
+  {
+   "my": "Archaludon ex",
+   "opp": "Dragapult ex",
+   "n": 2,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    65.8
+   ]
+  },
+  {
+   "my": "Ethan's Typhlosion",
+   "opp": "Mega Kangaskhan ex",
+   "n": 2,
+   "wins": 1,
+   "wr": 50.0,
+   "ci95": [
+    9.5,
+    90.5
+   ]
+  },
+  {
+   "my": "Mega Kangaskhan ex",
+   "opp": "Ethan's Typhlosion",
+   "n": 2,
+   "wins": 1,
+   "wr": 50.0,
+   "ci95": [
+    9.5,
+    90.5
+   ]
+  },
+  {
+   "my": "Thwackey",
+   "opp": "Teal Mask Ogerpon ex",
+   "n": 1,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    79.3
+   ]
+  },
+  {
+   "my": "Teal Mask Ogerpon ex",
+   "opp": "Thwackey",
+   "n": 1,
+   "wins": 1,
+   "wr": 100.0,
+   "ci95": [
+    20.7,
+    100.0
+   ]
+  },
+  {
+   "my": "Ethan's Typhlosion",
+   "opp": "Dragapult ex",
+   "n": 1,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    79.3
+   ]
+  },
+  {
+   "my": "Dragapult ex",
+   "opp": "Ethan's Typhlosion",
+   "n": 1,
+   "wins": 1,
+   "wr": 100.0,
+   "ci95": [
+    20.7,
+    100.0
+   ]
+  },
+  {
+   "my": "Sylveon",
+   "opp": "Mega Starmie ex",
+   "n": 1,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    79.3
+   ]
+  },
+  {
+   "my": "Mega Starmie ex",
+   "opp": "Sylveon",
+   "n": 1,
+   "wins": 1,
+   "wr": 100.0,
+   "ci95": [
+    20.7,
+    100.0
+   ]
+  },
+  {
+   "my": "Brambleghast",
+   "opp": "Alakazam",
+   "n": 1,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    79.3
+   ]
+  },
+  {
+   "my": "Alakazam",
+   "opp": "Brambleghast",
+   "n": 1,
+   "wins": 1,
+   "wr": 100.0,
+   "ci95": [
+    20.7,
+    100.0
+   ]
+  },
+  {
+   "my": "Thwackey",
+   "opp": "Mega Starmie ex",
+   "n": 1,
+   "wins": 1,
+   "wr": 100.0,
+   "ci95": [
+    20.7,
+    100.0
+   ]
+  },
+  {
+   "my": "Mega Starmie ex",
+   "opp": "Thwackey",
+   "n": 1,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    79.3
+   ]
+  },
+  {
+   "my": "Crustle",
+   "opp": "Okidogi",
+   "n": 1,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    79.3
+   ]
+  },
+  {
+   "my": "Okidogi",
+   "opp": "Crustle",
+   "n": 1,
+   "wins": 1,
+   "wr": 100.0,
+   "ci95": [
+    20.7,
+    100.0
+   ]
+  },
+  {
+   "my": "Marnie's Grimmsnarl ex",
+   "opp": "Arboliva ex",
+   "n": 1,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    79.3
+   ]
+  },
+  {
+   "my": "Arboliva ex",
+   "opp": "Marnie's Grimmsnarl ex",
+   "n": 1,
+   "wins": 1,
+   "wr": 100.0,
+   "ci95": [
+    20.7,
+    100.0
+   ]
+  },
+  {
+   "my": "Sylveon",
+   "opp": "Crustle",
+   "n": 1,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    79.3
+   ]
+  },
+  {
+   "my": "Crustle",
+   "opp": "Sylveon",
+   "n": 1,
+   "wins": 1,
+   "wr": 100.0,
+   "ci95": [
+    20.7,
+    100.0
+   ]
+  },
+  {
+   "my": "Crustle",
+   "opp": "N’s Zoroark ex",
+   "n": 1,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    79.3
+   ]
+  },
+  {
+   "my": "N’s Zoroark ex",
+   "opp": "Crustle",
+   "n": 1,
+   "wins": 1,
+   "wr": 100.0,
+   "ci95": [
+    20.7,
+    100.0
+   ]
+  },
+  {
+   "my": "Teal Mask Ogerpon ex",
+   "opp": "Mega Lucario ex",
+   "n": 1,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    79.3
+   ]
+  },
+  {
+   "my": "Mega Lucario ex",
+   "opp": "Teal Mask Ogerpon ex",
+   "n": 1,
+   "wins": 1,
+   "wr": 100.0,
+   "ci95": [
+    20.7,
+    100.0
+   ]
+  },
+  {
+   "my": "Cynthia's Garchomp ex",
+   "opp": "Mega Gardevoir ex",
+   "n": 1,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    79.3
+   ]
+  },
+  {
+   "my": "Mega Gardevoir ex",
+   "opp": "Cynthia's Garchomp ex",
+   "n": 1,
+   "wins": 1,
+   "wr": 100.0,
+   "ci95": [
+    20.7,
+    100.0
+   ]
+  },
+  {
+   "my": "Okidogi",
+   "opp": "Thwackey",
+   "n": 1,
+   "wins": 1,
+   "wr": 100.0,
+   "ci95": [
+    20.7,
+    100.0
+   ]
+  },
+  {
+   "my": "Thwackey",
+   "opp": "Okidogi",
+   "n": 1,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    79.3
+   ]
+  },
+  {
+   "my": "Seaking",
+   "opp": "Arboliva ex",
+   "n": 1,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    79.3
+   ]
+  },
+  {
+   "my": "Arboliva ex",
+   "opp": "Seaking",
+   "n": 1,
+   "wins": 1,
+   "wr": 100.0,
+   "ci95": [
+    20.7,
+    100.0
+   ]
+  },
+  {
+   "my": "Mega Heracross ex",
+   "opp": "N’s Zoroark ex",
+   "n": 1,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    79.3
+   ]
+  },
+  {
+   "my": "N’s Zoroark ex",
+   "opp": "Mega Heracross ex",
+   "n": 1,
+   "wins": 1,
+   "wr": 100.0,
+   "ci95": [
+    20.7,
+    100.0
+   ]
+  },
+  {
+   "my": "Mega Gardevoir ex",
+   "opp": "Mega Lopunny ex",
+   "n": 1,
+   "wins": 1,
+   "wr": 100.0,
+   "ci95": [
+    20.7,
+    100.0
+   ]
+  },
+  {
+   "my": "Mega Lopunny ex",
+   "opp": "Mega Gardevoir ex",
+   "n": 1,
+   "wins": 0,
+   "wr": 0.0,
+   "ci95": [
+    0.0,
+    79.3
+   ]
+  }
+ ],
+ "logged_value_checks": [
+  {
+   "my": "Teal Mask Ogerpon ex",
+   "opp": "Mega Lopunny ex",
+   "logged": 15.1,
+   "recomputed": null,
+   "n": 0,
+   "source": "L1018 53日窓 (8/11時点)"
+  },
+  {
+   "my": "Team Rocket's Mewtwo ex",
+   "opp": "Mega Lopunny ex",
+   "logged": 15.2,
+   "recomputed": null,
+   "n": 0,
+   "source": "L1018"
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "Mega Lopunny ex",
+   "logged": 74.0,
+   "recomputed": 74.9,
+   "ci95": [
+    72.1,
+    77.6
+   ],
+   "n": 962,
+   "source": "L1018"
+  },
+  {
+   "my": "Mega Lucario ex",
+   "opp": "Mega Lopunny ex",
+   "logged": 86.4,
+   "recomputed": 80.9,
+   "ci95": [
+    67.5,
+    89.6
+   ],
+   "n": 47,
+   "source": "L1018"
+  },
+  {
+   "my": "Cynthia's Garchomp ex",
+   "opp": "Mega Lopunny ex",
+   "logged": 83.5,
+   "recomputed": 81.0,
+   "ci95": [
+    69.6,
+    88.8
+   ],
+   "n": 63,
+   "source": "L1018"
+  },
+  {
+   "my": "Mega Kangaskhan ex",
+   "opp": "Mega Lopunny ex",
+   "logged": 30.2,
+   "recomputed": 55.9,
+   "ci95": [
+    52.9,
+    58.9
+   ],
+   "n": 1037,
+   "source": "L1018"
+  },
+  {
+   "my": "Teal Mask Ogerpon ex",
+   "opp": "Mega Kangaskhan ex",
+   "logged": 24.9,
+   "recomputed": 35.7,
+   "ci95": [
+    16.3,
+    61.2
+   ],
+   "n": 14,
+   "source": "commit 7b15cb4 (ogerpon P0診断)"
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "Mega Kangaskhan ex",
+   "logged": 54.8,
+   "recomputed": 49.2,
+   "ci95": [
+    47.6,
+    50.8
+   ],
+   "n": 3862,
+   "source": "L1140 (8/16)"
+  },
+  {
+   "my": "Mega Kangaskhan ex",
+   "opp": "Dragapult ex",
+   "logged": 59.0,
+   "recomputed": 53.3,
+   "ci95": [
+    52.2,
+    54.4
+   ],
+   "n": 7833,
+   "source": "L1128 (8/16)"
+  },
+  {
+   "my": "Hydrapple ex",
+   "opp": "Dragapult ex",
+   "logged": 56.3,
+   "recomputed": 49.7,
+   "ci95": [
+    48.4,
+    51.0
+   ],
+   "n": 5634,
+   "source": "L1128"
+  },
+  {
+   "my": "Teal Mask Ogerpon ex",
+   "opp": "Dragapult ex",
+   "logged": 28.3,
+   "recomputed": 19.2,
+   "ci95": [
+    8.5,
+    37.9
+   ],
+   "n": 26,
+   "source": "L1128"
+  },
+  {
+   "my": "Crustle",
+   "opp": "Dragapult ex",
+   "logged": 79.9,
+   "recomputed": 37.8,
+   "ci95": [
+    31.5,
+    44.5
+   ],
+   "n": 209,
+   "source": "L1128"
+  }
+ ],
+ "method": "Daily Top Episodes → BC shards meta [ep,agent,reward,team,my_ace,opp_ace]; 1 side = (date,ep,agent) 重複排除; ace = 枚数>=2 の最高HPポケモン; アーキ名 = EN_Card_Data.csv のカード名（別印刷を統合）; CI = Wilson 95%",
+ "limitations": [
+  "エース判定ヒューリスティックの精度限界（ハイブリッド構築を片方のアーキに寄せる）",
+  "Daily Top Episodes は平均レートの高い試合のみ = 上位帯の値",
+  "レート帯マッチングにより相手分布がレート帯ごとに異なる（交絡）",
+  "引き分けは reward ∈ {-1,+1} のため含まれない"
+ ]
+}

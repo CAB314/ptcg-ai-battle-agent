@@ -1,0 +1,15 @@
+{
+ "comment": "dragapult 相手用エージェントの教師。2026-08-05 選定。**LB>=950 かつ3000決定以上に限定してから勝率降順**（低レート帯の高勝率は提出直後の上り坂で強さの証拠にならない＝8/4実測）。flg 68.8%(40k) / 213tubo 62.8%(51k)＝量と質が両立。アーキタイプ平均56.0%",
+ "teams": {
+  "flg": 1.0,
+  "213tubo": 1.0,
+  "THIRD PTCG Club": 0.7,
+  "LumenLiquidity": 0.6,
+  "Xiangyu Liu": 0.5
+ },
+ "ace_ids": [
+  121
+ ],
+ "loser_weight": 0.7,
+ "recency_tau_days": 10.0
+}

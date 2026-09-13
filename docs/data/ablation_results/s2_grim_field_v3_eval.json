@@ -1,0 +1,28 @@
+{
+ "policy": "runs/s2_grim_field_v3_/policy/latest",
+ "games_per_arm": 20000,
+ "elapsed_s": 191,
+ "rows": [
+  {
+   "name": "s2_grim_field_v3_(after1653)",
+   "note": "",
+   "n": 20000,
+   "wr": 0.5755,
+   "ci": [
+    0.5686,
+    0.5823
+   ],
+   "delta": 0.0,
+   "delta_se": 0.0049,
+   "z": 0.0,
+   "per_opp": {
+    "mirror_grimmsnarl_ppo": 0.4906,
+    "alakazam_ppo2": 0.4608,
+    "trmewtwo_ppo": 0.5397,
+    "glethal2@kangaskhan": 0.9058,
+    "glethal2@garchomp": 0.9586,
+    "glethal2@dragapult": 0.9941
+   }
+  }
+ ]
+}

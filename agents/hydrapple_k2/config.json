@@ -1,0 +1,20 @@
+{
+ "d_model": 128,
+ "n_heads": 4,
+ "n_state_layers": 2,
+ "n_option_layers": 2,
+ "d_card_emb": 32,
+ "d_atk_emb": 32,
+ "card_rows": 1536,
+ "atk_rows": 1600,
+ "g_dim": 72,
+ "f_s": 40,
+ "f_o": 64,
+ "d_card_static": 80,
+ "d_atk_static": 31,
+ "ff_mult": 2,
+ "dropout": 0.0,
+ "feature_version": 1,
+ "vocab_version": 3,
+ "train_step": -1
+}

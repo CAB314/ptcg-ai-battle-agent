@@ -1,0 +1,83 @@
+{
+ "_comment": "弱点補完カリキュラム（BCシード＋リーグ内カリキュラムPPO）の内部評価値。図 F5 の元データ。値は docs/experiments-log.md から転記（source に行番号）。単位は % 勝率。内部評価の相手は自作プロキシ（例: kang_r3）であり、実ラダー値は docs/data/final_pair_matchups.json を参照。",
+ "hydrapple_vs_kangaskhan": {
+  "target_matchup": "Hydrapple ex vs Mega Kangaskhan ex",
+  "opponent_proxy": "kang_r3 (自作 Kangaskhan エージェント, round-3 PPO)",
+  "field_ceiling_logged": 54.8,
+  "field_ceiling_source": "docs/experiments-log.md L1140 (8/16 時点の人間行列; 再計算値は field_matchup_matrix_*.json)",
+  "stages": [
+   {"stage": "r3 (before)", "vs_target": 4.0, "field": 64.4, "source": "L1043"},
+   {"stage": "k (seed + curriculum round 1)", "vs_target": 18.7, "field": 68.2, "source": "L1043", "note": "field +3.8pp z≈4.5; 退行は対trmewtwo −3.0pp のみ; alakazam +6.0 / dragapult +6.8 の狙い外改善"},
+   {"stage": "k2 (curriculum round 2)", "vs_target": 29.3, "field": 72.6, "source": "L1059-1061", "note": "全9対面で退行ゼロ (grimm 84.6% n=1735 / lopunny 80.2% / alakazam 64.9% / trmewtwo 88%)"}
+  ],
+  "preregistered_gate_vs_target": 25.0,
+  "gate_source": "L1059 「事前登録ゲート25%を正式通過」",
+  "gpu_hours_total": 4.7,
+  "gpu_hours_source": "L1063",
+  "method": "opp_ace_ids フィルタで対Kangaskhan勝ちゲームのみを教師抽出（全チーム・loser_weight 0）→ 現行重みから低LR(3e-5) BCシード → リーグ fixed を Kangaskhan パイロット段階 (greedy .06 → playbook .08 → BC v0 .12 → r3 .19) + 通常6体 (.55) で構成、anchor=シード済み重み、iter 800。PFSP (1-EMA)^2×w が攻略済み段を自動退場させる (L1037-1041)",
+  "ladder_actual": {"wr": 35.8, "n": 120, "ci95": [27.8, 44.7], "source": "final_pair_matchups.json hydrapple_k2 vs Mega Kangaskhan ex"}
+ },
+ "ogerpon_vs_kangaskhan": {
+  "target_matchup": "Teal Mask Ogerpon ex vs Mega Kangaskhan ex",
+  "field_ceiling_logged": 24.9,
+  "field_ceiling_source": "commit 7b15cb4 / L933 付近 (ogerpon P0 診断: 人間ベースライン 24.9% vs 我々 2.2%)",
+  "stages": [
+   {"stage": "v2 (before)", "vs_target": 1.2, "source": "L1045"},
+   {"stage": "k (seed + curriculum)", "vs_target": 1.3, "source": "L1045", "note": "不採用。通常リーグ3ラウンド＋シード＋カリキュラムの4手法で不動 → 正式に閉じた (L1049)"}
+  ],
+  "prior_attempts": "通常リーグ round1-3 でも改善なし (L1049)",
+  "deck_side_attempt": {
+   "description": "闘タイプテック5案（Koraidon ex 等）を方策固定でアブレーション",
+   "games": 64000,
+   "result_pp": [-15.7, -23.1],
+   "z_note": "z>24 で全案マイナス。対kang 1.6→0.6-1.1% 不変、対lopunny 42.5→24-27% 悪化",
+   "finding": "実ラダーで Lopunny/Kang を倒す Ogerpon 入りデッキは Ogerpon+Meganium/Hydrapple ハイブリッド（勝ちリストの55%）＝我々の hydrapple デッキそのもの",
+   "source": "L1070-1093"
+  },
+  "closed": true
+ },
+ "ogerpon_vs_lopunny": {
+  "target_matchup": "Teal Mask Ogerpon ex vs Mega Lopunny ex",
+  "ours_ladder": 16.7,
+  "field_ceiling_logged": 15.1,
+  "field_ceiling_source": "L1018-1020 (人間行列53日: lucario 86.4 / garchomp 83.5 / hydrapple 74.0 / alakazam 55.9 / grimmsnarl 41.5 / kangaskhan 30.2 / trmewtwo 15.2 / ogerpon 15.1)",
+  "diagnosis": "人間上限に到達済み＝方策では直らない構造壁。学習せずポートフォリオで解決（hydrapple_r3 を第2枠に）",
+  "source": "L1016-1033"
+ },
+ "kangaskhan_dh": {
+  "target_matchups": ["Dragapult ex", "Hydrapple ex"],
+  "opponent_proxies": {"dragapult": "dragapult_r3", "hydrapple": "hydrapple_k2 (実ラダー品質の自作相手)"},
+  "field_ceiling_logged": {"vs_dragapult": 59.0, "vs_dragapult_recent": 61.6, "vs_dragapult_recent_n": 411, "vs_hydrapple": 54.8, "source": "L1128, L1140"},
+  "seed": "無し（アームA）。シード用量反応が負の結果のため (下記 seeding_dose_response)",
+  "curriculum": {
+   "dragapult_stage_w": 0.28, "dragapult_stage_members": ["greedy@dragapult .05", "dragapult_playbook .07", "dragapult_r3 .16"],
+   "hydrapple_stage_w": 0.22, "hydrapple_stage_members": ["greedy@hydrapple .04", "hydrapple_v0 .06", "hydrapple_k2 .12"],
+   "retention_cells": {"grimmsnarl_ppo2": 0.20, "cur@lopunny": 0.12, "cur@alakazam": 0.11, "cur@ogerpon": 0.04, "cur@lucario": 0.03},
+   "source": "scripts/setup_dh_curriculum.py FIXED"
+  },
+  "iterations": 812,
+  "gpu_hours": 2.3,
+  "gates_preregistered": {"vs_dragapult_r3": 70.0, "vs_hydrapple_k2": 73.0, "vs_grimmsnarl": 67.0, "vs_lopunny": 11.0, "source": "L1150"},
+  "before_after": [
+   {"matchup": "Dragapult ex", "before": 65.5, "after": 71.8, "gate": 70.0, "source": "L1154"},
+   {"matchup": "Hydrapple ex", "before": 70.3, "after": 82.8, "gate": 73.0, "source": "L1154"},
+   {"matchup": "Marnie's Grimmsnarl ex", "before": 70.3, "after": 72.0, "gate": 67.0, "source": "L1154"},
+   {"matchup": "Mega Lopunny ex", "before": 16.0, "after": 15.8, "gate": 11.0, "source": "L1154"},
+   {"matchup": "Alakazam", "before": null, "after": 53.6, "gate": null, "source": "L1155"},
+   {"matchup": "Teal Mask Ogerpon ex", "before": null, "after": 99.3, "gate": null, "source": "L1155"}
+  ],
+  "ladder_actual": {
+   "Dragapult ex": {"wr": 77.8, "n": 135}, "Hydrapple ex": {"wr": 47.4, "n": 57}, "Marnie's Grimmsnarl ex": {"wr": 52.6, "n": 249},
+   "Mega Lopunny ex": {"wr": 35.1, "n": 111}, "Alakazam": {"wr": 34.0, "n": 144}, "Teal Mask Ogerpon ex": {"wr": 100.0, "n": 69},
+   "source": "final_pair_matchups.json kangaskhan_dh"
+  }
+ },
+ "seeding_dose_response": {
+  "description": "既に強い方策（kang_r3）への追いシード。dh勝ち筋 66k決定 × 3ep × lr3e-5 → 全面劣化。軽量版（直近6日・1ep・lr1e-5）でも −5pp 前後で得るものなし",
+  "full_seed_pp": {"vs_dragapult": -19, "vs_grimmsnarl": -23},
+  "light_seed_pp": -5,
+  "contrast": "hydrapple 対kang シード成功（3.5k決定・対面勝率~0%で失うものが無かった）",
+  "conclusion": "シードは「勝率≈0でサンプリングに勝ち筋が皆無」の場合のみ有効。既に戦えている対面ではカリキュラムのみが正解",
+  "source": "L1143-1147, L1157-1159"
+ }
+}

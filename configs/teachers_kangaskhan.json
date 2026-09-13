@@ -1,0 +1,15 @@
+{
+ "comment": "kangaskhan 相手用エージェントの教師。2026-08-05 選定。**LB>=950 かつ3000決定以上に限定してから勝率降順**（低レート帯の高勝率は提出直後の上り坂で強さの証拠にならない＝8/4実測）。James Cox&Henry Chao 61.4%(94k) / flg 59.2%(73k)＝量と質が両立",
+ "teams": {
+  "James Cox & Henry Chao": 1.0,
+  "flg": 1.0,
+  "ShumpeiNomura": 0.8,
+  "Majkel1337": 0.7,
+  "M Sato": 0.6
+ },
+ "ace_ids": [
+  756
+ ],
+ "loser_weight": 0.7,
+ "recency_tau_days": 10.0
+}

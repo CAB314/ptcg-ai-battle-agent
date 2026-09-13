@@ -1,0 +1,27 @@
+{
+ "comment": "プリトレインv3w（2026-08-02）: 特徴量v2（静的属性ブロック+効果テキスト特徴）。47日・約34.4M決定（前回36日26.2Mから+31%）。教師=configs/teachers_pretrain_weighted.json",
+ "teachers": "configs/teachers_pretrain_weighted.json",
+ "model": {
+  "d_model": 128,
+  "n_heads": 4,
+  "n_state_layers": 2,
+  "n_option_layers": 2,
+  "dropout": 0.1
+ },
+ "lr": 0.0003,
+ "weight_decay": 0.01,
+ "batch_size": 512,
+ "epochs": 2,
+ "early_stop_patience": 2,
+ "label_smoothing": 0.05,
+ "value_coef": 0.25,
+ "type_weights": {
+  "0": 1.0,
+  "1": 1.2,
+  "4": 2.0,
+  "7": 2.0,
+  "8": 2.0,
+  "9": 1.5
+ },
+ "seed": 0
+}

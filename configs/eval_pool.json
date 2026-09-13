@@ -1,0 +1,6 @@
+[
+  {"behavior": "greedy_first", "deck": "archaludon_cinderace"},
+  {"behavior": "greedy_first", "deck": "greattusk_crustle_lo"},
+  {"behavior": "greedy_first", "deck": "sample_abomasnow"},
+  {"behavior": "random", "deck": "sample_abomasnow", "name": "random@floor"}
+]

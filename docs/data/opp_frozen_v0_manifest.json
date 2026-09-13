@@ -1,0 +1,97 @@
+{
+ "created": "2026-08-06",
+ "purpose": "自己対戦による自己強化の**基準（初期重み）**。以後この版と比較して改善を測る。上書き禁止。",
+ "provenance": {
+  "pretrain": "runs/bc_pretrain_v4（プリトレインv4・特徴量VOCAB_VERSION=3・教師31,958,161決定・val 80.9%/tval 73.4%）",
+  "per_deck_bc": "configs/bc_<arch>.json（LB>=950かつ3000決定以上の教師に限定）",
+  "job": "the cluster job（67分・the cluster GPU）"
+ },
+ "agents": {
+  "lopunny": {
+   "weights.npz": {
+    "sha256": "b1c9622b38599b94",
+    "bytes": 2614692
+   },
+   "config.json": {
+    "sha256": "a8d8eda285b91070",
+    "bytes": 332
+   },
+   "deck.csv": {
+    "sha256": "7fc17fc61014dc3b",
+    "bytes": 264
+   }
+  },
+  "alakazam": {
+   "weights.npz": {
+    "sha256": "95dc181c09a374bb",
+    "bytes": 2614883
+   },
+   "config.json": {
+    "sha256": "4f8ce1d584394fe1",
+    "bytes": 333
+   },
+   "deck.csv": {
+    "sha256": "0598646548d08183",
+    "bytes": 263
+   }
+  },
+  "kangaskhan": {
+   "weights.npz": {
+    "sha256": "68d4f51c1707cf6d",
+    "bytes": 2614642
+   },
+   "config.json": {
+    "sha256": "2b7b1046d0013f0e",
+    "bytes": 332
+   },
+   "deck.csv": {
+    "sha256": "704270a2922dabe9",
+    "bytes": 256
+   }
+  },
+  "ogerpon": {
+   "weights.npz": {
+    "sha256": "bf307f4f238a0635",
+    "bytes": 2614783
+   },
+   "config.json": {
+    "sha256": "9d74f2bd05b20cfc",
+    "bytes": 331
+   },
+   "deck.csv": {
+    "sha256": "78a57de595b8e7b7",
+    "bytes": 234
+   }
+  },
+  "dragapult": {
+   "weights.npz": {
+    "sha256": "8e155085b2d228f0",
+    "bytes": 2614853
+   },
+   "config.json": {
+    "sha256": "4e5a9da576df37cc",
+    "bytes": 333
+   },
+   "deck.csv": {
+    "sha256": "730515d5b8e9d6f7",
+    "bytes": 254
+   }
+  },
+  "garchomp": {
+   "weights.npz": {
+    "sha256": "51ead3fde6eda200",
+    "bytes": 2615062
+   },
+   "config.json": {
+    "sha256": "a4e547469e431d02",
+    "bytes": 333
+   },
+   "deck.csv": {
+    "sha256": "0d5cb0303a955a04",
+    "bytes": 257
+   }
+  }
+ },
+ "pretrain_sha256": "782ad002e0641616",
+ "git_commit": "62239b0c8ad1"
+}

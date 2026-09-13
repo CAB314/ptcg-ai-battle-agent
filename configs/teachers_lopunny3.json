@@ -1,0 +1,11 @@
+{
+ "comment": "P1再試行: Majkel1337(LB1位)単独教師のLopunny。2026-08-11",
+ "teams": {
+  "Majkel1337": 1.0
+ },
+ "ace_ids": [
+  849
+ ],
+ "loser_weight": 0.3,
+ "recency_tau_days": 10.0
+}

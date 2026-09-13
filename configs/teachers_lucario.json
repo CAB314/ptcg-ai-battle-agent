@@ -1,0 +1,15 @@
+{
+ "comment": "lucario 相手用教師。2026-08-10 選定（8/5-8/9シャード実測、LB>=950限定・勝率と量で重み）。LB1位 Majkel1337 が最大教師",
+ "teams": {
+  "Majkel1337": 1.0,
+  "M Sato": 1.0,
+  "Luca": 1.0,
+  "LiamK": 1.0,
+  "李秉叡（ntumlnoob）": 0.7
+ },
+ "ace_ids": [
+  678
+ ],
+ "loser_weight": 0.7,
+ "recency_tau_days": 10.0
+}

@@ -1,0 +1,28 @@
+{
+ "policy": "runs/s2_mw_mw_mewtwo3_/policy/latest",
+ "games_per_arm": 20000,
+ "elapsed_s": 195,
+ "rows": [
+  {
+   "name": "s2_mw_mw_mewtwo3_(after1146)",
+   "note": "",
+   "n": 20000,
+   "wr": 0.5789,
+   "ci": [
+    0.5721,
+    0.5858
+   ],
+   "delta": 0.0,
+   "delta_se": 0.0049,
+   "z": 0.0,
+   "per_opp": {
+    "grimmsnarl_ppo": 0.4026,
+    "alakazam_ppo2": 0.732,
+    "mirror_trmewtwo_ppo": 0.4822,
+    "greattusk_lo": 0.9749,
+    "glethal2@crustle_stall": 0.9766,
+    "glethal2@kangaskhan": 0.9553
+   }
+  }
+ ]
+}

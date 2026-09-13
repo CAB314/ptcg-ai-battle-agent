@@ -1,0 +1,30 @@
+Pokémon: 21
+2 Applin SCR 12
+1 Celebi MEG 12
+3 Chikorita ASC 8
+1 Fezandipiti ex SFA 38
+1 Meowth ex POR 62
+4 Teal Mask Ogerpon ex TWM 25
+2 Bayleef MEG 9
+2 Dipplin SCR 13
+2 Hydrapple ex SCR 14
+1 Mega Meganium ex ASC 10
+2 Meganium MEG 10
+
+Trainer: 25
+2 Boss’s Orders PAL 172
+2 Dawn PFL 87
+1 Judge SVI 176
+1 Lana’s Aid TWM 155
+3 Lillie's Determination MEG 119
+4 Bug Catching Set TWM 143
+2 Night Stretcher SFA 61
+2 Poké Pad POR 81
+3 Ultra Ball SVI 196
+1 Unfair Stamp TWM 165
+4 Forest of Vitality MEG 117
+
+Energy: 14
+14 Basic {G} Energy SVE 1
+
+Total: 60

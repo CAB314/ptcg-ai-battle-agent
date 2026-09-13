@@ -1,0 +1,322 @@
+{
+ "policy": "runs/ppo_grimmsnarl_v1/policy/best_gauntlet",
+ "games_per_arm": 10000,
+ "elapsed_s": 1618,
+ "rows": [
+  {
+   "name": "modal(85team,50.6%)",
+   "note": "",
+   "n": 30000,
+   "wr": 0.6037,
+   "ci": [
+    0.5982,
+    0.6092
+   ],
+   "delta": 0.0,
+   "delta_se": 0.004,
+   "z": 0.0,
+   "per_opp": {
+    "mirror_grimmsnarl_ppo": 0.5047,
+    "alakazam_ppo2": 0.5159,
+    "trmewtwo_ppo": 0.611,
+    "glethal2@kangaskhan": 0.9357,
+    "glethal2@garchomp": 0.9782,
+    "glethal2@dragapult": 0.9976
+   }
+  },
+  {
+   "name": "field_v1",
+   "note": "25チーム3578戦 51.3%: +2Fan -TS -PG",
+   "n": 10000,
+   "wr": 0.5777,
+   "ci": [
+    0.568,
+    0.5873
+   ],
+   "delta": -0.026,
+   "delta_se": 0.0057,
+   "z": -4.57,
+   "per_opp": {
+    "mirror_grimmsnarl_ppo": 0.4744,
+    "alakazam_ppo2": 0.4912,
+    "trmewtwo_ppo": 0.5711,
+    "glethal2@kangaskhan": 0.9093,
+    "glethal2@garchomp": 0.9793,
+    "glethal2@dragapult": 0.9976
+   }
+  },
+  {
+   "name": "field_v3",
+   "note": "e-toppo 276戦 54.3%: 14枚差の破壊型",
+   "n": 10000,
+   "wr": 0.5424,
+   "ci": [
+    0.5326,
+    0.5521
+   ],
+   "delta": -0.0613,
+   "delta_se": 0.0057,
+   "z": -10.7,
+   "per_opp": {
+    "mirror_grimmsnarl_ppo": 0.4244,
+    "alakazam_ppo2": 0.4619,
+    "trmewtwo_ppo": 0.5522,
+    "glethal2@kangaskhan": 0.9027,
+    "glethal2@garchomp": 0.9683,
+    "glethal2@dragapult": 0.9929
+   }
+  },
+  {
+   "name": "field_v2",
+   "note": "2チーム374戦 46.0%: 陰性対照",
+   "n": 10000,
+   "wr": 0.5995,
+   "ci": [
+    0.5899,
+    0.6091
+   ],
+   "delta": -0.0042,
+   "delta_se": 0.0057,
+   "z": -0.74,
+   "per_opp": {
+    "mirror_grimmsnarl_ppo": 0.5023,
+    "alakazam_ppo2": 0.5237,
+    "trmewtwo_ppo": 0.5789,
+    "glethal2@kangaskhan": 0.9267,
+    "glethal2@garchomp": 0.9655,
+    "glethal2@dragapult": 0.9929
+   }
+  },
+  {
+   "name": "-TS_+Fan",
+   "note": "Tool Scrapper→Handheld Fan",
+   "n": 10000,
+   "wr": 0.6046,
+   "ci": [
+    0.595,
+    0.6141
+   ],
+   "delta": 0.0009,
+   "delta_se": 0.0056,
+   "z": 0.16,
+   "per_opp": {
+    "mirror_grimmsnarl_ppo": 0.5093,
+    "alakazam_ppo2": 0.5333,
+    "trmewtwo_ppo": 0.5722,
+    "glethal2@kangaskhan": 0.9267,
+    "glethal2@garchomp": 0.9655,
+    "glethal2@dragapult": 0.9976
+   }
+  },
+  {
+   "name": "-TS_+Boss",
+   "note": "Tool Scrapper→Boss’s Orders",
+   "n": 10000,
+   "wr": 0.6177,
+   "ci": [
+    0.6081,
+    0.6272
+   ],
+   "delta": 0.014,
+   "delta_se": 0.0056,
+   "z": 2.49,
+   "per_opp": {
+    "mirror_grimmsnarl_ppo": 0.5322,
+    "alakazam_ppo2": 0.5243,
+    "trmewtwo_ppo": 0.5889,
+    "glethal2@kangaskhan": 0.9307,
+    "glethal2@garchomp": 0.9752,
+    "glethal2@dragapult": 1.0
+   }
+  },
+  {
+   "name": "-TS_+Budew",
+   "note": "Tool Scrapper→Budew",
+   "n": 10000,
+   "wr": 0.5878,
+   "ci": [
+    0.5781,
+    0.5974
+   ],
+   "delta": -0.0159,
+   "delta_se": 0.0057,
+   "z": -2.8,
+   "per_opp": {
+    "mirror_grimmsnarl_ppo": 0.4883,
+    "alakazam_ppo2": 0.4933,
+    "trmewtwo_ppo": 0.5933,
+    "glethal2@kangaskhan": 0.9147,
+    "glethal2@garchomp": 0.9779,
+    "glethal2@dragapult": 0.9976
+   }
+  },
+  {
+   "name": "-TS_+Balloon",
+   "note": "Tool Scrapper→Air Balloon",
+   "n": 10000,
+   "wr": 0.5955,
+   "ci": [
+    0.5858,
+    0.6051
+   ],
+   "delta": -0.0082,
+   "delta_se": 0.0057,
+   "z": -1.45,
+   "per_opp": {
+    "mirror_grimmsnarl_ppo": 0.4948,
+    "alakazam_ppo2": 0.5173,
+    "trmewtwo_ppo": 0.5844,
+    "glethal2@kangaskhan": 0.9213,
+    "glethal2@garchomp": 0.9793,
+    "glethal2@dragapult": 0.9953
+   }
+  },
+  {
+   "name": "-PG_+Fan",
+   "note": "Pokégear→Handheld Fan",
+   "n": 10000,
+   "wr": 0.5834,
+   "ci": [
+    0.5737,
+    0.593
+   ],
+   "delta": -0.0203,
+   "delta_se": 0.0057,
+   "z": -3.57,
+   "per_opp": {
+    "mirror_grimmsnarl_ppo": 0.4853,
+    "alakazam_ppo2": 0.4901,
+    "trmewtwo_ppo": 0.5578,
+    "glethal2@kangaskhan": 0.932,
+    "glethal2@garchomp": 0.9738,
+    "glethal2@dragapult": 0.9976
+   }
+  },
+  {
+   "name": "-PG_+Boss",
+   "note": "Pokégear→Boss’s Orders",
+   "n": 10000,
+   "wr": 0.6019,
+   "ci": [
+    0.5923,
+    0.6115
+   ],
+   "delta": -0.0018,
+   "delta_se": 0.0057,
+   "z": -0.32,
+   "per_opp": {
+    "mirror_grimmsnarl_ppo": 0.5117,
+    "alakazam_ppo2": 0.4981,
+    "trmewtwo_ppo": 0.5744,
+    "glethal2@kangaskhan": 0.9453,
+    "glethal2@garchomp": 0.9807,
+    "glethal2@dragapult": 0.9953
+   }
+  },
+  {
+   "name": "-PG_+Budew",
+   "note": "Pokégear→Budew",
+   "n": 10000,
+   "wr": 0.5656,
+   "ci": [
+    0.5559,
+    0.5753
+   ],
+   "delta": -0.0381,
+   "delta_se": 0.0057,
+   "z": -6.68,
+   "per_opp": {
+    "mirror_grimmsnarl_ppo": 0.4608,
+    "alakazam_ppo2": 0.4576,
+    "trmewtwo_ppo": 0.5867,
+    "glethal2@kangaskhan": 0.92,
+    "glethal2@garchomp": 0.971,
+    "glethal2@dragapult": 0.9929
+   }
+  },
+  {
+   "name": "-TS-PG_+2Fan",
+   "note": "field_v1と同等の構成",
+   "n": 10000,
+   "wr": 0.5873,
+   "ci": [
+    0.5776,
+    0.5969
+   ],
+   "delta": -0.0164,
+   "delta_se": 0.0057,
+   "z": -2.89,
+   "per_opp": {
+    "mirror_grimmsnarl_ppo": 0.4894,
+    "alakazam_ppo2": 0.5019,
+    "trmewtwo_ppo": 0.5789,
+    "glethal2@kangaskhan": 0.908,
+    "glethal2@garchomp": 0.9655,
+    "glethal2@dragapult": 0.9976
+   }
+  },
+  {
+   "name": "-TS-PG_+Boss+Fan",
+   "note": "ガスト増+Fan",
+   "n": 10000,
+   "wr": 0.6003,
+   "ci": [
+    0.5907,
+    0.6099
+   ],
+   "delta": -0.0034,
+   "delta_se": 0.0057,
+   "z": -0.6,
+   "per_opp": {
+    "mirror_grimmsnarl_ppo": 0.5159,
+    "alakazam_ppo2": 0.4928,
+    "trmewtwo_ppo": 0.5611,
+    "glethal2@kangaskhan": 0.94,
+    "glethal2@garchomp": 0.9614,
+    "glethal2@dragapult": 1.0
+   }
+  },
+  {
+   "name": "-TS-PG_+Budew+Fan",
+   "note": "妨害+Fan",
+   "n": 10000,
+   "wr": 0.5728,
+   "ci": [
+    0.5631,
+    0.5825
+   ],
+   "delta": -0.0309,
+   "delta_se": 0.0057,
+   "z": -5.42,
+   "per_opp": {
+    "mirror_grimmsnarl_ppo": 0.4747,
+    "alakazam_ppo2": 0.4725,
+    "trmewtwo_ppo": 0.5856,
+    "glethal2@kangaskhan": 0.8867,
+    "glethal2@garchomp": 0.9655,
+    "glethal2@dragapult": 0.9929
+   }
+  },
+  {
+   "name": "-TS-PG_+Boss+Budew",
+   "note": "ガスト+妨害",
+   "n": 10000,
+   "wr": 0.5911,
+   "ci": [
+    0.5814,
+    0.6007
+   ],
+   "delta": -0.0126,
+   "delta_se": 0.0057,
+   "z": -2.22,
+   "per_opp": {
+    "mirror_grimmsnarl_ppo": 0.5001,
+    "alakazam_ppo2": 0.4763,
+    "trmewtwo_ppo": 0.5956,
+    "glethal2@kangaskhan": 0.9267,
+    "glethal2@garchomp": 0.9655,
+    "glethal2@dragapult": 0.9976
+   }
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+  "comment": "Grimmsnarl（ace=648）教師。2026-08-02 に直近14日（7/19-8/1・565万決定）で再選定。アーキタイプ平均54.7%に対する優位: Dries@Tufa Labs 63.0%(+8.3, 218k) / Luca 62.6%(+7.9, 327k) / Dominic Peel 60.6%(+5.9, 239k) / __Taichicchi__ 60.3%(+5.6, 257k) / LiamK 58.4%(+3.7, 136k) / JZ 57.1%(+2.3, 166k)。旧版(7/27)は最強2名(Dries・Dominic Peel)を取りこぼし、現在は平均並みの Rmy(+0.8) と bono(圏外) を含んでいた",
+  "teams": {
+    "Dries @ Tufa Labs": 1.0,
+    "Luca": 1.0,
+    "Dominic Peel": 0.85,
+    "__Taichicchi__": 0.85,
+    "LiamK": 0.5,
+    "JZ": 0.4
+  },
+  "ace_ids": [
+    648
+  ],
+  "loser_weight": 0.7,
+  "recency_tau_days": 7.0
+}

@@ -1,0 +1,16 @@
+{
+ "comment": "実戦品質のLopunnyスパーリング相手（評価・リーグ用、提出しない）。2026-08-11 選定: 直近14日の操縦実測（n>=400, LB>=950）から。loser_weight 0.3 で勝ち筋を蒸留",
+ "teams": {
+  "Majkel1337": 1.0,
+  "wwwwwwwwwwwwwwwwwwwwwwwwwwwwww": 1.0,
+  "やる気元気ミワハルキ": 1.0,
+  "想要成为kaggle大师": 1.0,
+  "Brahim": 0.9,
+  "DavidFreelan": 0.8
+ },
+ "ace_ids": [
+  849
+ ],
+ "loser_weight": 0.3,
+ "recency_tau_days": 7.0
+}

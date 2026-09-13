@@ -1,0 +1,14 @@
+{
+  "comment": "共有プリトレイン（全チーム・全アーキ）。モデル構造はアーキ別BCと同一必須（--init-from互換）。~2,500万決定×2epochでGPU1で2-4h想定",
+  "teachers": "configs/teachers_pretrain.json",
+  "model": {"d_model": 128, "n_heads": 4, "n_state_layers": 2, "n_option_layers": 2, "dropout": 0.1},
+  "lr": 3e-4,
+  "weight_decay": 0.01,
+  "batch_size": 512,
+  "epochs": 2,
+  "early_stop_patience": 2,
+  "label_smoothing": 0.05,
+  "value_coef": 0.25,
+  "type_weights": {"0": 1.0, "1": 1.2, "4": 2.0, "7": 2.0, "8": 2.0, "9": 1.5},
+  "seed": 0
+}

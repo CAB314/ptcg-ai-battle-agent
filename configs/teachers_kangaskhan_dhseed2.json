@@ -1,0 +1,14 @@
+{
+ "comment": "軽量版: dragapultブーム期(直近~6日)の勝ちのみ・低用量（v1の66k×3epが過剰摂取で全面劣化したため）",
+ "teams": "*",
+ "ace_ids": [
+  756
+ ],
+ "opp_ace_ids": [
+  121,
+  150
+ ],
+ "loser_weight": 0.0,
+ "min_weight": 0.01,
+ "recency_tau_days": 6.0
+}

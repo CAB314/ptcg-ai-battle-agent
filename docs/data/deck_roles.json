@@ -1,0 +1,343 @@
+{
+ "_comment": "最終2デッキのカード役割（Fig. 11 デッキ解剖表の元データ）。役割と注記は本コンペ提供のカードセット data/EN_Card_Data.csv の効果テキスト（該当する刷りの Card ID）から再導出。2026-09-07 にユーザーの PTCG ドメインレビューを受けて表現を厳密化した。カード名のみ・画像なし。",
+ "verified_by_user": true,
+ "roles_legend": {
+  "attacker": "primary damage dealer",
+  "finisher": "late-game closer",
+  "wall": "damage prevention / tank",
+  "accel": "energy acceleration",
+  "draw": "hand refill",
+  "search": "deck search / setup",
+  "gust": "choose the opponent's active",
+  "heal": "healing",
+  "recovery": "discard-pile recovery",
+  "stadium": "stadium",
+  "disrupt": "hand disruption",
+  "tech": "matchup-specific tech",
+  "energy": "energy",
+  "evo": "evolution line"
+ },
+ "decks": {
+  "kangaskhan_dh": {
+   "title": "Mega Kangaskhan ex / Crustle — attack behind a two-axis wall",
+   "game_plan": "Crustle is both the wall and the main attacker (65% of the deck's damage in the ladder games); Mega Kangaskhan ex draws from the Active Spot and closes. The defence works on two axes: Crustle prevents damage from attacks by the opponent's Pokémon ex, and Cornerstone Mask Ogerpon ex prevents damage from attacks by Pokémon that have an Ability. Grow Grass Energy and Hero's Cape raise the wall's HP and four Jumbo Ice Cream heal it, so prevention, HP and healing stack; four Boss's Orders pick the target.",
+   "targets": {
+    "Crustle": "Dragapult ex / Hydrapple ex / Lucario ex / Grimmsnarl ex — prevents damage from their attacks; other effects still apply",
+    "Cornerstone Mask Ogerpon ex": "the other axis: prevents damage from attacks by Pokémon that have an Ability. Demolish ignores effects on the target. Present in the mined list"
+   },
+   "cards": [
+    {
+     "card": "Mega Kangaskhan ex",
+     "n": 2,
+     "role": "attacker",
+     "note": "active-spot draw ability; closer (Rapid-Fire Combo)"
+    },
+    {
+     "card": "Crustle",
+     "n": 3,
+     "role": "wall",
+     "note": "no damage from attacks by opponent's Pokémon ex; deals 65%"
+    },
+    {
+     "card": "Dwebble",
+     "n": 4,
+     "role": "evo",
+     "note": "evolves into Crustle; searches its evolution"
+    },
+    {
+     "card": "Cornerstone Mask Ogerpon ex",
+     "n": 1,
+     "role": "wall",
+     "note": "prevents damage from attackers that have an Ability"
+    },
+    {
+     "card": "Boss’s Orders",
+     "n": 4,
+     "role": "gust"
+    },
+    {
+     "card": "Jumbo Ice Cream",
+     "n": 4,
+     "role": "heal",
+     "note": "heal 80 from an Active with 3 or more Energy"
+    },
+    {
+     "card": "Hero’s Cape",
+     "n": 1,
+     "role": "wall",
+     "note": "+100 HP tool"
+    },
+    {
+     "card": "Lillie's Determination",
+     "n": 4,
+     "role": "draw",
+     "note": "shuffle and draw 6, or 8 at six prizes"
+    },
+    {
+     "card": "Pokégear 3.0",
+     "n": 4,
+     "role": "search",
+     "note": "finds Supporters"
+    },
+    {
+     "card": "Team Rocket's Petrel",
+     "n": 4,
+     "role": "search",
+     "note": "finds any Trainer; draws with TR Factory"
+    },
+    {
+     "card": "Hilda",
+     "n": 2,
+     "role": "search",
+     "note": "evolution + energy (Crustle line)"
+    },
+    {
+     "card": "Colress’s Tenacity",
+     "n": 2,
+     "role": "search",
+     "note": "stadium + energy"
+    },
+    {
+     "card": "Ultra Ball",
+     "n": 2,
+     "role": "search"
+    },
+    {
+     "card": "Buddy-Buddy Poffin",
+     "n": 2,
+     "role": "search",
+     "note": "benches two Dwebble"
+    },
+    {
+     "card": "Grow Grass Energy",
+     "n": 4,
+     "role": "energy",
+     "note": "+20 HP to the Grass Pokémon it is attached to"
+    },
+    {
+     "card": "Mist Energy",
+     "n": 4,
+     "role": "energy",
+     "note": "prevents attack effects on the holder, not damage"
+    },
+    {
+     "card": "Spiky Energy",
+     "n": 4,
+     "role": "energy",
+     "note": "2 counters back on the attacker that damages the holder"
+    },
+    {
+     "card": "Rock Fighting Energy",
+     "n": 2,
+     "role": "energy",
+     "note": "Fighting energy; also prevents attack effects on the holder"
+    },
+    {
+     "card": "Basic {G} Energy",
+     "n": 2,
+     "role": "energy"
+    },
+    {
+     "card": "Battle Cage",
+     "n": 1,
+     "role": "stadium",
+     "note": "stops counters from attack/Ability effects, both benches"
+    },
+    {
+     "card": "Team Rocket's Factory",
+     "n": 1,
+     "role": "stadium",
+     "note": "draw with TR supporters"
+    },
+    {
+     "card": "Xerosic’s Machinations",
+     "n": 1,
+     "role": "disrupt",
+     "note": "opponent's hand to 3"
+    },
+    {
+     "card": "Tool Scrapper",
+     "n": 1,
+     "role": "tech"
+    },
+    {
+     "card": "Switch",
+     "n": 1,
+     "role": "tech"
+    }
+   ]
+  },
+  "hydrapple_k2": {
+   "title": "Hydrapple ex / Meganium / Teal Mask Ogerpon ex — double the energy, then hit",
+   "game_plan": "Meganium makes each Basic Grass Energy on your board provide two, and Hydrapple ex attaches one from hand each turn and heals 30, so Hydrapple ex's Syrup Storm (30 per Grass Energy on your side) and Teal Mask Ogerpon ex reach large damage quickly; Forest of Vitality lets either player's Grass Pokémon evolve the turn they are played, after turn one. This is the hybrid kind we saw winning the Lopunny matchup (Section 5, Case 3).",
+   "targets": {
+    "Meganium + Hydrapple ex": "out-races Grimmsnarl ex and Lopunny ex (ladder 75% / 68%)",
+    "Boss's Orders / Bayleef": "Boss's Orders picks the target; Bayleef forces a switch the opponent must answer"
+   },
+   "cards": [
+    {
+     "card": "Teal Mask Ogerpon ex",
+     "n": 4,
+     "role": "attacker",
+     "note": "attaches a Basic Grass and draws; bench-immune Tera"
+    },
+    {
+     "card": "Hydrapple ex",
+     "n": 2,
+     "role": "attacker",
+     "note": "attaches a Basic Grass from hand, heals 30; main attacker"
+    },
+    {
+     "card": "Meganium",
+     "n": 2,
+     "role": "accel",
+     "note": "each Basic Grass on your board provides two; does not stack"
+    },
+    {
+     "card": "Mega Meganium ex",
+     "n": 1,
+     "role": "finisher",
+     "note": "+50 per Grass Energy attached to itself"
+    },
+    {
+     "card": "Chikorita",
+     "n": 3,
+     "role": "evo"
+    },
+    {
+     "card": "Bayleef",
+     "n": 2,
+     "role": "disrupt",
+     "note": "50 damage, switches out the Active; opponent picks"
+    },
+    {
+     "card": "Applin",
+     "n": 2,
+     "role": "evo"
+    },
+    {
+     "card": "Dipplin",
+     "n": 2,
+     "role": "wall",
+     "note": "after Coated Attack, no damage from Basic Pokémon next turn"
+    },
+    {
+     "card": "Celebi",
+     "n": 1,
+     "role": "search",
+     "note": "Grass Pokémon + stadiums"
+    },
+    {
+     "card": "Fezandipiti ex",
+     "n": 1,
+     "role": "draw",
+     "note": "after a knockout"
+    },
+    {
+     "card": "Meowth ex",
+     "n": 1,
+     "role": "search",
+     "note": "searches a Supporter when played to the Bench"
+    },
+    {
+     "card": "Basic {G} Energy",
+     "n": 14,
+     "role": "energy",
+     "note": "each one provides two under Meganium"
+    },
+    {
+     "card": "Forest of Vitality",
+     "n": 4,
+     "role": "stadium",
+     "note": "both players; evolve Grass the turn it lands, not turn one"
+    },
+    {
+     "card": "Bug Catching Set",
+     "n": 4,
+     "role": "search",
+     "note": "top 7 → Grass Pokémon / energy"
+    },
+    {
+     "card": "Ultra Ball",
+     "n": 3,
+     "role": "search"
+    },
+    {
+     "card": "Poké Pad",
+     "n": 2,
+     "role": "search",
+     "note": "non-rule-box Pokémon"
+    },
+    {
+     "card": "Dawn",
+     "n": 2,
+     "role": "search",
+     "note": "Basic + Stage 1 + Stage 2 at once"
+    },
+    {
+     "card": "Lillie's Determination",
+     "n": 3,
+     "role": "draw",
+     "note": "shuffle and draw 6, or 8 at six prizes"
+    },
+    {
+     "card": "Boss’s Orders",
+     "n": 2,
+     "role": "gust"
+    },
+    {
+     "card": "Night Stretcher",
+     "n": 2,
+     "role": "recovery"
+    },
+    {
+     "card": "Lana’s Aid",
+     "n": 1,
+     "role": "recovery"
+    },
+    {
+     "card": "Judge",
+     "n": 1,
+     "role": "disrupt"
+    },
+    {
+     "card": "Unfair Stamp",
+     "n": 1,
+     "role": "disrupt",
+     "note": "after a knockout"
+    }
+   ]
+  }
+ },
+ "verification": {
+  "date": "2026-09-07",
+  "by": "user (PTCG domain review) + engine card text (data/EN_Card_Data.csv, exact printings from agents/<agent>/deck.csv)",
+  "printings_pinned": [
+   "Crustle DRI 12",
+   "Battle Cage PFL 85",
+   "Mist Energy TEF 161",
+   "Spiky Energy JTG 159",
+   "Cornerstone Mask Ogerpon ex TWM 112",
+   "Bayleef MEG 9",
+   "Dipplin SCR 13",
+   "Meganium MEG 10",
+   "Forest of Vitality MEG 117",
+   "Hydrapple ex SCR 14",
+   "Mega Meganium ex ASC 10"
+  ],
+  "corrections": [
+   "Crustle: 'immune to damage from Pokémon ex' → damage from ATTACKS by opponent's Pokémon ex (effects are not prevented)",
+   "Battle Cage: 'no damage counters on benches' → only counters placed by EFFECTS of the opponent's attacks/Abilities, on both players' benches; attack damage still applies",
+   "Cornerstone Mask Ogerpon ex: the 'Fighting-type option vs Fighting-weak targets' rationale was WRONG — Demolish's damage is not affected by Weakness or Resistance. It is a second wall (blocks damage from attacks by Pokémon with an Ability) whose attack ignores effects on the target",
+   "Bayleef MEG 9: role 'gust' → forced switch; the OPPONENT chooses the replacement (unlike Boss's Orders)",
+   "Dipplin SCR 13: 'prevents damage next turn' → after Coated Attack, prevents damage from attacks by BASIC Pokémon during the opponent's next turn",
+   "Meowth ex POR 62: role 'draw' → searches a Supporter when played to the Bench",
+   "Mist / Rock Fighting Energy: prevent EFFECTS of the opponent's attacks on the holder; damage is not an effect",
+   "Forest of Vitality: applies to BOTH players and not on the first turn",
+   "Mega Meganium ex: +50 per Grass Energy attached to ITSELF",
+   "game_plan (Hydrapple): 'the hybrid that the winning lists used' → the hybrid kind observed in winning games (not an identical 60-card list)",
+   "wording (user review 2026-09-07): 'blocks attacks' → 'prevents damage from attacks'; the Kangaskhan defence is described as a two-axis wall (ex vs Ability) rather than two interchangeable walls; deck title uses the official name 'Teal Mask Ogerpon ex'",
+   "replay data (2026-09-13): Hydrapple ex re-labelled attacker (Syrup Storm = 68% of the deck's damage, Teal Mask Ogerpon ex 27%, Mega Meganium ex landed in 7.3% of games); Kangaskhan game plan states that Crustle deals 65% of the damage and Mega Kangaskhan ex closes; the Lopunny line no longer calls it 'our worst matchup' (Alakazam 34.0% is lower) and quotes both agents' ladder rates instead"
+  ]
+ }
+}

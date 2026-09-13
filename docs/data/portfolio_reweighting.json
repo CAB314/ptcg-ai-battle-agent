@@ -1,0 +1,815 @@
+{
+ "method": "これは **historical backtest ではない**（過去のエージェントの実成績を再生するものではない）。\nLB スコアは2枠の最大値なので、最終 LB（993.8）は kangaskhan_dh 単体の値であり、第2枠は結果に\n寄与していない。第2枠が何に対する保険だったかを示すため、**最終10日に実測した対面別勝率を固定し**、\n**各日のアーキタイプシェアで再重み付け**して、各エージェントの日次期待勝率と「良い方」の包絡線を計算する\n（メタ構成に対するストレステスト）。",
+ "assumptions": [
+  "対面別勝率は最終10日（Aug 21–31）のラダー実測を全期間に適用（定常性の仮定）",
+  "シェアは上位帯の公開エピソード。実際に当たった相手分布はレート帯で異なる",
+  "n<30 の対面は 'other' の残差勝率に含める"
+ ],
+ "agents": {
+  "kangaskhan_dh": {
+   "other_wr": 70.9,
+   "other_n": 103,
+   "profile_wr": {
+    "Marnie's Grimmsnarl ex": 52.6,
+    "Alakazam": 34.0,
+    "Dragapult ex": 77.8,
+    "Mega Lopunny ex": 35.1,
+    "Mega Kangaskhan ex": 55.3,
+    "Teal Mask Ogerpon ex": 100.0,
+    "Hydrapple ex": 47.4,
+    "Mega Lucario ex": 55.3
+   }
+  },
+  "hydrapple_k2": {
+   "other_wr": 66.3,
+   "other_n": 104,
+   "profile_wr": {
+    "Marnie's Grimmsnarl ex": 74.9,
+    "Alakazam": 35.2,
+    "Dragapult ex": 51.4,
+    "Mega Lopunny ex": 67.7,
+    "Mega Kangaskhan ex": 35.8,
+    "Teal Mask Ogerpon ex": 76.7,
+    "Hydrapple ex": 42.9,
+    "Mega Lucario ex": 77.1
+   }
+  }
+ },
+ "unmapped_columns": [],
+ "summary": {
+  "days": 75,
+  "window_profile": "2026-08-21 16:44 〜 2026-08-31 23:49",
+  "days_hydrapple_k2_better": 46,
+  "days_kangaskhan_dh_better": 29,
+  "min_E_kangaskhan_dh": 47.75,
+  "min_E_hydrapple_k2": 46.39,
+  "mean_E_kangaskhan_dh": 55.6,
+  "mean_E_hydrapple_k2": 56.58,
+  "min_E_best": 47.75,
+  "mean_E_best": 59.01,
+  "mean_coverage_kangaskhan_dh": 75.8,
+  "mean_coverage_hydrapple_k2": 75.8,
+  "late_july": {
+   "kangaskhan_dh": 53.77,
+   "hydrapple_k2": 62.81,
+   "best": 62.81
+  },
+  "late_august": {
+   "kangaskhan_dh": 59.8,
+   "hydrapple_k2": 47.36,
+   "best": 59.8
+  }
+ },
+ "series": [
+  {
+   "date": "2026-06-16",
+   "sides": 2597,
+   "E_kangaskhan_dh": 67.32,
+   "coverage_kangaskhan_dh": 46.8,
+   "E_hydrapple_k2": 64.6,
+   "coverage_hydrapple_k2": 46.8,
+   "E_best": 67.32,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-06-17",
+   "sides": 15973,
+   "E_kangaskhan_dh": 64.97,
+   "coverage_kangaskhan_dh": 44.0,
+   "E_hydrapple_k2": 66.01,
+   "coverage_hydrapple_k2": 44.0,
+   "E_best": 66.01,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-06-18",
+   "sides": 13412,
+   "E_kangaskhan_dh": 61.65,
+   "coverage_kangaskhan_dh": 45.3,
+   "E_hydrapple_k2": 65.13,
+   "coverage_hydrapple_k2": 45.3,
+   "E_best": 65.13,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-06-19",
+   "sides": 11200,
+   "E_kangaskhan_dh": 56.19,
+   "coverage_kangaskhan_dh": 73.3,
+   "E_hydrapple_k2": 67.13,
+   "coverage_hydrapple_k2": 73.3,
+   "E_best": 67.13,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-06-20",
+   "sides": 10703,
+   "E_kangaskhan_dh": 54.91,
+   "coverage_kangaskhan_dh": 68.5,
+   "E_hydrapple_k2": 62.29,
+   "coverage_hydrapple_k2": 68.5,
+   "E_best": 62.29,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-06-21",
+   "sides": 10437,
+   "E_kangaskhan_dh": 58.61,
+   "coverage_kangaskhan_dh": 50.5,
+   "E_hydrapple_k2": 58.57,
+   "coverage_hydrapple_k2": 50.5,
+   "E_best": 58.61,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-06-22",
+   "sides": 10470,
+   "E_kangaskhan_dh": 57.98,
+   "coverage_kangaskhan_dh": 50.9,
+   "E_hydrapple_k2": 58.07,
+   "coverage_hydrapple_k2": 50.9,
+   "E_best": 58.07,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-06-23",
+   "sides": 13193,
+   "E_kangaskhan_dh": 60.77,
+   "coverage_kangaskhan_dh": 57.4,
+   "E_hydrapple_k2": 62.84,
+   "coverage_hydrapple_k2": 57.4,
+   "E_best": 62.84,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-06-24",
+   "sides": 11383,
+   "E_kangaskhan_dh": 58.13,
+   "coverage_kangaskhan_dh": 57.1,
+   "E_hydrapple_k2": 59.86,
+   "coverage_hydrapple_k2": 57.1,
+   "E_best": 59.86,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-06-25",
+   "sides": 11335,
+   "E_kangaskhan_dh": 58.41,
+   "coverage_kangaskhan_dh": 56.1,
+   "E_hydrapple_k2": 60.28,
+   "coverage_hydrapple_k2": 56.1,
+   "E_best": 60.28,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-06-26",
+   "sides": 11550,
+   "E_kangaskhan_dh": 60.92,
+   "coverage_kangaskhan_dh": 48.7,
+   "E_hydrapple_k2": 61.51,
+   "coverage_hydrapple_k2": 48.7,
+   "E_best": 61.51,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-06-27",
+   "sides": 12196,
+   "E_kangaskhan_dh": 61.27,
+   "coverage_kangaskhan_dh": 45.6,
+   "E_hydrapple_k2": 61.23,
+   "coverage_hydrapple_k2": 45.6,
+   "E_best": 61.27,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-06-28",
+   "sides": 12360,
+   "E_kangaskhan_dh": 61.89,
+   "coverage_kangaskhan_dh": 41.2,
+   "E_hydrapple_k2": 60.95,
+   "coverage_hydrapple_k2": 41.2,
+   "E_best": 61.89,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-06-29",
+   "sides": 12335,
+   "E_kangaskhan_dh": 61.64,
+   "coverage_kangaskhan_dh": 39.0,
+   "E_hydrapple_k2": 59.55,
+   "coverage_hydrapple_k2": 39.0,
+   "E_best": 61.64,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-06-30",
+   "sides": 11816,
+   "E_kangaskhan_dh": 57.67,
+   "coverage_kangaskhan_dh": 48.5,
+   "E_hydrapple_k2": 55.4,
+   "coverage_hydrapple_k2": 48.5,
+   "E_best": 57.67,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-07-01",
+   "sides": 10866,
+   "E_kangaskhan_dh": 54.25,
+   "coverage_kangaskhan_dh": 63.7,
+   "E_hydrapple_k2": 58.07,
+   "coverage_hydrapple_k2": 63.7,
+   "E_best": 58.07,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-07-02",
+   "sides": 10652,
+   "E_kangaskhan_dh": 56.14,
+   "coverage_kangaskhan_dh": 60.4,
+   "E_hydrapple_k2": 61.38,
+   "coverage_hydrapple_k2": 60.4,
+   "E_best": 61.38,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-07-03",
+   "sides": 10599,
+   "E_kangaskhan_dh": 54.78,
+   "coverage_kangaskhan_dh": 62.4,
+   "E_hydrapple_k2": 57.95,
+   "coverage_hydrapple_k2": 62.4,
+   "E_best": 57.95,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-07-04",
+   "sides": 10274,
+   "E_kangaskhan_dh": 58.08,
+   "coverage_kangaskhan_dh": 59.7,
+   "E_hydrapple_k2": 62.19,
+   "coverage_hydrapple_k2": 59.7,
+   "E_best": 62.19,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-07-05",
+   "sides": 10393,
+   "E_kangaskhan_dh": 53.91,
+   "coverage_kangaskhan_dh": 71.8,
+   "E_hydrapple_k2": 58.54,
+   "coverage_hydrapple_k2": 71.8,
+   "E_best": 58.54,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-07-06",
+   "sides": 11007,
+   "E_kangaskhan_dh": 54.04,
+   "coverage_kangaskhan_dh": 70.4,
+   "E_hydrapple_k2": 56.7,
+   "coverage_hydrapple_k2": 70.4,
+   "E_best": 56.7,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-07-07",
+   "sides": 10750,
+   "E_kangaskhan_dh": 54.77,
+   "coverage_kangaskhan_dh": 68.5,
+   "E_hydrapple_k2": 55.94,
+   "coverage_hydrapple_k2": 68.5,
+   "E_best": 55.94,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-07-08",
+   "sides": 10739,
+   "E_kangaskhan_dh": 53.69,
+   "coverage_kangaskhan_dh": 67.1,
+   "E_hydrapple_k2": 54.42,
+   "coverage_hydrapple_k2": 67.1,
+   "E_best": 54.42,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-07-09",
+   "sides": 10077,
+   "E_kangaskhan_dh": 50.9,
+   "coverage_kangaskhan_dh": 73.6,
+   "E_hydrapple_k2": 51.1,
+   "coverage_hydrapple_k2": 73.6,
+   "E_best": 51.1,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-07-10",
+   "sides": 10788,
+   "E_kangaskhan_dh": 50.71,
+   "coverage_kangaskhan_dh": 76.2,
+   "E_hydrapple_k2": 48.94,
+   "coverage_hydrapple_k2": 76.2,
+   "E_best": 50.71,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-07-11",
+   "sides": 10355,
+   "E_kangaskhan_dh": 51.32,
+   "coverage_kangaskhan_dh": 78.5,
+   "E_hydrapple_k2": 48.32,
+   "coverage_hydrapple_k2": 78.5,
+   "E_best": 51.32,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-07-12",
+   "sides": 10418,
+   "E_kangaskhan_dh": 51.67,
+   "coverage_kangaskhan_dh": 76.1,
+   "E_hydrapple_k2": 48.12,
+   "coverage_hydrapple_k2": 76.1,
+   "E_best": 51.67,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-07-13",
+   "sides": 10390,
+   "E_kangaskhan_dh": 48.64,
+   "coverage_kangaskhan_dh": 81.8,
+   "E_hydrapple_k2": 47.31,
+   "coverage_hydrapple_k2": 81.8,
+   "E_best": 48.64,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-07-14",
+   "sides": 10173,
+   "E_kangaskhan_dh": 47.75,
+   "coverage_kangaskhan_dh": 83.1,
+   "E_hydrapple_k2": 46.39,
+   "coverage_hydrapple_k2": 83.1,
+   "E_best": 47.75,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-07-15",
+   "sides": 9965,
+   "E_kangaskhan_dh": 50.16,
+   "coverage_kangaskhan_dh": 73.8,
+   "E_hydrapple_k2": 48.52,
+   "coverage_hydrapple_k2": 73.8,
+   "E_best": 50.16,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-07-16",
+   "sides": 9831,
+   "E_kangaskhan_dh": 51.26,
+   "coverage_kangaskhan_dh": 73.3,
+   "E_hydrapple_k2": 48.75,
+   "coverage_hydrapple_k2": 73.3,
+   "E_best": 51.26,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-07-17",
+   "sides": 9584,
+   "E_kangaskhan_dh": 50.61,
+   "coverage_kangaskhan_dh": 76.2,
+   "E_hydrapple_k2": 50.26,
+   "coverage_hydrapple_k2": 76.2,
+   "E_best": 50.61,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-07-18",
+   "sides": 9954,
+   "E_kangaskhan_dh": 50.85,
+   "coverage_kangaskhan_dh": 81.2,
+   "E_hydrapple_k2": 53.04,
+   "coverage_hydrapple_k2": 81.2,
+   "E_best": 53.04,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-07-19",
+   "sides": 9404,
+   "E_kangaskhan_dh": 52.86,
+   "coverage_kangaskhan_dh": 75.0,
+   "E_hydrapple_k2": 54.99,
+   "coverage_hydrapple_k2": 75.0,
+   "E_best": 54.99,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-07-20",
+   "sides": 9413,
+   "E_kangaskhan_dh": 52.04,
+   "coverage_kangaskhan_dh": 79.3,
+   "E_hydrapple_k2": 55.29,
+   "coverage_hydrapple_k2": 79.3,
+   "E_best": 55.29,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-07-21",
+   "sides": 9564,
+   "E_kangaskhan_dh": 53.86,
+   "coverage_kangaskhan_dh": 75.0,
+   "E_hydrapple_k2": 57.77,
+   "coverage_hydrapple_k2": 75.0,
+   "E_best": 57.77,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-07-22",
+   "sides": 9618,
+   "E_kangaskhan_dh": 54.11,
+   "coverage_kangaskhan_dh": 74.8,
+   "E_hydrapple_k2": 60.43,
+   "coverage_hydrapple_k2": 74.8,
+   "E_best": 60.43,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-07-23",
+   "sides": 9456,
+   "E_kangaskhan_dh": 51.82,
+   "coverage_kangaskhan_dh": 79.3,
+   "E_hydrapple_k2": 58.94,
+   "coverage_hydrapple_k2": 79.3,
+   "E_best": 58.94,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-07-24",
+   "sides": 9224,
+   "E_kangaskhan_dh": 52.03,
+   "coverage_kangaskhan_dh": 84.0,
+   "E_hydrapple_k2": 61.82,
+   "coverage_hydrapple_k2": 84.0,
+   "E_best": 61.82,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-07-25",
+   "sides": 9431,
+   "E_kangaskhan_dh": 54.01,
+   "coverage_kangaskhan_dh": 76.3,
+   "E_hydrapple_k2": 62.94,
+   "coverage_hydrapple_k2": 76.3,
+   "E_best": 62.94,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-07-26",
+   "sides": 9455,
+   "E_kangaskhan_dh": 53.49,
+   "coverage_kangaskhan_dh": 81.5,
+   "E_hydrapple_k2": 62.32,
+   "coverage_hydrapple_k2": 81.5,
+   "E_best": 62.32,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-07-27",
+   "sides": 9206,
+   "E_kangaskhan_dh": 54.4,
+   "coverage_kangaskhan_dh": 85.9,
+   "E_hydrapple_k2": 63.7,
+   "coverage_hydrapple_k2": 85.9,
+   "E_best": 63.7,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-07-28",
+   "sides": 9126,
+   "E_kangaskhan_dh": 54.92,
+   "coverage_kangaskhan_dh": 84.3,
+   "E_hydrapple_k2": 66.18,
+   "coverage_hydrapple_k2": 84.3,
+   "E_best": 66.18,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-07-29",
+   "sides": 9115,
+   "E_kangaskhan_dh": 53.45,
+   "coverage_kangaskhan_dh": 87.5,
+   "E_hydrapple_k2": 64.52,
+   "coverage_hydrapple_k2": 87.5,
+   "E_best": 64.52,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-07-30",
+   "sides": 9122,
+   "E_kangaskhan_dh": 54.37,
+   "coverage_kangaskhan_dh": 86.7,
+   "E_hydrapple_k2": 65.26,
+   "coverage_hydrapple_k2": 86.7,
+   "E_best": 65.26,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-07-31",
+   "sides": 9034,
+   "E_kangaskhan_dh": 55.06,
+   "coverage_kangaskhan_dh": 83.8,
+   "E_hydrapple_k2": 67.08,
+   "coverage_hydrapple_k2": 83.8,
+   "E_best": 67.08,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-08-01",
+   "sides": 9391,
+   "E_kangaskhan_dh": 55.03,
+   "coverage_kangaskhan_dh": 77.6,
+   "E_hydrapple_k2": 66.21,
+   "coverage_hydrapple_k2": 77.6,
+   "E_best": 66.21,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-08-02",
+   "sides": 9524,
+   "E_kangaskhan_dh": 54.66,
+   "coverage_kangaskhan_dh": 78.6,
+   "E_hydrapple_k2": 65.03,
+   "coverage_hydrapple_k2": 78.6,
+   "E_best": 65.03,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-08-03",
+   "sides": 9782,
+   "E_kangaskhan_dh": 54.34,
+   "coverage_kangaskhan_dh": 80.6,
+   "E_hydrapple_k2": 62.43,
+   "coverage_hydrapple_k2": 80.6,
+   "E_best": 62.43,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-08-04",
+   "sides": 9954,
+   "E_kangaskhan_dh": 52.97,
+   "coverage_kangaskhan_dh": 79.1,
+   "E_hydrapple_k2": 61.24,
+   "coverage_hydrapple_k2": 79.1,
+   "E_best": 61.24,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-08-05",
+   "sides": 9804,
+   "E_kangaskhan_dh": 51.78,
+   "coverage_kangaskhan_dh": 84.1,
+   "E_hydrapple_k2": 58.74,
+   "coverage_hydrapple_k2": 84.1,
+   "E_best": 58.74,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-08-06",
+   "sides": 9608,
+   "E_kangaskhan_dh": 51.85,
+   "coverage_kangaskhan_dh": 85.1,
+   "E_hydrapple_k2": 59.86,
+   "coverage_hydrapple_k2": 85.1,
+   "E_best": 59.86,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-08-07",
+   "sides": 9626,
+   "E_kangaskhan_dh": 50.75,
+   "coverage_kangaskhan_dh": 88.9,
+   "E_hydrapple_k2": 59.33,
+   "coverage_hydrapple_k2": 88.9,
+   "E_best": 59.33,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-08-08",
+   "sides": 9689,
+   "E_kangaskhan_dh": 51.67,
+   "coverage_kangaskhan_dh": 86.4,
+   "E_hydrapple_k2": 58.91,
+   "coverage_hydrapple_k2": 86.4,
+   "E_best": 58.91,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-08-09",
+   "sides": 9679,
+   "E_kangaskhan_dh": 52.01,
+   "coverage_kangaskhan_dh": 86.1,
+   "E_hydrapple_k2": 59.58,
+   "coverage_hydrapple_k2": 86.1,
+   "E_best": 59.58,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-08-10",
+   "sides": 9541,
+   "E_kangaskhan_dh": 51.62,
+   "coverage_kangaskhan_dh": 87.8,
+   "E_hydrapple_k2": 57.97,
+   "coverage_hydrapple_k2": 87.8,
+   "E_best": 57.97,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-08-11",
+   "sides": 9598,
+   "E_kangaskhan_dh": 52.98,
+   "coverage_kangaskhan_dh": 87.0,
+   "E_hydrapple_k2": 58.71,
+   "coverage_hydrapple_k2": 87.0,
+   "E_best": 58.71,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-08-12",
+   "sides": 9552,
+   "E_kangaskhan_dh": 54.38,
+   "coverage_kangaskhan_dh": 88.0,
+   "E_hydrapple_k2": 58.34,
+   "coverage_hydrapple_k2": 88.0,
+   "E_best": 58.34,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-08-13",
+   "sides": 9575,
+   "E_kangaskhan_dh": 54.78,
+   "coverage_kangaskhan_dh": 89.0,
+   "E_hydrapple_k2": 55.68,
+   "coverage_hydrapple_k2": 89.0,
+   "E_best": 55.68,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-08-14",
+   "sides": 9239,
+   "E_kangaskhan_dh": 54.25,
+   "coverage_kangaskhan_dh": 92.4,
+   "E_hydrapple_k2": 54.69,
+   "coverage_hydrapple_k2": 92.4,
+   "E_best": 54.69,
+   "better": "hydrapple_k2"
+  },
+  {
+   "date": "2026-08-15",
+   "sides": 9692,
+   "E_kangaskhan_dh": 56.42,
+   "coverage_kangaskhan_dh": 91.9,
+   "E_hydrapple_k2": 52.26,
+   "coverage_hydrapple_k2": 91.9,
+   "E_best": 56.42,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-08-17",
+   "sides": 9347,
+   "E_kangaskhan_dh": 61.4,
+   "coverage_kangaskhan_dh": 94.2,
+   "E_hydrapple_k2": 46.84,
+   "coverage_hydrapple_k2": 94.2,
+   "E_best": 61.4,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-08-18",
+   "sides": 9676,
+   "E_kangaskhan_dh": 54.59,
+   "coverage_kangaskhan_dh": 88.7,
+   "E_hydrapple_k2": 54.33,
+   "coverage_hydrapple_k2": 88.7,
+   "E_best": 54.59,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-08-19",
+   "sides": 9667,
+   "E_kangaskhan_dh": 55.53,
+   "coverage_kangaskhan_dh": 91.5,
+   "E_hydrapple_k2": 51.74,
+   "coverage_hydrapple_k2": 91.5,
+   "E_best": 55.53,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-08-20",
+   "sides": 9654,
+   "E_kangaskhan_dh": 58.92,
+   "coverage_kangaskhan_dh": 92.1,
+   "E_hydrapple_k2": 47.52,
+   "coverage_hydrapple_k2": 92.1,
+   "E_best": 58.92,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-08-21",
+   "sides": 9746,
+   "E_kangaskhan_dh": 59.59,
+   "coverage_kangaskhan_dh": 91.3,
+   "E_hydrapple_k2": 47.41,
+   "coverage_hydrapple_k2": 91.3,
+   "E_best": 59.59,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-08-22",
+   "sides": 9624,
+   "E_kangaskhan_dh": 60.35,
+   "coverage_kangaskhan_dh": 91.4,
+   "E_hydrapple_k2": 47.34,
+   "coverage_hydrapple_k2": 91.4,
+   "E_best": 60.35,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-08-23",
+   "sides": 9663,
+   "E_kangaskhan_dh": 60.33,
+   "coverage_kangaskhan_dh": 90.3,
+   "E_hydrapple_k2": 47.51,
+   "coverage_hydrapple_k2": 90.3,
+   "E_best": 60.33,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-08-24",
+   "sides": 9583,
+   "E_kangaskhan_dh": 60.39,
+   "coverage_kangaskhan_dh": 89.7,
+   "E_hydrapple_k2": 47.69,
+   "coverage_hydrapple_k2": 89.7,
+   "E_best": 60.39,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-08-25",
+   "sides": 9721,
+   "E_kangaskhan_dh": 60.33,
+   "coverage_kangaskhan_dh": 90.9,
+   "E_hydrapple_k2": 47.35,
+   "coverage_hydrapple_k2": 90.9,
+   "E_best": 60.33,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-08-26",
+   "sides": 9711,
+   "E_kangaskhan_dh": 60.07,
+   "coverage_kangaskhan_dh": 90.0,
+   "E_hydrapple_k2": 47.65,
+   "coverage_hydrapple_k2": 90.0,
+   "E_best": 60.07,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-08-27",
+   "sides": 9695,
+   "E_kangaskhan_dh": 59.75,
+   "coverage_kangaskhan_dh": 90.6,
+   "E_hydrapple_k2": 47.46,
+   "coverage_hydrapple_k2": 90.6,
+   "E_best": 59.75,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-08-28",
+   "sides": 9644,
+   "E_kangaskhan_dh": 59.39,
+   "coverage_kangaskhan_dh": 91.9,
+   "E_hydrapple_k2": 47.23,
+   "coverage_hydrapple_k2": 91.9,
+   "E_best": 59.39,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-08-29",
+   "sides": 9494,
+   "E_kangaskhan_dh": 59.0,
+   "coverage_kangaskhan_dh": 92.0,
+   "E_hydrapple_k2": 47.08,
+   "coverage_hydrapple_k2": 92.0,
+   "E_best": 59.0,
+   "better": "kangaskhan_dh"
+  },
+  {
+   "date": "2026-08-30",
+   "sides": 9657,
+   "E_kangaskhan_dh": 58.76,
+   "coverage_kangaskhan_dh": 92.5,
+   "E_hydrapple_k2": 46.91,
+   "coverage_hydrapple_k2": 92.5,
+   "E_best": 58.76,
+   "better": "kangaskhan_dh"
+  }
+ ]
+}

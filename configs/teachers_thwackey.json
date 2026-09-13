@@ -1,0 +1,15 @@
+{
+ "comment": "thwackey (ace=90) 教師。2026-08-05 選定。Dominic Peel 59.2%(11k)@LB996 が最高効率。Iliamna は決定数最大(68k)だが54.3%なので重み中",
+ "teams": {
+  "Dominic Peel": 1.0,
+  "__Taichicchi__": 0.8,
+  "Thai": 0.7,
+  "PP kawada": 0.5,
+  "Iliamna": 0.5
+ },
+ "ace_ids": [
+  90
+ ],
+ "loser_weight": 0.7,
+ "recency_tau_days": 10.0
+}

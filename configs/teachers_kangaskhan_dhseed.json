@@ -1,0 +1,14 @@
+{
+ "comment": "kangaskhanの対Dragapult+Hydrapple勝ち筋シード（2026-08-16）。全チーム・勝者のみ・recency緩め（dragapultブームは直近なのでtau=45で新旧両取り）",
+ "teams": "*",
+ "ace_ids": [
+  756
+ ],
+ "opp_ace_ids": [
+  121,
+  150
+ ],
+ "loser_weight": 0.0,
+ "min_weight": 0.01,
+ "recency_tau_days": 45.0
+}

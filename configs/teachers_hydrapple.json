@@ -1,0 +1,15 @@
+{
+ "comment": "hydrapple 相手用教師。2026-08-10 選定（同上）。palsystem(1166)/flg(1136)/ANDPAD(1101)/Dipam(1123, 78%)",
+ "teams": {
+  "palsystem": 1.0,
+  "flg": 1.0,
+  "ANDPAD kaggler team": 1.0,
+  "Dipam Chakraborty": 1.0,
+  "Marshall Maximizer": 0.8
+ },
+ "ace_ids": [
+  150
+ ],
+ "loser_weight": 0.7,
+ "recency_tau_days": 10.0
+}

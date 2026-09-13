@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "pokemon-tcg-ai-battle"
+version = "0.1.0"
+description = ""
+authors = ["CAB314 <85389241+CAB314@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{ include = "ptcg", from = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+kaggle = "^2.2.3"
+numpy = "~2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+ipykernel = "^7.3.0"
+openpyxl = "^3.1.5"
+pytest = "^9.1.1"
+matplotlib = "^3.11.1"
+
+
+[tool.poetry.group.ml.dependencies]
+torch = {version = "2.6.0+cu124", source = "pytorch-cu124"}
+zstandard = "^0.25.0"
+
+
+[[tool.poetry.source]]
+name = "pytorch-cu124"
+url = "https://download.pytorch.org/whl/cu124"
+priority = "explicit"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

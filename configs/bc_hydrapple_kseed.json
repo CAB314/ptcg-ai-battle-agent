@@ -1,0 +1,27 @@
+{
+ "teachers": "configs/teachers_hydrapple_kseed.json",
+ "model": {
+  "d_model": 128,
+  "n_heads": 4,
+  "n_state_layers": 2,
+  "n_option_layers": 2,
+  "dropout": 0.1
+ },
+ "lr": 3e-05,
+ "weight_decay": 0.01,
+ "batch_size": 512,
+ "epochs": 3,
+ "early_stop_patience": 3,
+ "label_smoothing": 0.05,
+ "value_coef": 0.25,
+ "type_weights": {
+  "0": 1.0,
+  "1": 1.2,
+  "4": 2.0,
+  "7": 2.0,
+  "8": 2.0,
+  "9": 1.5
+ },
+ "seed": 0,
+ "comment": "hydrapple 対Kangaskhan BCシード: 現行採用重みから低LRで勝ち筋のみ微調整"
+}

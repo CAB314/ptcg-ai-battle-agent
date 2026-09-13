@@ -1,0 +1,333 @@
+{
+ "agent": "hydrapple_k2",
+ "games": 1000,
+ "wins": 569,
+ "wr": 56.9,
+ "errors": 0,
+ "mean_our_turns": 6.7,
+ "key_cards": {
+  "Meganium": {
+   "games_landed": 900,
+   "share": 90.0,
+   "wr_landed": 58.8,
+   "wr_not_landed": 40.0,
+   "median_turn": 3
+  },
+  "Hydrapple ex": {
+   "games_landed": 843,
+   "share": 84.3,
+   "wr_landed": 61.3,
+   "wr_not_landed": 33.1,
+   "median_turn": 3
+  },
+  "Mega Meganium ex": {
+   "games_landed": 73,
+   "share": 7.3,
+   "wr_landed": 41.1,
+   "wr_not_landed": 58.1,
+   "median_turn": 4
+  }
+ },
+ "wall_active_turns_mean": {
+  "Dipplin": 0.12
+ },
+ "games_with_wall_active": {
+  "Dipplin": 86
+ },
+ "leak_by_attack": {
+  "Dipplin / non-ex": [
+   [
+    "Superb Scissors (120)",
+    16
+   ],
+   [
+    "Itchy Pollen (10)",
+    9
+   ],
+   [
+    "Gutsy Swing (250)",
+    1
+   ],
+   [
+    "Haymaker (250)",
+    1
+   ],
+   [
+    "Super Psy Bolt (30)",
+    1
+   ],
+   [
+    "Corkscrew Punch (60)",
+    1
+   ]
+  ],
+  "Dipplin / ex": [
+   [
+    "Phantom Dive (200)",
+    7
+   ],
+   [
+    "Shadow Bullet (180)",
+    6
+   ],
+   [
+    "Jet Headbutt (70)",
+    3
+   ],
+   [
+    "Myriad Leaf Shower (210)",
+    2
+   ],
+   [
+    "Myriad Leaf Shower (150)",
+    1
+   ],
+   [
+    "Phantom Dive (60)",
+    1
+   ]
+  ],
+  "Dipplin / mega-ex": [
+   [
+    "Gale Thrust (230)",
+    6
+   ],
+   [
+    "Spiky Hopper (160)",
+    2
+   ],
+   [
+    "Aura Jab (130)",
+    1
+   ]
+  ]
+ },
+ "bench_damage_per_game": 128.8,
+ "incoming_by_attacker": [
+  {
+   "our_active": "other",
+   "attacker_ex": "ex",
+   "attacker_ability": "ability",
+   "attacks": 838,
+   "zero_damage_share": 11.0,
+   "mean_damage": 200.0
+  },
+  {
+   "our_active": "other",
+   "attacker_ex": "non-ex",
+   "attacker_ability": "ability",
+   "attacks": 670,
+   "zero_damage_share": 11.9,
+   "mean_damage": 99.7
+  },
+  {
+   "our_active": "other",
+   "attacker_ex": "ex",
+   "attacker_ability": "no-ability",
+   "attacks": 442,
+   "zero_damage_share": 16.3,
+   "mean_damage": 139.6
+  },
+  {
+   "our_active": "other",
+   "attacker_ex": "non-ex",
+   "attacker_ability": "no-ability",
+   "attacks": 436,
+   "zero_damage_share": 13.8,
+   "mean_damage": 35.2
+  },
+  {
+   "our_active": "other",
+   "attacker_ex": "mega-ex",
+   "attacker_ability": "no-ability",
+   "attacks": 324,
+   "zero_damage_share": 10.2,
+   "mean_damage": 180.9
+  },
+  {
+   "our_active": "other",
+   "attacker_ex": "mega-ex",
+   "attacker_ability": "ability",
+   "attacks": 39,
+   "zero_damage_share": 10.3,
+   "mean_damage": 234.6
+  },
+  {
+   "our_active": "Dipplin",
+   "attacker_ex": "ex",
+   "attacker_ability": "ability",
+   "attacks": 29,
+   "zero_damage_share": 55.2,
+   "mean_damage": 81.4
+  },
+  {
+   "our_active": "Dipplin",
+   "attacker_ex": "non-ex",
+   "attacker_ability": "no-ability",
+   "attacks": 24,
+   "zero_damage_share": 50.0,
+   "mean_damage": 27.1
+  },
+  {
+   "our_active": "Dipplin",
+   "attacker_ex": "non-ex",
+   "attacker_ability": "ability",
+   "attacks": 21,
+   "zero_damage_share": 19.0,
+   "mean_damage": 92.9
+  },
+  {
+   "our_active": "Dipplin",
+   "attacker_ex": "mega-ex",
+   "attacker_ability": "no-ability",
+   "attacks": 15,
+   "zero_damage_share": 40.0,
+   "mean_damage": 122.0
+  },
+  {
+   "our_active": "Dipplin",
+   "attacker_ex": "ex",
+   "attacker_ability": "no-ability",
+   "attacks": 11,
+   "zero_damage_share": 0.0,
+   "mean_damage": 151.8
+  },
+  {
+   "our_active": "Dipplin",
+   "attacker_ex": "mega-ex",
+   "attacker_ability": "ability",
+   "attacks": 4,
+   "zero_damage_share": 100.0,
+   "mean_damage": 0.0
+  }
+ ],
+ "our_attacks": [
+  {
+   "attack": "Syrup Storm",
+   "uses": 2200,
+   "uses_per_game": 2.2,
+   "total_damage": 795980,
+   "mean_damage": 361.8
+  },
+  {
+   "attack": "Myriad Leaf Shower",
+   "uses": 1482,
+   "uses_per_game": 1.48,
+   "total_damage": 315450,
+   "mean_damage": 212.9
+  },
+  {
+   "attack": "Solar Beam",
+   "uses": 528,
+   "uses_per_game": 0.53,
+   "total_damage": 46000,
+   "mean_damage": 87.1
+  },
+  {
+   "attack": "Traverse Time",
+   "uses": 291,
+   "uses_per_game": 0.29,
+   "total_damage": 0,
+   "mean_damage": 0.0
+  },
+  {
+   "attack": "Spray Fluid",
+   "uses": 155,
+   "uses_per_game": 0.15,
+   "total_damage": 1670,
+   "mean_damage": 10.8
+  },
+  {
+   "attack": "Coated Attack",
+   "uses": 155,
+   "uses_per_game": 0.15,
+   "total_damage": 1690,
+   "mean_damage": 10.9
+  },
+  {
+   "attack": "Growl",
+   "uses": 141,
+   "uses_per_game": 0.14,
+   "total_damage": 180,
+   "mean_damage": 1.3
+  },
+  {
+   "attack": "Solar Cutter",
+   "uses": 54,
+   "uses_per_game": 0.05,
+   "total_damage": 1380,
+   "mean_damage": 25.6
+  },
+  {
+   "attack": "Push Down",
+   "uses": 43,
+   "uses_per_game": 0.04,
+   "total_damage": 1720,
+   "mean_damage": 40.0
+  },
+  {
+   "attack": "Giant Bouquet",
+   "uses": 40,
+   "uses_per_game": 0.04,
+   "total_damage": 8530,
+   "mean_damage": 213.2
+  },
+  {
+   "attack": "Seed Bomb",
+   "uses": 23,
+   "uses_per_game": 0.02,
+   "total_damage": 450,
+   "mean_damage": 19.6
+  },
+  {
+   "attack": "Cruel Arrow",
+   "uses": 10,
+   "uses_per_game": 0.01,
+   "total_damage": 0,
+   "mean_damage": 0.0
+  },
+  {
+   "attack": "Tuck Tail",
+   "uses": 2,
+   "uses_per_game": 0.0,
+   "total_damage": 120,
+   "mean_damage": 60.0
+  }
+ ],
+ "plays_per_game": {
+  "Forest of Vitality": 1.47,
+  "Boss's Orders": 0.31,
+  "Bug Catching Set": 2.62,
+  "Lillie's Determination": 1.65
+ },
+ "attaches_per_game": {
+  "Basic G Energy": 11.34
+ },
+ "heal_per_game": 13.1,
+ "spiky_return_per_game": 4.4,
+ "wild_growth_doubling": {
+  "observations": 2691,
+  "provided_equals_twice_cards": 2691,
+  "share": 100.0
+ },
+ "damage_scaling": {
+  "Myriad Leaf Shower": {
+   "n": 1047,
+   "fits_provided_energy": 80,
+   "fits_card_count": 106,
+   "mean_damage": 301.3
+  },
+  "Syrup Storm": {
+   "n": 1702,
+   "fits_provided_energy": 1329,
+   "fits_card_count": 156,
+   "mean_damage": 467.7
+  },
+  "Giant Bouquet": {
+   "n": 20,
+   "fits_provided_energy": 11,
+   "fits_card_count": 0,
+   "mean_damage": 426.5
+  }
+ }
+}

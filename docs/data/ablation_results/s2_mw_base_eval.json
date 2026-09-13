@@ -1,0 +1,28 @@
+{
+ "policy": "runs/s2_mw_base_/policy/latest",
+ "games_per_arm": 20000,
+ "elapsed_s": 200,
+ "rows": [
+  {
+   "name": "s2_mw_base_(after1146)",
+   "note": "",
+   "n": 20000,
+   "wr": 0.5683,
+   "ci": [
+    0.5614,
+    0.5752
+   ],
+   "delta": 0.0,
+   "delta_se": 0.005,
+   "z": 0.0,
+   "per_opp": {
+    "grimmsnarl_ppo": 0.3983,
+    "alakazam_ppo2": 0.6944,
+    "mirror_trmewtwo_ppo": 0.474,
+    "greattusk_lo": 0.9736,
+    "glethal2@crustle_stall": 0.9724,
+    "glethal2@kangaskhan": 0.9518
+   }
+  }
+ ]
+}

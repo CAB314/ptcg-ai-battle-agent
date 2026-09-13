@@ -1,0 +1,743 @@
+{
+ "window": "エージェントごとに agents[].window を見ること（APIの一覧は直近1000件で頭打ち）",
+ "note": "アーキタイプ判定は ACE SPEC ヒューリスティック（既知の限界あり）",
+ "agents": {
+  "kangaskhan_dh": {
+   "submission_id": 55541008,
+   "window": "2026-08-21 16:44 〜 2026-08-31 23:49",
+   "games": 1000,
+   "wins": 566,
+   "wr": 56.6,
+   "matchups": [
+    {
+     "opponent": "Marnie's Grimmsnarl ex",
+     "n": 249,
+     "wins": 131,
+     "wr": 52.6,
+     "ci95": [
+      46.4,
+      58.7
+     ],
+     "internal": 72.0
+    },
+    {
+     "opponent": "Alakazam",
+     "n": 144,
+     "wins": 49,
+     "wr": 34.0,
+     "ci95": [
+      26.8,
+      42.1
+     ],
+     "internal": 53.6
+    },
+    {
+     "opponent": "Dragapult ex",
+     "n": 135,
+     "wins": 105,
+     "wr": 77.8,
+     "ci95": [
+      70.1,
+      84.0
+     ],
+     "internal": 71.8
+    },
+    {
+     "opponent": "Mega Lopunny ex",
+     "n": 111,
+     "wins": 39,
+     "wr": 35.1,
+     "ci95": [
+      26.9,
+      44.4
+     ],
+     "internal": 15.8
+    },
+    {
+     "opponent": "Mega Kangaskhan ex",
+     "n": 94,
+     "wins": 52,
+     "wr": 55.3,
+     "ci95": [
+      45.3,
+      65.0
+     ],
+     "internal": 50.0
+    },
+    {
+     "opponent": "Teal Mask Ogerpon ex",
+     "n": 69,
+     "wins": 69,
+     "wr": 100.0,
+     "ci95": [
+      94.7,
+      100.0
+     ],
+     "internal": 99.3
+    },
+    {
+     "opponent": "Hydrapple ex",
+     "n": 57,
+     "wins": 27,
+     "wr": 47.4,
+     "ci95": [
+      35.0,
+      60.1
+     ],
+     "internal": 82.8
+    },
+    {
+     "opponent": "Mega Lucario ex",
+     "n": 38,
+     "wins": 21,
+     "wr": 55.3,
+     "ci95": [
+      39.7,
+      69.9
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Thwackey",
+     "n": 21,
+     "wins": 18,
+     "wr": 85.7,
+     "ci95": [
+      65.4,
+      95.0
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Archaludon ex",
+     "n": 12,
+     "wins": 9,
+     "wr": 75.0,
+     "ci95": [
+      46.8,
+      91.1
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Cynthia's Garchomp ex",
+     "n": 9,
+     "wins": 7,
+     "wr": 77.8,
+     "ci95": [
+      45.3,
+      93.7
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Seaking",
+     "n": 8,
+     "wins": 6,
+     "wr": 75.0,
+     "ci95": [
+      40.9,
+      92.9
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Mega Gardevoir ex",
+     "n": 7,
+     "wins": 3,
+     "wr": 42.9,
+     "ci95": [
+      15.8,
+      75.0
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Mega Abomasnow ex",
+     "n": 6,
+     "wins": 6,
+     "wr": 100.0,
+     "ci95": [
+      61.0,
+      100.0
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Mega Starmie ex",
+     "n": 6,
+     "wins": 3,
+     "wr": 50.0,
+     "ci95": [
+      18.8,
+      81.2
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Crustle",
+     "n": 6,
+     "wins": 3,
+     "wr": 50.0,
+     "ci95": [
+      18.8,
+      81.2
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "N’s Zoroark ex",
+     "n": 4,
+     "wins": 2,
+     "wr": 50.0,
+     "ci95": [
+      15.0,
+      85.0
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Xerneas",
+     "n": 3,
+     "wins": 3,
+     "wr": 100.0,
+     "ci95": [
+      43.8,
+      100.0
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Iono’s Bellibolt ex",
+     "n": 3,
+     "wins": 2,
+     "wr": 66.7,
+     "ci95": [
+      20.8,
+      93.9
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Team Rocket's Mewtwo ex",
+     "n": 3,
+     "wins": 2,
+     "wr": 66.7,
+     "ci95": [
+      20.8,
+      93.9
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Chandelure",
+     "n": 3,
+     "wins": 2,
+     "wr": 66.7,
+     "ci95": [
+      20.8,
+      93.9
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Barbaracle",
+     "n": 2,
+     "wins": 1,
+     "wr": 50.0,
+     "ci95": [
+      9.5,
+      90.5
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Mega Heracross ex",
+     "n": 2,
+     "wins": 1,
+     "wr": 50.0,
+     "ci95": [
+      9.5,
+      90.5
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Cornerstone Mask Ogerpon ex",
+     "n": 2,
+     "wins": 1,
+     "wr": 50.0,
+     "ci95": [
+      9.5,
+      90.5
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Brambleghast",
+     "n": 2,
+     "wins": 0,
+     "wr": 0.0,
+     "ci95": [
+      0.0,
+      65.8
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Wugtrio ex",
+     "n": 1,
+     "wins": 1,
+     "wr": 100.0,
+     "ci95": [
+      20.7,
+      100.0
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Mega Froslass ex",
+     "n": 1,
+     "wins": 1,
+     "wr": 100.0,
+     "ci95": [
+      20.7,
+      100.0
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Empoleon ex",
+     "n": 1,
+     "wins": 1,
+     "wr": 100.0,
+     "ci95": [
+      20.7,
+      100.0
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Steven's Metagross ex",
+     "n": 1,
+     "wins": 1,
+     "wr": 100.0,
+     "ci95": [
+      20.7,
+      100.0
+     ],
+     "internal": null
+    }
+   ]
+  },
+  "hydrapple_k2": {
+   "submission_id": 55537575,
+   "window": "2026-08-22 00:07 〜 2026-08-31 23:49",
+   "games": 1000,
+   "wins": 569,
+   "wr": 56.9,
+   "matchups": [
+    {
+     "opponent": "Marnie's Grimmsnarl ex",
+     "n": 191,
+     "wins": 143,
+     "wr": 74.9,
+     "ci95": [
+      68.3,
+      80.5
+     ],
+     "internal": 84.6
+    },
+    {
+     "opponent": "Alakazam",
+     "n": 165,
+     "wins": 58,
+     "wr": 35.2,
+     "ci95": [
+      28.3,
+      42.7
+     ],
+     "internal": 64.9
+    },
+    {
+     "opponent": "Dragapult ex",
+     "n": 142,
+     "wins": 73,
+     "wr": 51.4,
+     "ci95": [
+      43.3,
+      59.5
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Mega Lopunny ex",
+     "n": 127,
+     "wins": 86,
+     "wr": 67.7,
+     "ci95": [
+      59.2,
+      75.2
+     ],
+     "internal": 80.2
+    },
+    {
+     "opponent": "Mega Kangaskhan ex",
+     "n": 120,
+     "wins": 43,
+     "wr": 35.8,
+     "ci95": [
+      27.8,
+      44.7
+     ],
+     "internal": 29.3
+    },
+    {
+     "opponent": "Teal Mask Ogerpon ex",
+     "n": 60,
+     "wins": 46,
+     "wr": 76.7,
+     "ci95": [
+      64.6,
+      85.6
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Hydrapple ex",
+     "n": 56,
+     "wins": 24,
+     "wr": 42.9,
+     "ci95": [
+      30.8,
+      55.9
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Mega Lucario ex",
+     "n": 35,
+     "wins": 27,
+     "wr": 77.1,
+     "ci95": [
+      61.0,
+      87.9
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Thwackey",
+     "n": 17,
+     "wins": 6,
+     "wr": 35.3,
+     "ci95": [
+      17.3,
+      58.7
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Cynthia's Garchomp ex",
+     "n": 13,
+     "wins": 12,
+     "wr": 92.3,
+     "ci95": [
+      66.7,
+      98.6
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Crustle",
+     "n": 12,
+     "wins": 8,
+     "wr": 66.7,
+     "ci95": [
+      39.1,
+      86.2
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Mega Abomasnow ex",
+     "n": 8,
+     "wins": 8,
+     "wr": 100.0,
+     "ci95": [
+      67.6,
+      100.0
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Archaludon ex",
+     "n": 8,
+     "wins": 7,
+     "wr": 87.5,
+     "ci95": [
+      52.9,
+      97.8
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Mega Starmie ex",
+     "n": 5,
+     "wins": 3,
+     "wr": 60.0,
+     "ci95": [
+      23.1,
+      88.2
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Barbaracle",
+     "n": 5,
+     "wins": 1,
+     "wr": 20.0,
+     "ci95": [
+      3.6,
+      62.4
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Mega Gardevoir ex",
+     "n": 4,
+     "wins": 1,
+     "wr": 25.0,
+     "ci95": [
+      4.6,
+      69.9
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Chandelure",
+     "n": 3,
+     "wins": 1,
+     "wr": 33.3,
+     "ci95": [
+      6.1,
+      79.2
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Team Rocket's Mewtwo ex",
+     "n": 3,
+     "wins": 2,
+     "wr": 66.7,
+     "ci95": [
+      20.8,
+      93.9
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "N’s Zoroark ex",
+     "n": 3,
+     "wins": 3,
+     "wr": 100.0,
+     "ci95": [
+      43.8,
+      100.0
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Hop’s Snorlax",
+     "n": 3,
+     "wins": 2,
+     "wr": 66.7,
+     "ci95": [
+      20.8,
+      93.9
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Cornerstone Mask Ogerpon ex",
+     "n": 3,
+     "wins": 1,
+     "wr": 33.3,
+     "ci95": [
+      6.1,
+      79.2
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Arboliva ex",
+     "n": 2,
+     "wins": 1,
+     "wr": 50.0,
+     "ci95": [
+      9.5,
+      90.5
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Xerneas",
+     "n": 2,
+     "wins": 1,
+     "wr": 50.0,
+     "ci95": [
+      9.5,
+      90.5
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Raging Bolt ex",
+     "n": 2,
+     "wins": 2,
+     "wr": 100.0,
+     "ci95": [
+      34.2,
+      100.0
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Iono’s Bellibolt ex",
+     "n": 2,
+     "wins": 2,
+     "wr": 100.0,
+     "ci95": [
+      34.2,
+      100.0
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Hydreigon ex",
+     "n": 2,
+     "wins": 2,
+     "wr": 100.0,
+     "ci95": [
+      34.2,
+      100.0
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Zangoose ex",
+     "n": 1,
+     "wins": 1,
+     "wr": 100.0,
+     "ci95": [
+      20.7,
+      100.0
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Ceruledge ex",
+     "n": 1,
+     "wins": 1,
+     "wr": 100.0,
+     "ci95": [
+      20.7,
+      100.0
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Mega Heracross ex",
+     "n": 1,
+     "wins": 1,
+     "wr": 100.0,
+     "ci95": [
+      20.7,
+      100.0
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Mega Diancie ex",
+     "n": 1,
+     "wins": 1,
+     "wr": 100.0,
+     "ci95": [
+      20.7,
+      100.0
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Empoleon ex",
+     "n": 1,
+     "wins": 0,
+     "wr": 0.0,
+     "ci95": [
+      0.0,
+      79.3
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Terapagos ex",
+     "n": 1,
+     "wins": 1,
+     "wr": 100.0,
+     "ci95": [
+      20.7,
+      100.0
+     ],
+     "internal": null
+    },
+    {
+     "opponent": "Team Rocket's Spidops",
+     "n": 1,
+     "wins": 1,
+     "wr": 100.0,
+     "ci95": [
+      20.7,
+      100.0
+     ],
+     "internal": null
+    }
+   ]
+  }
+ },
+ "pair_coverage": [
+  {
+   "opponent": "Marnie's Grimmsnarl ex",
+   "encounters": 440,
+   "kangaskhan_dh": 52.6,
+   "hydrapple_k2": 74.9,
+   "pair_best": 74.9
+  },
+  {
+   "opponent": "Alakazam",
+   "encounters": 309,
+   "kangaskhan_dh": 34.0,
+   "hydrapple_k2": 35.2,
+   "pair_best": 35.2
+  },
+  {
+   "opponent": "Dragapult ex",
+   "encounters": 277,
+   "kangaskhan_dh": 77.8,
+   "hydrapple_k2": 51.4,
+   "pair_best": 77.8
+  },
+  {
+   "opponent": "Mega Lopunny ex",
+   "encounters": 238,
+   "kangaskhan_dh": 35.1,
+   "hydrapple_k2": 67.7,
+   "pair_best": 67.7
+  },
+  {
+   "opponent": "Mega Kangaskhan ex",
+   "encounters": 214,
+   "kangaskhan_dh": 55.3,
+   "hydrapple_k2": 35.8,
+   "pair_best": 55.3
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "comment": "中位帯模擬field: 我々の実遭遇分布(n=556, 2026-08-10〜12)で重み付け。archaludon/starmie/thwackeyはgreedy代理（本物クローンより弱い保守バイアスあり）",
+ "field": [
+  {
+   "id": "grimmsnarl_ppo2",
+   "kind": "agent",
+   "arg": "grimmsnarl_ppo2",
+   "deck": "agents/grimmsnarl_ppo2/deck.csv",
+   "w": 0.3101
+  },
+  {
+   "id": "cur@alakazam",
+   "kind": "np",
+   "arg": "runs/opp_pool_current/alakazam",
+   "deck": "runs/opp_pool_current/alakazam/deck.csv",
+   "w": 0.2286
+  },
+  {
+   "id": "cur@lucario",
+   "kind": "np",
+   "arg": "runs/opp_pool_current/lucario",
+   "deck": "runs/opp_pool_current/lucario/deck.csv",
+   "w": 0.0995
+  },
+  {
+   "id": "cur@kangaskhan",
+   "kind": "np",
+   "arg": "runs/opp_pool_current/kangaskhan",
+   "deck": "runs/opp_pool_current/kangaskhan/deck.csv",
+   "w": 0.0952
+  },
+  {
+   "id": "glethal2@archaludon",
+   "kind": "agent",
+   "arg": "greedy_lethal2",
+   "deck": "decks/meta_archaludon_ex.csv",
+   "w": 0.0593
+  },
+  {
+   "id": "cur@dragapult",
+   "kind": "np",
+   "arg": "runs/opp_pool_current/dragapult",
+   "deck": "runs/opp_pool_current/dragapult/deck.csv",
+   "w": 0.0476
+  },
+  {
+   "id": "cur@lopunny",
+   "kind": "np",
+   "arg": "runs/opp_pool_current/lopunny",
+   "deck": "runs/opp_pool_current/lopunny/deck.csv",
+   "w": 0.0455
+  },
+  {
+   "id": "cur@ogerpon",
+   "kind": "np",
+   "arg": "runs/opp_pool_current/ogerpon",
+   "deck": "runs/opp_pool_current/ogerpon/deck.csv",
+   "w": 0.036
+  },
+  {
+   "id": "cur@garchomp",
+   "kind": "np",
+   "arg": "runs/opp_pool_current/garchomp",
+   "deck": "runs/opp_pool_current/garchomp/deck.csv",
+   "w": 0.0328
+  },
+  {
+   "id": "glethal2@starmie",
+   "kind": "agent",
+   "arg": "greedy_lethal2",
+   "deck": "decks/meta_mega_starmie_ex.csv",
+   "w": 0.019
+  },
+  {
+   "id": "trmewtwo_ppo2",
+   "kind": "agent",
+   "arg": "trmewtwo_ppo2",
+   "deck": "agents/trmewtwo_ppo2/deck.csv",
+   "w": 0.0148
+  },
+  {
+   "id": "glethal2@thwackey",
+   "kind": "agent",
+   "arg": "greedy_lethal2",
+   "deck": "decks/meta_thwackey.csv",
+   "w": 0.0116
+  }
+ ]
+}

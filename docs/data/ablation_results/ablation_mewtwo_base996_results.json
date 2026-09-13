@@ -1,0 +1,154 @@
+{
+ "policy": "runs/ppo_trmewtwo_v1/policy/latest",
+ "games_per_arm": 10000,
+ "elapsed_s": 894,
+ "rows": [
+  {
+   "name": "trmewtwo_ppo現行(914.5)",
+   "note": "",
+   "n": 30000,
+   "wr": 0.5695,
+   "ci": [
+    0.5639,
+    0.5751
+   ],
+   "delta": 0.0,
+   "delta_se": 0.004,
+   "z": 0.0,
+   "per_opp": {
+    "grimmsnarl_ppo": 0.3958,
+    "alakazam_ppo2": 0.7175,
+    "mirror_trmewtwo_ppo": 0.4495,
+    "greattusk_lo": 0.9766,
+    "glethal2@crustle_stall": 0.9727,
+    "glethal2@kangaskhan": 0.9448
+   }
+  },
+  {
+   "name": "mw_night2",
+   "note": "夜のタンカ1→2 / リーリエ2→1",
+   "n": 10000,
+   "wr": 0.5702,
+   "ci": [
+    0.5605,
+    0.5799
+   ],
+   "delta": 0.0007,
+   "delta_se": 0.0057,
+   "z": 0.12,
+   "per_opp": {
+    "grimmsnarl_ppo": 0.3983,
+    "alakazam_ppo2": 0.7189,
+    "mirror_trmewtwo_ppo": 0.4567,
+    "greattusk_lo": 0.964,
+    "glethal2@crustle_stall": 0.9655,
+    "glethal2@kangaskhan": 0.9388
+   }
+  },
+  {
+   "name": "mw_factory3",
+   "note": "ファクトリー2→3 / ヤミカラス2→1",
+   "n": 10000,
+   "wr": 0.565,
+   "ci": [
+    0.5553,
+    0.5747
+   ],
+   "delta": -0.0045,
+   "delta_se": 0.0057,
+   "z": -0.79,
+   "per_opp": {
+    "grimmsnarl_ppo": 0.3799,
+    "alakazam_ppo2": 0.7205,
+    "mirror_trmewtwo_ppo": 0.4733,
+    "greattusk_lo": 0.9773,
+    "glethal2@crustle_stall": 0.9752,
+    "glethal2@kangaskhan": 0.9647
+   }
+  },
+  {
+   "name": "mw_night2_factory3",
+   "note": "上記2つを同時適用",
+   "n": 10000,
+   "wr": 0.5684,
+   "ci": [
+    0.5587,
+    0.5781
+   ],
+   "delta": -0.0011,
+   "delta_se": 0.0057,
+   "z": -0.2,
+   "per_opp": {
+    "grimmsnarl_ppo": 0.3959,
+    "alakazam_ppo2": 0.7152,
+    "mirror_trmewtwo_ppo": 0.4389,
+    "greattusk_lo": 0.984,
+    "glethal2@crustle_stall": 0.96,
+    "glethal2@kangaskhan": 0.9553
+   }
+  },
+  {
+   "name": "mw_water2",
+   "note": "基本水+2 / 基本草-2",
+   "n": 10000,
+   "wr": 0.5515,
+   "ci": [
+    0.5417,
+    0.5612
+   ],
+   "delta": -0.018,
+   "delta_se": 0.0057,
+   "z": -3.14,
+   "per_opp": {
+    "grimmsnarl_ppo": 0.37,
+    "alakazam_ppo2": 0.6987,
+    "mirror_trmewtwo_ppo": 0.4367,
+    "greattusk_lo": 0.9667,
+    "glethal2@crustle_stall": 0.9807,
+    "glethal2@kangaskhan": 0.9553
+   }
+  },
+  {
+   "name": "mw_honchkrow",
+   "note": "ドンカラス+1",
+   "n": 10000,
+   "wr": 0.5342,
+   "ci": [
+    0.5244,
+    0.544
+   ],
+   "delta": -0.0353,
+   "delta_se": 0.0057,
+   "z": -6.15,
+   "per_opp": {
+    "grimmsnarl_ppo": 0.348,
+    "alakazam_ppo2": 0.6736,
+    "mirror_trmewtwo_ppo": 0.4522,
+    "greattusk_lo": 0.9613,
+    "glethal2@crustle_stall": 0.9697,
+    "glethal2@kangaskhan": 0.9294
+   }
+  },
+  {
+   "name": "mw_mewtwo3",
+   "note": "ミュウツーex2→3",
+   "n": 10000,
+   "wr": 0.5796,
+   "ci": [
+    0.5699,
+    0.5892
+   ],
+   "delta": 0.0101,
+   "delta_se": 0.0057,
+   "z": 1.76,
+   "per_opp": {
+    "grimmsnarl_ppo": 0.4085,
+    "alakazam_ppo2": 0.7333,
+    "mirror_trmewtwo_ppo": 0.4556,
+    "greattusk_lo": 0.972,
+    "glethal2@crustle_stall": 0.9738,
+    "glethal2@kangaskhan": 0.9435
+   }
+  }
+ ]
+}

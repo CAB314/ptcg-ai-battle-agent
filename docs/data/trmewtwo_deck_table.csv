@@ -1,0 +1,28 @@
+ID,現行,提案(mw_full),差,カード名,EN,種類,ルール,HP,タイプ,弱点,ワザ名,コスト,ダメージ
+1,7,5,-2,基本【草】エネルギー,Basic {G} Energy,基本エネルギー,n/a,n/a,草,,n/a,n/a,n/a
+3,0,2,2,基本【水】エネルギー,Basic {W} Energy,基本エネルギー,n/a,n/a,水,,n/a,n/a,n/a
+5,3,3,0,基本【超】エネルギー,Basic {P} Energy,基本エネルギー,n/a,n/a,超,,n/a,n/a,n/a
+15,4,4,0,ロケット団エネルギー,Team Rocket's Energy,特殊エネルギー,n/a,n/a,【ロケット団】【ロケット団】,,n/a,n/a,n/a
+400,4,4,0,ロケット団のタマンチュラ,Team Rocket's Tarountula,ポケモン/たね,n/a,50,草,炎,とっしん,草,30
+401,4,3,-1,ロケット団のワナイダー,Team Rocket's Spidops,ポケモン/1進化,n/a,130,草,炎,[特性]チャージアップ,n/a,n/a
+414,2,2,0,ロケット団のフリーザー,Team Rocket's Articuno,ポケモン/たね,n/a,120,水,雷,[特性]レジストヴェール,n/a,n/a
+431,2,3,1,ロケット団のミュウツーex,Team Rocket's Mewtwo ex,ポケモン/たね,ex,280,超,悪,[特性]パワーセーバー,n/a,n/a
+432,1,1,0,ロケット団のソーナンス,Team Rocket's Wobbuffet,ポケモン/たね,n/a,110,超,悪,ロケットミラー,超●,n/a
+434,0,1,1,ロケット団のミミッキュ,Team Rocket's Mimikyu,ポケモン/たね,n/a,60,超,悪,ほうせきごっこ,超●,n/a
+463,2,2,0,ロケット団のヤミカラス,Team Rocket's Murkrow,ポケモン/たね,n/a,80,悪,雷,たぶらかす,●,n/a
+891,0,1,1,ロケット団のドンカラス,Team Rocket's Honchkrow,ポケモン/1進化,n/a,130,悪,雷,ロケットフェザー,●●,60×
+1094,3,2,-1,むしとりセット,Bug Catching Set,グッズ,n/a,n/a,n/a,,n/a,n/a,n/a
+1097,1,2,1,夜のタンカ,Night Stretcher,グッズ,n/a,n/a,n/a,,n/a,n/a,n/a
+1119,2,1,-1,エネルギー転送,Energy Search,グッズ,n/a,n/a,n/a,,n/a,n/a,n/a
+1121,0,2,2,ハイパーボール,Ultra Ball,グッズ,n/a,n/a,n/a,,n/a,n/a,n/a
+1134,4,4,0,ロケット団のレシーバー,Team Rocket's Transceiver,グッズ,n/a,n/a,n/a,,n/a,n/a,n/a
+1152,4,2,-2,ポケパッド,Poké Pad,グッズ,n/a,n/a,n/a,,n/a,n/a,n/a
+1159,1,1,0,ヒーローマント,Hero’s Cape,ポケモンのどうぐ,ACE SPEC,n/a,n/a,,n/a,n/a,n/a
+1175,1,1,0,ブレイブバングル,Brave Bangle,ポケモンのどうぐ,n/a,n/a,n/a,,n/a,n/a,n/a
+1216,4,4,0,ロケット団のアテナ,Team Rocket's Ariana,サポート,n/a,n/a,n/a,,n/a,n/a,n/a
+1217,1,2,1,ロケット団のアポロ,Team Rocket's Archer,サポート,n/a,n/a,n/a,,n/a,n/a,n/a
+1218,3,2,-1,ロケット団のサカキ,Team Rocket's Giovanni,サポート,n/a,n/a,n/a,,n/a,n/a,n/a
+1219,1,2,1,ロケット団のラムダ,Team Rocket's Petrel,サポート,n/a,n/a,n/a,,n/a,n/a,n/a
+1220,2,2,0,ロケット団のランス,Team Rocket's Proton,サポート,n/a,n/a,n/a,,n/a,n/a,n/a
+1227,2,0,-2,リーリエの決心,Lillie's Determination,サポート,n/a,n/a,n/a,,n/a,n/a,n/a
+1257,2,2,0,ロケット団のファクトリー,Team Rocket's Factory,スタジアム,n/a,n/a,n/a,,n/a,n/a,n/a

@@ -1,0 +1,27 @@
+{
+ "teachers": "configs/teachers_grimmsnarl.json",
+ "model": {
+  "d_model": 128,
+  "n_heads": 4,
+  "n_state_layers": 2,
+  "n_option_layers": 2,
+  "dropout": 0.1
+ },
+ "lr": 0.0003,
+ "weight_decay": 0.01,
+ "batch_size": 512,
+ "epochs": 6,
+ "early_stop_patience": 2,
+ "label_smoothing": 0.05,
+ "value_coef": 0.25,
+ "type_weights": {
+  "0": 1.0,
+  "1": 1.2,
+  "4": 2.0,
+  "7": 2.0,
+  "8": 2.0,
+  "9": 1.5
+ },
+ "seed": 0,
+ "comment": "grimmsnarl デッキ別BC v3（特徴量v2 + 8/2再選定教師）。プリトレインv3から --init-from"
+}
